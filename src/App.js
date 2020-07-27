@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { IonApp, IonButton } from '@ionic/react';
 import styled from 'styled-components';
 
+// import Navbar from './components/Navbar/Navbar'
+import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
+
 const IonAppStyled = styled(IonApp)`
   display: flex;
   flex-direction: column;
@@ -14,16 +17,6 @@ const IonAppStyled = styled(IonApp)`
     grid-template-columns: 220px 1fr;
     grid-template-rows: 4rem auto;
   }
-`;
-
-const Header = styled.header`
-  grid-area: header;
-  background-color: #88d498;
-  color: #fbf7ef;
-  border: none;
-  padding: 0.5rem;
-  display: flex;
-  justify-content: space-between;
 `;
 
 const Aside = styled.aside`
@@ -41,6 +34,7 @@ const Aside = styled.aside`
   transition: opacity 0s, max-height 0.8s ease;
 
   @media (min-width: 768px) {
+    transition: opacity 0s, max-height 0s;
     visibility: visible;
     position: relative;
     max-height: 100%;
@@ -57,31 +51,14 @@ const Main = styled.main`
   padding: 0.5rem;
 `;
 
-const HideInDesktopView = styled.div`
-  display: flex;
-  @media (min-width: 768px) {
-    display: none;
-  }
-`;
-
 function App() {
   const [showSearchBar, setShowSearchBar] = useState(false);
   return (
     <IonAppStyled>
-      <Header>
-        <p>header</p>
-        <HideInDesktopView>
-          <IonButton
-            color="light"
-            fill="outline"
-            onClick={() => {
-              setShowSearchBar(!showSearchBar);
-            }}
-          >
-            {showSearchBar ? 'Hide Settings' : 'Show Settings'}
-          </IonButton>
-        </HideInDesktopView>
-      </Header>
+      <ProtoNavbar
+        showSearchBar={showSearchBar}
+        setShowSearchBar={setShowSearchBar}
+      />
       <Aside show={showSearchBar}>
         <p>aside</p>
       </Aside>
