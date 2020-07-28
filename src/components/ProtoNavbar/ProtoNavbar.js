@@ -4,12 +4,20 @@ import { IonButton } from '@ionic/react';
 
 const Header = styled.header`
   grid-area: header;
-  background-color: #88d498;
+  /* background-color: #88d498; */
+  background-color: var(--iso-mainColour);
   color: #fbf7ef;
   border: none;
   padding: 0.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+`;
+
+const Logo = styled.p`
+  font-size: 24px;
+  margin: 0px;
+  font-weight: bold;
 `;
 
 const HideInDesktopView = styled.div`
@@ -21,7 +29,8 @@ const HideInDesktopView = styled.div`
 
 const ProtoNavbar = ({ showSearchBar, setShowSearchBar }) => (
   <Header>
-    <p>header</p>
+    {/* <p>header</p> */}
+    <Logo>Mint Search</Logo>
     <HideInDesktopView>
       <IonButton
         color="light"

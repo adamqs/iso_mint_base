@@ -1,12 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
+import { IonButton } from '@ionic/react';
 import { Link } from '@reach/router';
 // import 'styled-components/macro'
-import styled from 'styled-components';
 
-const Bar = styled.nav`
+const Header = styled.header`
+  grid-area: header;
   overflow: hidden;
-  position: fixed;
-  top: 0;
+  /* consider how to solve scrolling content in the main window */
+  /* position: fixed; 
+  top: 0; */
   width: 100%;
   z-index: 10;
   background-color: #fff;
@@ -52,11 +55,29 @@ const NavElement = styled.li`
   list-style: none;
 `;
 
-const Navbar = () => (
-  <Bar>
+const HideInDesktopView = styled.div`
+  display: flex;
+  @media (min-width: 768px) {
+    display: none;
+  }
+`;
+
+const Navbar = ({ showSearchBar, setShowSearchBar }) => (
+  <Header>
     <NavigationModule>
-      <Logo>SOLR Search</Logo>
+      <Logo>Mint Search</Logo>
       <NavLinks>
+        <HideInDesktopView>
+          <IonButton
+            color="light"
+            fill="outline"
+            onClick={() => {
+              setShowSearchBar((showSearchBar) => !showSearchBar);
+            }}
+          >
+            {showSearchBar ? 'Hide Settings' : 'Show Settings'}
+          </IonButton>
+        </HideInDesktopView>
         <NavElement>
           <StyledLink to="/">Simple Search</StyledLink>
         </NavElement>
@@ -65,7 +86,7 @@ const Navbar = () => (
         </NavElement>
       </NavLinks>
     </NavigationModule>
-  </Bar>
+  </Header>
 );
 
 export default Navbar;
