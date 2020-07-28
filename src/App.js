@@ -3,10 +3,11 @@ import { IonApp, IonButton } from '@ionic/react';
 import styled from 'styled-components';
 import { ThemesSelector } from './components/Themes/';
 
-import Navbar from './components/Navbar/Navbar';
 import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
-
 import Aside from './Aside/Aside';
+import MainSection from './MainSection/MainSection';
+
+import data from './API/solrApiResponse.json';
 
 const IonAppStyled = styled(IonApp)`
   display: flex;
@@ -22,15 +23,6 @@ const IonAppStyled = styled(IonApp)`
   }
 `;
 
-const Main = styled.main`
-  flex: 1;
-  grid-area: main;
-  background-color: var(--iso-mainBg);
-  color: var(--iso-mainText);
-  border: none;
-  padding: 0.5rem;
-`;
-
 function App() {
   const [showSearchBar, setShowSearchBar] = useState(false);
   const [toggleState, setToggleState] = useState(true);
@@ -42,18 +34,12 @@ function App() {
         showSearchBar={showSearchBar}
         setShowSearchBar={setShowSearchBar}
       />
-      {/* <Navbar
-        showSearchBar={showSearchBar}
-        setShowSearchBar={setShowSearchBar}
-      /> */}
       <Aside
         showSearchBar={showSearchBar}
         toggleState={toggleState}
         setToggleState={setToggleState}
       />
-      <Main>
-        <p>main</p>
-      </Main>
+      <MainSection data={data} />
     </IonAppStyled>
   );
 }

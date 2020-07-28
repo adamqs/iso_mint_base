@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import { IonButton } from '@ionic/react';
 
 const Header = styled.header`
+  transition: color var(--iso-colorTransitionSpeed),
+    background-color var(--iso-colorTransitionSpeed);
   grid-area: header;
-  /* background-color: #88d498; */
   background-color: var(--iso-mainColour);
   color: #fbf7ef;
   border: none;

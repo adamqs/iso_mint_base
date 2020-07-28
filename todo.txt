@@ -1,4 +1,3 @@
-* figure out why the control on the aside tab is not sliding down when the tab appears
 
-* Implement Theming and move all colour settings into separate theme files
-* create JSON file with sample data that can be returned from the api
+* investigate the severity of: findDOMNode is deprecated in IonApp, IonButton, IonToggle and whether
+  it means that it might be reasonable to drop the whole ionic altogether
