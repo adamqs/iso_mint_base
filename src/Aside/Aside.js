@@ -13,7 +13,8 @@ const StyledAside = styled.aside`
   visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
   position: ${({ show }) => (show ? 'relative' : 'absolute')};
   max-height: ${({ show }) => (show ? '300px' : 0)};
-  transition: opacity 0s, max-height 0.8s ease;
+  /* the animations might be pain in the ... to implement since they dont inclute the element's children */
+  /* transition: opacity 0s, max-height 0.8s ease; */
 
   @media (min-width: 768px) {
     transition: opacity 0s, max-height 0s;
