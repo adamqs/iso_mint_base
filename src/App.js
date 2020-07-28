@@ -6,7 +6,7 @@ import { ThemesSelector } from './components/Themes/';
 import Navbar from './components/Navbar/Navbar';
 import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
 
-import ElasticToggle from './components/ElasticToggle/ElasticToggle';
+import Aside from './Aside/Aside';
 
 const IonAppStyled = styled(IonApp)`
   display: flex;
@@ -19,29 +19,6 @@ const IonAppStyled = styled(IonApp)`
       'aside main';
     grid-template-columns: 220px 1fr;
     grid-template-rows: 4rem auto;
-  }
-`;
-
-const Aside = styled.aside`
-  display: flex;
-  grid-area: aside;
-  background-color: var(--iso-sidepanelBg);
-  color: var(--iso-sidepanelText);
-  border: none;
-  padding: 0.5rem;
-
-  visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
-  position: ${({ show }) => (show ? 'relative' : 'absolute')}; ;
-  max-height: ${({ show }) => (show ? '300px' : 0)}; 
-  /* opacity: ${({ show }) => (show ? 1 : 0)}; */
-  transition: opacity 0s, max-height 0.8s ease;
-
-  @media (min-width: 768px) {
-    transition: opacity 0s, max-height 0s;
-    visibility: visible;
-    position: relative;
-    max-height: 100%;
-    opacity: 1;
   }
 `;
 
@@ -69,13 +46,11 @@ function App() {
         showSearchBar={showSearchBar}
         setShowSearchBar={setShowSearchBar}
       /> */}
-      <Aside show={showSearchBar}>
-        <ElasticToggle
-          toggleState={toggleState}
-          setToggleState={setToggleState}
-        />
-        <p>aside</p>
-      </Aside>
+      <Aside
+        showSearchBar={showSearchBar}
+        toggleState={toggleState}
+        setToggleState={setToggleState}
+      />
       <Main>
         <p>main</p>
       </Main>
