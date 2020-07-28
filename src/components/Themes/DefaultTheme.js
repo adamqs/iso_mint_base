@@ -16,4 +16,17 @@ export const DefaultTheme = createGlobalStyle`
     --iso-searchButtonHoverText: #fff; 
     --iso-searchButtonHoverColor: #88d498;
   }
+
+  /* fix for chrome autofill colour change */
+  /* Change the white to any color ;) */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+  /*Change text in autofill textbox*/
+  input:-webkit-autofill {
+    -webkit-text-fill-color: var(--iso-mainText) !important;
+  }
 `;

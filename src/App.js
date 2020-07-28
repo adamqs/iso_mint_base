@@ -7,8 +7,6 @@ import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
 import Aside from './Aside/Aside';
 import MainSection from './MainSection/MainSection';
 
-import data from './API/solrApiResponse.json';
-
 const IonAppStyled = styled(IonApp)`
   display: flex;
   flex-direction: column;
@@ -39,7 +37,7 @@ function App() {
         toggleState={toggleState}
         setToggleState={setToggleState}
       />
-      <MainSection data={data} />
+      <MainSection />
     </IonAppStyled>
   );
 }

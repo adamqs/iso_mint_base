@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import SearchForm from '../components/SearchBox/SearchBox';
+import SearchBox from '../components/SearchBox/SearchBox';
+
+import mockAPIData from '../API/solrApiResponse.json';
 
 const Main = styled.main`
   transition: color var(--iso-colorTransitionSpeed),
@@ -23,10 +25,21 @@ const DataDisplay = ({ data }) => (
   </div>
 );
 
-const MainSection = ({ data }) => {
+const MainSection = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [data, setData] = useState({ documents: [] });
+
+  const runSearch = (e) => {
+    setData(mockAPIData);
+  };
+
   return (
     <Main>
-      <SearchForm />
+      <SearchBox
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        runSearch={runSearch}
+      />
       <p>Search Results</p>
       {data ? <DataDisplay data={data} /> : <h3>no data</h3>}
     </Main>

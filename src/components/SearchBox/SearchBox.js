@@ -41,6 +41,7 @@ const SearchBox = ({ searchTerm, setSearchTerm, runSearch }) => {
   return (
     <SearchForm
       onSubmit={(e) => {
+        e.preventDefault();
         runSearch(e);
       }}
     >
