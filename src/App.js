@@ -5,7 +5,7 @@ import { ThemesSelector } from './components/Themes/';
 
 import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
 import Aside from './Aside/Aside';
-import MainSection from './MainSection/MainSection';
+import MainSection from './MainSectionFacet/MainSectionFacet';
 
 const IonAppStyled = styled(IonApp)`
   display: flex;
