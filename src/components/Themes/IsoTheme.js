@@ -6,7 +6,8 @@ export const IsoTheme = createGlobalStyle`
     --iso-colorTransitionSpeed: 0.2s;
     --iso-mainColour: #7c7bbf;
     --iso-mainBg: #F1F6F8;
-    --iso-mainText: #3d5a80;
+    --iso-mainText: #3d5a80;     /* #45446b */
+    --iso-mainTextLight: #7c7bbf;
     
     --iso-sidepanelBg: #ecf0f3;
     --iso-sidepanelText: #3d5a80;

@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
+import mockAPI from '../../API/solrApiResponse.json';
+
 const begURL = 'http://kima19:56779/api/Search?q=';
 const midURL = '&start=1&count=';
 const endURL = '&dataset=livedata';
 
-const useSolrSearch = (searchTerm = '', count = 10) => {
+const useSolrSearch = (searchTerm = '', count = 10, mock = false) => {
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState(false);
   const [numberFound, setNumberFound] = useState('search');
@@ -13,9 +15,9 @@ const useSolrSearch = (searchTerm = '', count = 10) => {
   const [errors, setErrors] = useState(false);
 
   useEffect(() => {
-    if (searchTerm === '') {
-      return;
-    }
+    if (mock) return setResults(mockAPI);
+    if (searchTerm === '') return;
+
     setLoading(true);
     axios
       .get(begURL + searchTerm + midURL + count + endURL, {

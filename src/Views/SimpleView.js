@@ -19,11 +19,11 @@ const StyledRecord = styled.div`
 
   p {
     margin-bottom: 0px;
-    color: #7c7bbf;
+    color: var(--iso-mainTextLight);
   }
 
   span {
-    color: #45446b;
+    color: var(--iso-mainText);
   }
 `;
 

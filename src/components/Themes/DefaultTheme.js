@@ -6,7 +6,8 @@ export const DefaultTheme = createGlobalStyle`
     --iso-colorTransitionSpeed: 0.2s;
     --iso-mainColour: #88d498;
     --iso-mainBg: #fbf7ef;
-    --iso-mainText: #1a936f;
+    --iso-mainText: #14665F;
+    --iso-mainTextLight: #1a936f;
     
     --iso-sidepanelBg:  #c6dabf;
     --iso-sidepanelText: #fbf7ef;

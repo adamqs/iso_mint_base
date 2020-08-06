@@ -37,7 +37,7 @@ const SearchButton = styled(Btn)`
   }
 `;
 
-const SearchBox = ({ searchTerm, setSearchTerm, runSearch }) => {
+const SearchBox = ({ searchBoxString, setSearchBoxString, runSearch }) => {
   return (
     <SearchForm
       onSubmit={(e) => {
@@ -51,9 +51,9 @@ const SearchBox = ({ searchTerm, setSearchTerm, runSearch }) => {
       <input
         id="input_search"
         type="text"
-        value={searchTerm}
+        value={searchBoxString}
         onChange={(e) => {
-          setSearchTerm(e.target.value);
+          setSearchBoxString(e.target.value);
         }}
       />
       <SearchButton
