@@ -1,3 +1,6 @@
+
+* test scroll debounce on work pc
+
 * faceting
 
 * investigate the severity of: findDOMNode is deprecated in IonApp, IonButton, IonToggle and whether

@@ -1,21 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
+import debounce from 'lodash.debounce';
 import Spinner from '../components/Spinner/LdsSpinner';
 
-const StyledResultsWrapper = styled.div`
+const StyledResultsContainer = styled.div`
   max-width: 100%;
+  max-height: 90%;
   margin-top: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  overflow-y: auto;
 `;
 
 const StyledRecord = styled.div`
-  margin-bottom: 25px;
-
-  li {
-    margin-bottom: 1rem;
-  }
+  margin-bottom: 35px;
 
   p {
     margin-bottom: 0px;
@@ -25,6 +24,10 @@ const StyledRecord = styled.div`
   span {
     color: var(--iso-mainText);
   }
+`;
+
+const ResultsWrapper = styled.ul`
+  overflow-y: auto;
 `;
 
 const SimpleViewRecord = ({ record }) => (
@@ -56,20 +59,32 @@ const SimpleViewRecord = ({ record }) => (
   </StyledRecord>
 );
 
-const SimpleView = ({ results, loading }) => {
+const SimpleView = ({ results, loadMore, loading, errors, hasMore }) => {
+  window.onscroll = debounce(() => {
+    if (errors || loading || !hasMore) return;
+
+    if (
+      window.innerHeight + document.documentElement.scrollTop ===
+      document.documentElement.offsetHeight
+    ) {
+      console.log('fetching data...');
+      loadMore();
+    }
+  }, 100);
+
   return (
-    <StyledResultsWrapper>
+    <StyledResultsContainer>
       {results.documents ? (
-        <ul>
+        <ResultsWrapper>
           {results.documents.map((record) => (
             <SimpleViewRecord key={record.id} record={record} />
           ))}
-        </ul>
+        </ResultsWrapper>
       ) : (
         <p>This display format will provide simple output</p>
       )}
       {loading ? <Spinner /> : ''}
-    </StyledResultsWrapper>
+    </StyledResultsContainer>
   );
 };
 

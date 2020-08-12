@@ -14,6 +14,7 @@ const Main = styled.main`
   color: var(--iso-mainText);
   border: none;
   padding: 0.5rem;
+  max-height: 100%;
 `;
 
 const SearchBoxWrapper = styled.div`
@@ -29,7 +30,6 @@ const MainSectionFacet = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [count, setCount] = useState(10);
   const [searchBoxString, setSearchBoxString] = useState('');
-  // const [data, setData] = useState({ documents: [] });
   const [mock, setMock] = useState(false);
   const [results, numberFound, loading, errors, hasMore] = useSolrSearch(
     searchTerm,
@@ -49,6 +49,10 @@ const MainSectionFacet = () => {
   const toggleMock = () => {
     setSearchBoxString(mock ? '' : 'Water');
     setMock((prevState) => !prevState);
+  };
+
+  const loadMore = () => {
+    setCount(count + 10);
   };
 
   return (
@@ -73,7 +77,13 @@ const MainSectionFacet = () => {
       </div> */}
       <p>Search Results</p>
       {results ? (
-        <SimpleView results={results} loading={loading} />
+        <SimpleView
+          results={results}
+          loading={loading}
+          hasMore={hasMore}
+          loadMore={loadMore}
+          errors={errors}
+        />
       ) : (
         <h2>no data</h2>
       )}
