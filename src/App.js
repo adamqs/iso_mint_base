@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { ThemesSelector } from './components/Themes/';
 
 import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
-import Aside from './Aside/Aside';
 import MainSection from './MainSectionFacet/MainSectionFacet';
 
 const IonAppStyled = styled(IonApp)`
@@ -32,12 +31,12 @@ function App() {
         showSearchBar={showSearchBar}
         setShowSearchBar={setShowSearchBar}
       />
-      <Aside
+
+      <MainSection
         showSearchBar={showSearchBar}
         toggleState={toggleState}
         setToggleState={setToggleState}
       />
-      <MainSection />
     </IonAppStyled>
   );
 }

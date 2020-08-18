@@ -35,7 +35,17 @@ const StyledAside = styled.aside`
   }
 `;
 
-const Aside = ({ showSearchBar, toggleState, setToggleState }) => {
+const FacetsWrapper = styled.div`
+  overflow-y: auto;
+`;
+const isOdd = (number) => number % 2;
+
+const Aside = ({
+  showSearchBar,
+  toggleState,
+  setToggleState,
+  facets = { fields: { medium: [] } },
+}) => {
   return (
     <StyledAside show={showSearchBar}>
       <div>
@@ -49,6 +59,23 @@ const Aside = ({ showSearchBar, toggleState, setToggleState }) => {
           mode="ios"
         />
         <IonLabel>Change theme</IonLabel>
+      </div>
+      <div>
+        <p>Facets</p>
+        <ul>
+          {facets.fields.medium.map((item) => {
+            const oddRecord = isOdd(facets.fields.medium.indexOf(item));
+            const element = oddRecord ? (
+              <>
+                <span>{item}</span>
+                <br />
+              </>
+            ) : (
+              <span>{item} : </span>
+            );
+            return element;
+          })}
+        </ul>
       </div>
     </StyledAside>
   );

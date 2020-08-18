@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import SearchBox from '../components/SearchBox/SearchBox';
 import useSolrSearch from '../service/hooks/useSolrSearch';
-import SimpleView from '../Views/SimpleView';
+import SimpleViewCover from '../Views/SimpleViewCover';
 import { IonCheckbox } from '@ionic/react';
+import Aside from '../Aside/Aside';
 
 const Main = styled.main`
   transition: color var(--iso-colorTransitionSpeed),
@@ -26,7 +27,7 @@ const MockToggleWrapper = styled.div`
   padding-left: 10px;
 `;
 
-const MainSectionFacet = () => {
+const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [count, setCount] = useState(10);
   const [searchBoxString, setSearchBoxString] = useState('');
@@ -56,38 +57,46 @@ const MainSectionFacet = () => {
   };
 
   return (
-    <Main>
-      <SearchBoxWrapper>
-        <SearchBox
-          searchBoxString={searchBoxString}
-          setSearchBoxString={setSearchBoxString}
-          runSearch={runSearch}
-        />
-        <MockToggleWrapper>
-          <IonCheckbox id="mockData" value={mock} onIonChange={toggleMock} />
-          <label htmlFor="mockData">Mock data</label>
-        </MockToggleWrapper>
-      </SearchBoxWrapper>
-      {/* <div>
+    <>
+      <Aside
+        showSearchBar={showSearchBar}
+        toggleState={toggleState}
+        setToggleState={setToggleState}
+        facets={results?.facets}
+      />
+      <Main>
+        <SearchBoxWrapper>
+          <SearchBox
+            searchBoxString={searchBoxString}
+            setSearchBoxString={setSearchBoxString}
+            runSearch={runSearch}
+          />
+          <MockToggleWrapper>
+            <IonCheckbox id="mockData" value={mock} onIonChange={toggleMock} />
+            <label htmlFor="mockData">Mock data</label>
+          </MockToggleWrapper>
+        </SearchBoxWrapper>
+        {/* <div>
         <h3>Diagnostics</h3>
         <p>mock: {mock ? 'true' : 'false'}</p>
         <p>searchTerm: {searchTerm} </p>
         <p>searchBox: {searchBoxString}</p>
         <p>results: {results ? 'there is something' : 'nope, nothing yet'} </p>
       </div> */}
-      <p>Search Results</p>
-      {results ? (
-        <SimpleView
-          results={results}
-          loading={loading}
-          hasMore={hasMore}
-          loadMore={loadMore}
-          errors={errors}
-        />
-      ) : (
-        <h2>no data</h2>
-      )}
-    </Main>
+        <p>Search Results</p>
+        {results ? (
+          <SimpleViewCover
+            results={results}
+            loading={loading}
+            hasMore={hasMore}
+            loadMore={loadMore}
+            errors={errors}
+          />
+        ) : (
+          <h2>no data</h2>
+        )}
+      </Main>
+    </>
   );
 };
 
