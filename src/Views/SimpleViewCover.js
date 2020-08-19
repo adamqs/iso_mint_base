@@ -1,21 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import debounce from 'lodash.debounce';
 import Spinner from '../components/Spinner/LdsSpinner';
+import genericBookCover from './generic-book-cover.jpg';
 
 const StyledResultsContainer = styled.div`
   max-width: 100%;
   max-height: 90%;
   margin-top: 10px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+`;
+
+const ResultsWrapper = styled.ul`
+  height: 100%;
   overflow-y: auto;
 `;
 
 const StyledRecord = styled.div`
   margin-bottom: 35px;
+  display: flex;
+`;
 
+const RecordDetailsWrapper = styled.div`
+  padding-left: 1.5rem;
+  max-width: 1200px;
   p {
     margin-bottom: 0px;
     color: var(--iso-mainTextLight);
@@ -26,78 +36,59 @@ const StyledRecord = styled.div`
   }
 `;
 
-const ResultsWrapper = styled.ul`
-  height: 100%;
-  overflow-y: auto;
+const CoverImage = styled.img`
+  max-width: 15rem;
+  min-width: 15rem;
+  max-height: 25rem;
 `;
+
+function addDefaultSrc(ev) {
+  ev.target.src = genericBookCover;
+  // 'https://cdn.shopify.com/s/files/1/0053/7195/3242/articles/IMG_0908_768x512.jpg?v=1572955774';
+}
 
 const SimpleViewRecord = ({ record }) => (
   <StyledRecord>
-    <img
-      src={'http://covers.openlibrary.org/b/isbn/' + record.id + '-L.jpg'}
+    <CoverImage
+      src={
+        'http://covers.openlibrary.org/b/isbn/' +
+        record.id +
+        '-L.jpg?default=false'
+      }
       alt="book cover"
+      onError={addDefaultSrc}
     />
-    <p>
-      Std No: <span>{record.id}</span>
-    </p>
-    <p>
-      Title: <span>{record.title}</span>
-    </p>
+    <RecordDetailsWrapper>
+      <p>
+        Std No: <span>{record.id}</span>
+      </p>
+      <p>
+        Title: <span>{record.title}</span>
+      </p>
 
-    <p>
-      Medium: <span>{record.medium}</span>
-    </p>
-    <p>
-      Series: <span>{record.series}</span>
-    </p>
-    <p>
-      Year of publication: <span>{record.year}</span>
-    </p>
-    <p>
-      Keywords:{' '}
-      <span>
-        {record.keywords
-          ? record.keywords.map((keyword) => keyword + '; ')
-          : 'no keywords'}
-      </span>
-    </p>
+      <p>
+        Medium: <span>{record.medium}</span>
+      </p>
+      <p>
+        Series: <span>{record.series}</span>
+      </p>
+      <p>
+        Year of publication: <span>{record.year}</span>
+      </p>
+      <p>
+        Keywords:{' '}
+        <span>
+          {record.keywords
+            ? record.keywords.map((keyword) => keyword + '; ')
+            : 'no keywords'}
+        </span>
+      </p>
+    </RecordDetailsWrapper>
   </StyledRecord>
 );
 
 // 'http://covers.openlibrary.org/b/isbn/9780385472579-L.jpg'
 const OpenCoverAPI = 'http://covers.openlibrary.org/b/isbn/';
-
-const OpenCover = () => {
-  const [imageUrl, setImageUrl] = useState(
-    'https://cdn.shopify.com/s/files/1/0053/7195/3242/articles/IMG_0908_768x512.jpg?v=1572955774'
-  );
-
-  const fetchCover = () => {
-    fetch(OpenCoverAPI)
-      .then((response) => {
-        console.log(response);
-        // setImageUrl(response.url);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-
-  return (
-    <div>
-      <p>cover image</p>
-      <button
-        onClick={() => {
-          fetchCover();
-        }}
-      >
-        fetch cover
-      </button>
-      {/* set height and width to be constant */}
-      <img src={imageUrl} alt="dog" />
-    </div>
-  );
-};
 
 const SimpleViewCover = ({ results, loadMore, loading, errors, hasMore }) => {
   window.onscroll = debounce(() => {
