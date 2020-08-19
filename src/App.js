@@ -10,13 +10,14 @@ const IonAppStyled = styled(IonApp)`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-height: 100vh;
   @media (min-width: 768px) {
     display: grid;
     grid-template-areas:
       'header header'
       'aside main';
     grid-template-columns: 220px 1fr;
-    grid-template-rows: 4rem auto;
+    grid-template-rows: 4rem 100%;
   }
 `;
 

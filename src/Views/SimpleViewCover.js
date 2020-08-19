@@ -27,6 +27,7 @@ const StyledRecord = styled.div`
 `;
 
 const ResultsWrapper = styled.ul`
+  height: 100%;
   overflow-y: auto;
 `;
 
@@ -92,6 +93,7 @@ const OpenCover = () => {
       >
         fetch cover
       </button>
+      {/* set height and width to be constant */}
       <img src={imageUrl} alt="dog" />
     </div>
   );
