@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import SearchBox from '../components/SearchBox/SearchBox';
 import useSolrSearch from '../service/hooks/useSolrSearch';
-import SimpleViewCover from '../Views/SimpleViewCover';
+import ResultsView from '../Views/ResultsView';
 import { IonCheckbox } from '@ionic/react';
 import Aside from '../Aside/Aside';
 
@@ -23,7 +23,7 @@ const SearchBoxWrapper = styled.div`
   align-items: center;
 `;
 
-const MockToggleWrapper = styled.div`
+const ToggleWrapper = styled.div`
   padding-left: 10px;
 `;
 
@@ -32,6 +32,7 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
   const [count, setCount] = useState(10);
   const [searchBoxString, setSearchBoxString] = useState('');
   const [mock, setMock] = useState(false);
+  const [view, setView] = useState(false);
   const [results, numberFound, loading, errors, hasMore] = useSolrSearch(
     searchTerm,
     count,
@@ -71,10 +72,20 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
             setSearchBoxString={setSearchBoxString}
             runSearch={runSearch}
           />
-          <MockToggleWrapper>
+          <ToggleWrapper>
             <IonCheckbox id="mockData" value={mock} onIonChange={toggleMock} />
             <label htmlFor="mockData">Mock data</label>
-          </MockToggleWrapper>
+          </ToggleWrapper>
+          <ToggleWrapper>
+            <IonCheckbox
+              id="view"
+              value={view}
+              onIonChange={() => {
+                setView((prevState) => !prevState);
+              }}
+            />
+            <label htmlFor="view">Detailed View</label>
+          </ToggleWrapper>
         </SearchBoxWrapper>
         {/* <div>
         <h3>Diagnostics</h3>
@@ -85,12 +96,13 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
       </div> */}
         <p>Search Results</p>
         {results ? (
-          <SimpleViewCover
+          <ResultsView
             results={results}
             loading={loading}
             hasMore={hasMore}
             loadMore={loadMore}
             errors={errors}
+            view={view}
           />
         ) : (
           <h2>no data</h2>

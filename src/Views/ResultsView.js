@@ -42,12 +42,7 @@ const CoverImage = styled.img`
   max-height: 25rem;
 `;
 
-function addDefaultSrc(ev) {
-  ev.target.src = genericBookCover;
-  // 'https://cdn.shopify.com/s/files/1/0053/7195/3242/articles/IMG_0908_768x512.jpg?v=1572955774';
-}
-
-const SimpleViewRecord = ({ record }) => (
+const RecordWievWithCover = ({ record, addDefaultSrc }) => (
   <StyledRecord>
     <CoverImage
       src={
@@ -87,10 +82,58 @@ const SimpleViewRecord = ({ record }) => (
   </StyledRecord>
 );
 
+const RecordViewSimple = ({ record }) => (
+  <StyledRecord>
+    <RecordDetailsWrapper>
+      <p>
+        Std No: <span>{record.id}</span>
+      </p>
+      <p>
+        Title: <span>{record.title}</span>
+      </p>
+
+      <p>
+        Medium: <span>{record.medium}</span>
+      </p>
+      <p>
+        Series: <span>{record.series}</span>
+      </p>
+      <p>
+        Year of publication: <span>{record.year}</span>
+      </p>
+      <p>
+        Keywords:{' '}
+        <span>
+          {record.keywords
+            ? record.keywords.map((keyword) => keyword + '; ')
+            : 'no keywords'}
+        </span>
+      </p>
+    </RecordDetailsWrapper>
+  </StyledRecord>
+);
+
+const RecordViewSelector = ({ record, view }) => {
+  const addDefaultSrc = (ev) => {
+    ev.target.src = genericBookCover;
+    // 'https://cdn.shopify.com/s/files/1/0053/7195/3242/articles/IMG_0908_768x512.jpg?v=1572955774';
+  };
+
+  return (
+    <>
+      {view ? (
+        <RecordWievWithCover record={record} addDefaultSrc={addDefaultSrc} />
+      ) : (
+        <RecordViewSimple record={record} />
+      )}
+    </>
+  );
+};
+
 // 'http://covers.openlibrary.org/b/isbn/9780385472579-L.jpg'
 const OpenCoverAPI = 'http://covers.openlibrary.org/b/isbn/';
 
-const SimpleViewCover = ({ results, loadMore, loading, errors, hasMore }) => {
+const ResultsView = ({ results, loadMore, loading, errors, hasMore, view }) => {
   window.onscroll = debounce(() => {
     if (errors || loading || !hasMore) return;
 
@@ -108,7 +151,7 @@ const SimpleViewCover = ({ results, loadMore, loading, errors, hasMore }) => {
       {results.documents ? (
         <ResultsWrapper>
           {results.documents.map((record) => (
-            <SimpleViewRecord key={record.id} record={record} />
+            <RecordViewSelector key={record.id} record={record} view={view} />
           ))}
         </ResultsWrapper>
       ) : (
@@ -119,4 +162,4 @@ const SimpleViewCover = ({ results, loadMore, loading, errors, hasMore }) => {
   );
 };
 
-export default SimpleViewCover;
+export default ResultsView;
