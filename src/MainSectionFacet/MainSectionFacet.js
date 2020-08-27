@@ -21,6 +21,17 @@ const Main = styled.main`
 const SearchBoxWrapper = styled.div`
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+`;
+
+const TogglesContainer = styled.div`
+  display: flex;
+  margin-top: 10px;
 `;
 
 const ToggleWrapper = styled.div`
@@ -72,20 +83,26 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
             setSearchBoxString={setSearchBoxString}
             runSearch={runSearch}
           />
-          <ToggleWrapper>
-            <IonCheckbox id="mockData" value={mock} onIonChange={toggleMock} />
-            <label htmlFor="mockData">Mock data</label>
-          </ToggleWrapper>
-          <ToggleWrapper>
-            <IonCheckbox
-              id="view"
-              value={view}
-              onIonChange={() => {
-                setView((prevState) => !prevState);
-              }}
-            />
-            <label htmlFor="view">Detailed View</label>
-          </ToggleWrapper>
+          <TogglesContainer>
+            <ToggleWrapper>
+              <IonCheckbox
+                id="mockData"
+                value={mock}
+                onIonChange={toggleMock}
+              />
+              <label htmlFor="mockData">Mock data</label>
+            </ToggleWrapper>
+            <ToggleWrapper>
+              <IonCheckbox
+                id="view"
+                value={view}
+                onIonChange={() => {
+                  setView((prevState) => !prevState);
+                }}
+              />
+              <label htmlFor="view">Detailed View</label>
+            </ToggleWrapper>
+          </TogglesContainer>
         </SearchBoxWrapper>
         {/* <div>
         <h3>Diagnostics</h3>
@@ -94,7 +111,6 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
         <p>searchBox: {searchBoxString}</p>
         <p>results: {results ? 'there is something' : 'nope, nothing yet'} </p>
       </div> */}
-        <p>Search Results</p>
         {results ? (
           <ResultsView
             results={results}

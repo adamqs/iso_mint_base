@@ -17,6 +17,9 @@ export const IsoTheme = createGlobalStyle`
     --iso-searchButtonHoverText: #fff; 
     --iso-searchButtonHoverColor: #a5a6f9;
 
+    --iso-recordViewBg: #ffffff;
+
+
   /* fix for chrome autofill colour change */
   /* Change the white to any color ;) */
   input:-webkit-autofill,

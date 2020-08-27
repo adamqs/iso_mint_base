@@ -16,6 +16,8 @@ export const DefaultTheme = createGlobalStyle`
     --iso-searchButtonBorder: #1a936f;
     --iso-searchButtonHoverText: #fff; 
     --iso-searchButtonHoverColor: #88d498;
+
+    --iso-recordViewBg: #ffffff;
   }
 
   /* fix for chrome autofill colour change */

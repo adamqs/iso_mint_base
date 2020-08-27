@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import debounce from 'lodash.debounce';
 import Spinner from '../components/Spinner/LdsSpinner';
+import { Router, Link } from '@reach/router';
+
 import genericBookCover from './generic-book-cover.jpg';
 
-const StyledResultsContainer = styled.div`
+const StyledResultsContainerRouter = styled(Router)`
   max-width: 100%;
   max-height: 90%;
   margin-top: 10px;
@@ -16,19 +18,39 @@ const StyledResultsContainer = styled.div`
 const ResultsWrapper = styled.ul`
   height: 100%;
   overflow-y: auto;
+  margin-top: 0;
+  padding-left: 5px;
 `;
 
 const StyledRecord = styled.div`
   margin-bottom: 35px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
   display: flex;
+  align-content: center;
+  background-color: var(--iso-recordViewBg);
+`;
+
+const StyledRecordWithCover = styled.div`
+  margin-bottom: 35px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+  background-color: var(--iso-recordViewBg);
 `;
 
 const RecordDetailsWrapper = styled.div`
-  padding-left: 1.5rem;
+  padding-left: 5px;
   max-width: 1200px;
   p {
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
     color: var(--iso-mainTextLight);
+  }
+
+  p:last-child {
+    margin-bottom: 0px;
   }
 
   span {
@@ -36,23 +58,79 @@ const RecordDetailsWrapper = styled.div`
   }
 `;
 
-const CoverImage = styled.img`
-  max-width: 15rem;
-  min-width: 15rem;
-  max-height: 25rem;
+const CoverImageWrapper = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
-const RecordWievWithCover = ({ record, addDefaultSrc }) => (
-  <StyledRecord>
-    <CoverImage
-      src={
-        'http://covers.openlibrary.org/b/isbn/' +
-        record.id +
-        '-L.jpg?default=false'
-      }
-      alt="book cover"
-      onError={addDefaultSrc}
-    />
+const CoverImage = styled.img`
+  max-width: 100px;
+  max-height: 146px;
+  height: auto;
+  @media (min-width: 768px) {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 292px;
+  }
+`;
+
+const RecordView = ({ record, addDefaultSrc }) => (
+  <StyledRecordWithCover>
+    <CoverImageWrapper>
+      <CoverImage
+        src={
+          'http://covers.openlibrary.org/b/isbn/' +
+          record.id +
+          '-M.jpg?default=false'
+        }
+        alt="book cover"
+        onError={addDefaultSrc}
+      />
+    </CoverImageWrapper>
+    <RecordDetailsWrapper>
+      <p>
+        Std No: <span>{record.id}</span>
+      </p>
+      <p>
+        Title: <span>{record.title}</span>
+      </p>
+      <p>
+        Authors: <span>{record.solr_author}</span>
+      </p>
+      <p>
+        Medium: <span>{record.medium}</span>
+      </p>
+      <p>
+        Series: <span>{record.series}</span>
+      </p>
+      <p>
+        Year of publication: <span>{record.year}</span>
+      </p>
+      <p>
+        Keywords:{' '}
+        <span>
+          {record.keywords
+            ? record.keywords.map((keyword) => keyword + '; ')
+            : 'no keywords'}
+        </span>
+      </p>
+    </RecordDetailsWrapper>
+  </StyledRecordWithCover>
+);
+
+const RecordsWievWithCover = ({ record, addDefaultSrc }) => (
+  <StyledRecordWithCover>
+    <CoverImageWrapper>
+      <CoverImage
+        src={
+          'http://covers.openlibrary.org/b/isbn/' +
+          record.id +
+          '-M.jpg?default=false'
+        }
+        alt="book cover"
+        onError={addDefaultSrc}
+      />
+    </CoverImageWrapper>
     <RecordDetailsWrapper>
       <p>
         Std No: <span>{record.id}</span>
@@ -79,10 +157,10 @@ const RecordWievWithCover = ({ record, addDefaultSrc }) => (
         </span>
       </p>
     </RecordDetailsWrapper>
-  </StyledRecord>
+  </StyledRecordWithCover>
 );
 
-const RecordViewSimple = ({ record }) => (
+const RecordsViewSimple = ({ record }) => (
   <StyledRecord>
     <RecordDetailsWrapper>
       <p>
@@ -91,7 +169,6 @@ const RecordViewSimple = ({ record }) => (
       <p>
         Title: <span>{record.title}</span>
       </p>
-
       <p>
         Medium: <span>{record.medium}</span>
       </p>
@@ -109,6 +186,7 @@ const RecordViewSimple = ({ record }) => (
             : 'no keywords'}
         </span>
       </p>
+      <Link to={`/details/${record.id}`}>Details</Link>
     </RecordDetailsWrapper>
   </StyledRecord>
 );
@@ -116,15 +194,14 @@ const RecordViewSimple = ({ record }) => (
 const RecordViewSelector = ({ record, view }) => {
   const addDefaultSrc = (ev) => {
     ev.target.src = genericBookCover;
-    // 'https://cdn.shopify.com/s/files/1/0053/7195/3242/articles/IMG_0908_768x512.jpg?v=1572955774';
   };
 
   return (
     <>
       {view ? (
-        <RecordWievWithCover record={record} addDefaultSrc={addDefaultSrc} />
+        <RecordsWievWithCover record={record} addDefaultSrc={addDefaultSrc} />
       ) : (
-        <RecordViewSimple record={record} />
+        <RecordsViewSimple record={record} />
       )}
     </>
   );
@@ -146,19 +223,23 @@ const ResultsView = ({ results, loadMore, loading, errors, hasMore, view }) => {
     }
   }, 100);
 
+  const SearchResults = ({ results }) => (
+    <ResultsWrapper>
+      {results.documents.map((record) => (
+        <RecordViewSelector key={record.id} record={record} view={view} />
+      ))}
+    </ResultsWrapper>
+  );
+
+  if (loading) return <Spinner />;
+  if (!results.documents) {
+    return <p>No results</p>;
+  }
+
   return (
-    <StyledResultsContainer>
-      {results.documents ? (
-        <ResultsWrapper>
-          {results.documents.map((record) => (
-            <RecordViewSelector key={record.id} record={record} view={view} />
-          ))}
-        </ResultsWrapper>
-      ) : (
-        <p>This display format will provide simple output</p>
-      )}
-      {loading ? <Spinner /> : ''}
-    </StyledResultsContainer>
+    <StyledResultsContainerRouter>
+      <SearchResults path="/" results={results} />
+    </StyledResultsContainerRouter>
   );
 };
 
