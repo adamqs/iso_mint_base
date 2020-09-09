@@ -45,7 +45,16 @@ const StyledRecordWithCover = styled.div`
   background-color: var(--iso-recordViewBg);
 `;
 
-const RecordDetailsWrapper = styled.div`
+const RecordViewWrapper = styled.div`
+  margin-bottom: 35px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+  background-color: var(--iso-recordViewBg);
+`;
+
+const RecordDataWrapper = styled.div`
   padding-left: 5px;
   max-width: 1200px;
   p {
@@ -104,7 +113,7 @@ const RecordView = ({ record }) => {
   return (
     <div>
       <Link to={ROUTES.SEARCH_PAGE}>back to search</Link>
-      <StyledRecordWithCover>
+      <RecordViewWrapper>
         <CoverImageWrapper>
           <CoverImage
             src={
@@ -116,7 +125,7 @@ const RecordView = ({ record }) => {
             onError={addDefaultSrc}
           />
         </CoverImageWrapper>
-        <RecordDetailsWrapper>
+        <RecordDataWrapper>
           <p>
             Std No: <span>{record.id}</span>
           </p>
@@ -143,8 +152,8 @@ const RecordView = ({ record }) => {
                 : 'no keywords'}
             </span>
           </p>
-        </RecordDetailsWrapper>
-      </StyledRecordWithCover>
+        </RecordDataWrapper>
+      </RecordViewWrapper>
     </div>
   );
 };
@@ -162,7 +171,7 @@ const RecordsWievWithCover = ({ record }) => (
         onError={addDefaultSrc}
       />
     </CoverImageWrapper>
-    <RecordDetailsWrapper>
+    <RecordDataWrapper>
       <p>
         Std No: <span>{record.id}</span>
       </p>
@@ -187,13 +196,14 @@ const RecordsWievWithCover = ({ record }) => (
             : 'no keywords'}
         </span>
       </p>
-    </RecordDetailsWrapper>
+      <Link to={ROUTES.DETAILS_PAGE_PARTIAL + record.id}>Details</Link>
+    </RecordDataWrapper>
   </StyledRecordWithCover>
 );
 
 const RecordsViewSimple = ({ record }) => (
   <StyledRecord>
-    <RecordDetailsWrapper>
+    <RecordDataWrapper>
       <p>
         Std No: <span>{record.id}</span>
       </p>
@@ -217,8 +227,8 @@ const RecordsViewSimple = ({ record }) => (
             : 'no keywords'}
         </span>
       </p>
-      <Link to={`/details/${record.id}`}>Details</Link>
-    </RecordDetailsWrapper>
+      <Link to={ROUTES.DETAILS_PAGE_PARTIAL + record.id}>Details</Link>
+    </RecordDataWrapper>
   </StyledRecord>
 );
 
