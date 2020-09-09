@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // import mockAPI from '../../API/solrApiResponse.json';
-import mockAPI from '../../API/solr_water_facet_medium.json';
+// import mockAPI from '../../API/solr_water_facet_medium.json';
+import mockAPI from '../../API/API_q_water.json';
 
 const begURL = 'http://kima19:56779/api/Search?q=';
 const midURL = '&start=1&count=';

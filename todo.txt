@@ -5,6 +5,9 @@
 * more details to the detailed view
 
 * faceting
+%%%
+not getting facet data
+
 
 * investigate the severity of: findDOMNode is deprecated in IonApp, IonButton, IonToggle and whether
   it means that it might be reasonable to drop the whole ionic altogether

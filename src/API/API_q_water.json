@@ -1,0 +1,3603 @@
+{
+  "documents": [
+    {
+      "id": "071313318X",
+      "stdno": [
+        "071313318X"
+      ],
+      "spell": [
+        "071313318X",
+        "T",
+        "1",
+        "Main site",
+        "Hoather Roy Colin",
+        "Hoather R C",
+        "Law Frank Michael",
+        "Law F M",
+        "628.1",
+        "[10],478p,[20]p of plates, 24cm",
+        "2nd",
+        "Water",
+        "Water resources",
+        "Water supply",
+        "Water-supply engineering",
+        "Edward Arnold",
+        "Engineering",
+        "Sanitary and Municipal Engineering",
+        "Water supply",
+        "1974"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Main site"
+      ],
+      "imageisn_stored": [
+        "071313318X"
+      ],
+      "solr_author": [
+        "Hoather Roy Colin",
+        "Hoather R C",
+        "Law Frank Michael",
+        "Law F M"
+      ],
+      "class": [
+        "628.1"
+      ],
+      "collation": [
+        "[10],478p,[20]p of plates, 24cm"
+      ],
+      "edition": [
+        "2nd"
+      ],
+      "keywords": [
+        "Water",
+        "Water resources",
+        "Water supply",
+        "Water-supply engineering"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "place": [
+        "London"
+      ],
+      "publisher": [
+        "Edward Arnold"
+      ],
+      "subjects": [
+        "Engineering",
+        "Sanitary and Municipal Engineering"
+      ],
+      "title": [
+        "Water supply"
+      ],
+      "year": [
+        "1974"
+      ],
+      "yearx": [
+        1974
+      ],
+      "solr_entry_date": [
+        "1995-04-14T00:00:00Z"
+      ],
+      "solr_price": [
+        16.51
+      ],
+      "yearsort_sort": "1974",
+      "classsort1_sort": "628.1",
+      "titlesort_sort": "water supply",
+      "author1_sort": "twort, a.c",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "A.C Twort",
+        "Roy Colin Hoather",
+        "Frank Michael Law"
+      ],
+      "title_stored": [
+        "Water supply"
+      ],
+      "class_stored": [
+        "628.1"
+      ],
+      "keywords_stored": [
+        "Water",
+        "Water resources",
+        "Water supply",
+        "Water-supply engineering"
+      ],
+      "stdno_stored": [
+        "071313318X"
+      ],
+      "imprint_stored": [
+        "London: Edward Arnold, 1974"
+      ],
+      "marc_exchange_stored": [
+        "MDA2NzVuYW0gYTIyMDAyNjUgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMTAwMDU1MDIwMDAxNTAwMDY2MDgyMDAxMzAwMDgxMTAwMDAxNzAwMDk0MjQ1MDAxODAwMTExMjUwMDAwOTAwMTI5MjYwMDAzNjAwMTM4MzAwMDAzNzAwMTc0NjUwMDAzOTAwMjExNjUwMDAxNjAwMjUwNjUwMDAyOTAwMjY2NjUwMDAxNzAwMjk1NjUwMDAyMDAwMzEyNjUwMDAxMDAwMzMyNzAwMDAyNDAwMzQyNzAwMDAyNDAwMzY2ODg3MDAxOTAwMzkwMDcxMzEzMzE4WHRhOTUwNDE0czE5NzQgICAgZW5rfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6MxNi41MSAgYTA3MTMxMzMxOFgwIGJNYTYyOC4xMSBhVHdvcnQsIEEuIEMuMTBhV2F0ZXIgc3VwcGx5LiAgYTJuZC4gIGFMb25kb24gOmJFZHdhcmQgQXJub2xkLGMxOTc0LiAgYVsxMF0sNDc4cCxbMjBdcCBvZiBwbGF0ZXMsIDI0Y20uIDdhU2FuaXRhcnkgYW5kIE11bmljaXBhbCBFbmdpbmVlcmluZyA3YUVuZ2luZWVyaW5nIDRhV2F0ZXItc3VwcGx5IGVuZ2luZWVyaW5nIDRhV2F0ZXIgc3VwcGx5IDRhV2F0ZXIgcmVzb3VyY2VzIDRhV2F0ZXIxIGFMYXcsIEZyYW5rIE1pY2hhZWwuMSBhSG9hdGhlciwgUm95IENvbGluLiAgYShUKVRleHRiQ2lycWE="
+      ],
+      "keywords_facet": [
+        "Water",
+        "Water resources",
+        "Water supply",
+        "Water-supply engineering"
+      ],
+      "_version_": 1677123635872006100,
+      "class_facet": [
+        "628.1"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1974
+      ],
+      "author_facet": [
+        "Hoather, Roy Colin",
+        "Law, Frank Michael",
+        "Twort, A.C"
+      ],
+      "subjects_facet": [
+        "Engineering",
+        "Sanitary and Municipal Engineering"
+      ]
+    },
+    {
+      "id": "085078235X",
+      "stdno": [
+        "085078235X"
+      ],
+      "spell": [
+        "085078235X",
+        "T",
+        "1",
+        "Annex library",
+        "Sowry Jo",
+        "Sowry J",
+        "333.91",
+        "89p, ill, 1chart(on lining paper), 20x22cm",
+        "WATER",
+        "WATER POLLUTION",
+        "WATER RESOURCES",
+        "WATER SUPPLY",
+        "Priory Press",
+        "World resources",
+        "Engineering",
+        "Economics of Land and Energy",
+        "Water",
+        "1977"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Annex library"
+      ],
+      "imageisn_stored": [
+        "085078235X"
+      ],
+      "solr_author": [
+        "Sowry Jo",
+        "Sowry J"
+      ],
+      "class": [
+        "333.91"
+      ],
+      "collation": [
+        "89p, ill, 1chart(on lining paper), 20x22cm"
+      ],
+      "keywords": [
+        "WATER",
+        "WATER POLLUTION",
+        "WATER RESOURCES",
+        "WATER SUPPLY"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "place": [
+        "Hove"
+      ],
+      "publisher": [
+        "Priory Press"
+      ],
+      "series": [
+        "World resources"
+      ],
+      "subjects": [
+        "Engineering",
+        "Economics of Land and Energy"
+      ],
+      "title": [
+        "Water"
+      ],
+      "year": [
+        "1977"
+      ],
+      "yearx": [
+        1977
+      ],
+      "solr_entry_date": [
+        "1995-04-14T00:00:00Z"
+      ],
+      "solr_price": [
+        4.43
+      ],
+      "yearsort_sort": "1977",
+      "classsort1_sort": "333.91",
+      "titlesort_sort": "water",
+      "author1_sort": "sowry, jo",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "Jo Sowry"
+      ],
+      "title_stored": [
+        "Water"
+      ],
+      "class_stored": [
+        "333.91"
+      ],
+      "keywords_stored": [
+        "WATER",
+        "WATER POLLUTION",
+        "WATER RESOURCES",
+        "WATER SUPPLY"
+      ],
+      "series_stored": [
+        "World resources"
+      ],
+      "stdno_stored": [
+        "085078235X"
+      ],
+      "imprint_stored": [
+        "Hove: Priory Press, 1977"
+      ],
+      "marc_exchange_stored": [
+        "MDA1OThuYW0gYTIyMDAyNDEgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMDAwMDU1MDIwMDAxNTAwMDY1MDgyMDAxNDAwMDgwMTAwMDAxNTAwMDk0MjQ1MDAxMTAwMTA5MjYwMDAzMzAwMTIwMzAwMDA0ODAwMTUzNDkwMDAyMDAwMjAxNjUwMDAzMzAwMjIxNjUwMDAxNjAwMjU0NjUwMDAxNzAwMjcwNjUwMDAyMDAwMjg3NjUwMDAyMDAwMzA3NjUwMDAxMDAwMzI3ODg3MDAxOTAwMzM3MDg1MDc4MjM1WHRhOTUwNDE0czE5NzcgICAgeHhcfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6M0LjQzICBhMDg1MDc4MjM1WDAgYkFhMzMzLjkxMSBhU293cnksIEpvLjEwYVdhdGVyLiAgYUhvdmUgOmJQcmlvcnkgUHJlc3MsYzE5NzcuICBhODlwLCBpbGwsIDFjaGFydChvbiBsaW5pbmcgcGFwZXIpLCAyMHgyMmNtLiAwYVdvcmxkIHJlc291cmNlcyA3YUVjb25vbWljcyBvZiBMYW5kIGFuZCBFbmVyZ3kgN2FFbmdpbmVlcmluZyA0YVdBVEVSIFNVUFBMWSA0YVdBVEVSIFJFU09VUkNFUyA0YVdBVEVSIFBPTExVVElPTiA0YVdBVEVSICBhKFQpVGV4dGJDaXJxYQ=="
+      ],
+      "keywords_facet": [
+        "WATER",
+        "WATER POLLUTION",
+        "WATER RESOURCES",
+        "WATER SUPPLY"
+      ],
+      "_version_": 1677123715712680000,
+      "class_facet": [
+        "333.91"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1977
+      ],
+      "author_facet": [
+        "Sowry, Jo"
+      ],
+      "subjects_facet": [
+        "Economics of Land and Energy",
+        "Engineering"
+      ]
+    },
+    {
+      "id": "15619508",
+      "stdno": [
+        "15619508"
+      ],
+      "spell": [
+        "15619508",
+        "J",
+        "2",
+        "International Water Association.",
+        "v. : ill. (some col.), ports. ; 30 cm",
+        "Water quality management-Periodicals",
+        "Water resources development-Periodicals",
+        "1561-9508",
+        "Continues: Water quality international.",
+        "IWA Publishing",
+        "Electrical Engineering",
+        "Applied Physics",
+        "Engineering",
+        "Electronics, Communications Engineering",
+        "Communications",
+        "Water 21 : magazine of the International Water Association",
+        "1999- July-Aug. 1999-"
+      ],
+      "gmd": [
+        "J"
+      ],
+      "cattype": [
+        "2"
+      ],
+      "imageisn_stored": [
+        "15619508"
+      ],
+      "solr_author": [
+        "International Water Association."
+      ],
+      "collation": [
+        "v. : ill. (some col.), ports. ; 30 cm"
+      ],
+      "keywords": [
+        "Water quality management-Periodicals",
+        "Water resources development-Periodicals"
+      ],
+      "medium": [
+        "Journal"
+      ],
+      "notesenq": [
+        "1561-9508",
+        "Continues: Water quality international."
+      ],
+      "place": [
+        "London (Alliance House, 12 Caxton St., London SW1H 0QS) "
+      ],
+      "publisher": [
+        "IWA Publishing"
+      ],
+      "subjects": [
+        "Electrical Engineering",
+        "Applied Physics",
+        "Engineering",
+        "Electronics, Communications Engineering",
+        "Communications"
+      ],
+      "title": [
+        "Water 21 : magazine of the International Water Association"
+      ],
+      "year": [
+        "1999- July-Aug. 1999-"
+      ],
+      "yearx": [
+        1999
+      ],
+      "solr_entry_date": [
+        "2006-09-16T00:00:00Z"
+      ],
+      "yearsort_sort": "1999",
+      "titlesort_sort": "water 21 : magazine of the international water association",
+      "author1_sort": "international water association.",
+      "medium_sort": "journal",
+      "corpauthor_stored": [
+        "International Water Association."
+      ],
+      "title_stored": [
+        "Water 21 : magazine of the International Water Association"
+      ],
+      "keywords_stored": [
+        "Water quality management-Periodicals",
+        "Water resources development-Periodicals"
+      ],
+      "notes_stored": [
+        "1561-9508",
+        "Continues: Water quality international."
+      ],
+      "stdno_stored": [
+        "15619508"
+      ],
+      "imprint_stored": [
+        "London (Alliance House, 12 Caxton St., London SW1H 0QS): IWA Publishing, 1999- July-Aug. 1999-"
+      ],
+      "marc_exchange_stored": [
+        "MDA4NzUgYXMgIDIyMDAyNjUgYSA0NTAwMDAxMDAxMTAwMDAwMDAzMDAwMzAwMDExMDA1MDAxNzAwMDE0MDA4MDA0MTAwMDMxMDE1MDAxMzAwMDcyMDE2MDAxOTAwMDg1MDIyMDAxNDAwMTA0MDQwMDAxMTAwMTE4MDgyMDAxNDAwMTI5MjIyMDAxMzAwMTQzMjQ1MDA2NTAwMTU2MjYwMDA4NzAwMjIxMzAwMDA0NjAwMzA4MzEwMDAyMjAwMzU0MzYyMDAyMDAwMzc2NTAwMDA0NDAwMzk2NjUwMDA0MzAwNDQwNjUwMDA0NjAwNDgzNzEwMDAzNzAwNTI5Nzg3MDA0MzAwNTY2czY1MzMwMjAwMlVrMjAwMTEyMTkyMDE1NDguMDk5MTIxNWMxOTk5OTk5OWVua2J8fCB8ICAgICAgMCAgIHwwZW5nICAgIGFHQkEwLTEyMDcgYXM2NTMzMDIwMDIyVWsgIGExNTYxLTk1MDggIGFVa2RVazA0YTYyOC4xMjIxIDBhV2F0ZXIgMjEwMGFXYXRlciAyMSA6Ym1hZ2F6aW5lIG9mIHRoZSBJbnRlcm5hdGlvbmFsIFdhdGVyIEFzc29jaWF0aW9uLiAgYUxvbmRvbiAoQWxsaWFuY2UgSG91c2UsIDEyIENheHRvbiBTdC4sIExvbmRvbiBTVzFIIDBRUykgOiBiSVdBIFB1Ymxpc2hpbmcsYzE5OTktICBhdi4gIDpiaWxsLiAoc29tZSBjb2wuKSwgcG9ydHMuIDtjMzAgY20uICBhU2l4IGlzc3VlcyB5ZWFybHkwIGFKdWx5LUF1Zy4gMTk5OS0gIGFDb250aW51ZXM6IFdhdGVyIHF1YWxpdHkgaW50ZXJuYXRpb25hbC4gMGFXYXRlciBxdWFsaXR5IG1hbmFnZW1lbnR2UGVyaW9kaWNhbHMuIDBhV2F0ZXIgcmVzb3VyY2VzIGRldmVsb3BtZW50dlBlcmlvZGljYWxzLjIgYUludGVybmF0aW9uYWwgV2F0ZXIgQXNzb2NpYXRpb24uMCB0V2F0ZXIgcXVhbGl0eSBpbnRlcm5hdGlvbmFseDA4OTItMjExeA=="
+      ],
+      "keywords_facet": [
+        "Water quality management-Periodicals",
+        "Water resources development-Periodicals"
+      ],
+      "_version_": 1677123591896825900,
+      "medium_facet": [
+        "Journal"
+      ],
+      "yearx_facet": [
+        1999
+      ],
+      "author_facet": [
+        "International Water Association."
+      ],
+      "subjects_facet": [
+        "Applied Physics",
+        "Communications",
+        "Electrical Engineering",
+        "Electronics, Communications Engineering",
+        "Engineering"
+      ]
+    },
+    {
+      "id": "0750603682",
+      "stdno": [
+        "0750603682"
+      ],
+      "spell": [
+        "0750603682",
+        "T",
+        "1",
+        "Main site",
+        "623.45",
+        "Rev ed",
+        "CONDENSERS",
+        "EVAPORATORS",
+        "FEED PUMPS",
+        "FEED WATER PLANT",
+        "FEED WATER SYSTEMS",
+        "HEAT EXCHANGERS",
+        "WATER TREATMENT",
+        "Butterworth-Heinemann Ltd",
+        "Marine Engineering Series",
+        "Shipping",
+        "Military and Nautical Engineering",
+        "Feed water systems and treatment",
+        "1991"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Main site"
+      ],
+      "imageisn_stored": [
+        "0750603682"
+      ],
+      "class": [
+        "623.45"
+      ],
+      "edition": [
+        "Rev ed"
+      ],
+      "keywords": [
+        "CONDENSERS",
+        "EVAPORATORS",
+        "FEED PUMPS",
+        "FEED WATER PLANT",
+        "FEED WATER SYSTEMS",
+        "HEAT EXCHANGERS",
+        "WATER TREATMENT"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "place": [
+        "Oxford"
+      ],
+      "publisher": [
+        "Butterworth-Heinemann Ltd"
+      ],
+      "series": [
+        "Marine Engineering Series"
+      ],
+      "subjects": [
+        "Shipping",
+        "Military and Nautical Engineering"
+      ],
+      "title": [
+        "Feed water systems and treatment"
+      ],
+      "year": [
+        "1991"
+      ],
+      "yearx": [
+        1991
+      ],
+      "solr_entry_date": [
+        "1995-04-09T00:00:00Z"
+      ],
+      "yearsort_sort": "1991",
+      "classsort1_sort": "623.45",
+      "titlesort_sort": "feed water systems and treatment",
+      "author1_sort": "flanagan, g t h",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "G T H Flanagan"
+      ],
+      "title_stored": [
+        "Feed water systems and treatment"
+      ],
+      "class_stored": [
+        "623.45"
+      ],
+      "keywords_stored": [
+        "CONDENSERS",
+        "EVAPORATORS",
+        "FEED PUMPS",
+        "FEED WATER PLANT",
+        "FEED WATER SYSTEMS",
+        "HEAT EXCHANGERS",
+        "WATER TREATMENT"
+      ],
+      "series_stored": [
+        "Marine Engineering Series"
+      ],
+      "stdno_stored": [
+        "0750603682"
+      ],
+      "imprint_stored": [
+        "Oxford: Butterworth-Heinemann Ltd, 1991"
+      ],
+      "marc_exchange_stored": [
+        "MDA3MDFuYW0gYTIyMDAyNjUgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxNTAwMDU1MDgyMDAxNDAwMDcwMTAwMDAyMzAwMDg0MjQ1MDAzODAwMTA3MjUwMDAxMjAwMTQ1MjYwMDA0ODAwMTU3NDkwMDAzMDAwMjA1NjUwMDAzODAwMjM1NjUwMDAxMzAwMjczNjUwMDAyMDAwMjg2NjUwMDAyMDAwMzA2NjUwMDAyMzAwMzI2NjUwMDAyMTAwMzQ5NjUwMDAxNTAwMzcwNjUwMDAxNjAwMzg1NjUwMDAxNTAwNDAxODg3MDAxOTAwNDE2MDc1MDYwMzY4MnRhOTUwNDA5czE5OTEgICAgZW5rfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgYTA3NTA2MDM2ODIwIGJNYTYyMy40NTEgYUZsYW5hZ2FuLCBHLiBULiBILjEwYUZlZWQgd2F0ZXIgc3lzdGVtcyBhbmQgdHJlYXRtZW50LiAgYVJldiBlZC4gIGFPeGZvcmQgOmJCdXR0ZXJ3b3J0aC1IZWluZW1hbm4gTHRkLGMxOTkxLiAwYU1hcmluZSBFbmdpbmVlcmluZyBTZXJpZXMgN2FNaWxpdGFyeSBhbmQgTmF1dGljYWwgRW5naW5lZXJpbmcgN2FTaGlwcGluZyA0YVdBVEVSIFRSRUFUTUVOVCA0YUhFQVQgRVhDSEFOR0VSUyA0YUZFRUQgV0FURVIgU1lTVEVNUyA0YUZFRUQgV0FURVIgUExBTlQgNGFGRUVEIFBVTVBTIDRhRVZBUE9SQVRPUlMgNGFDT05ERU5TRVJTICBhKFQpVGV4dGJDaXJxYQ=="
+      ],
+      "keywords_facet": [
+        "CONDENSERS",
+        "EVAPORATORS",
+        "FEED PUMPS",
+        "FEED WATER PLANT",
+        "FEED WATER SYSTEMS",
+        "HEAT EXCHANGERS",
+        "WATER TREATMENT"
+      ],
+      "_version_": 1677123697330094000,
+      "class_facet": [
+        "623.45"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1991
+      ],
+      "author_facet": [
+        "Flanagan, G T H"
+      ],
+      "subjects_facet": [
+        "Military and Nautical Engineering",
+        "Shipping"
+      ]
+    },
+    {
+      "id": "9780070458727",
+      "stdno": [
+        "9780070458727"
+      ],
+      "spell": [
+        "9780070458727",
+        "KNO",
+        "1",
+        "Any site",
+        "This handbook is an ideal source of information for specialists and nonspecialists alike. It provides completely practical data and techniques in the four major water conservation and use areas: (1) water chemistry, sources, and contaminants; (2) unit operations and treatment; (3) industrial and municipal use of water and its disposal; and (4) special technology in water treatment.",
+        "This handbook is an ideal source of information for specialists and nonspecialists alike. It provides completely practical data and techniques in the four major water conservation and use areas: (1) water chemistry, sources, and contaminants; (2) unit operations and treatment; (3) industrial and municipal use of water and its disposal; and (4) special technology in water treatment.",
+        "McGraw-Hill",
+        "NALCO Water Handbook (2nd Edition)",
+        "1988"
+      ],
+      "gmd": [
+        "KNO"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "1591244781"
+      ],
+      "abstract": [
+        "This handbook is an ideal source of information for specialists and nonspecialists alike. It provides completely practical data and techniques in the four major water conservation and use areas: (1) water chemistry, sources, and contaminants; (2) unit operations and treatment; (3) industrial and municipal use of water and its disposal; and (4) special technology in water treatment."
+      ],
+      "medium": [
+        "Knovel e-book"
+      ],
+      "notesenq": [
+        "This handbook is an ideal source of information for specialists and nonspecialists alike. It provides completely practical data and techniques in the four major water conservation and use areas: (1) water chemistry, sources, and contaminants; (2) unit operations and treatment; (3) industrial and municipal use of water and its disposal; and (4) special technology in water treatment."
+      ],
+      "publisher": [
+        "McGraw-Hill"
+      ],
+      "title": [
+        "NALCO Water Handbook (2nd Edition)"
+      ],
+      "year": [
+        "1988"
+      ],
+      "yearx": [
+        1988
+      ],
+      "solr_entry_date": [
+        "2011-12-05T00:00:00Z"
+      ],
+      "yearsort_sort": "1988",
+      "titlesort_sort": "nalco water handbook 2nd edition",
+      "author1_sort": "kemmer, f.n.",
+      "medium_sort": "knovel e-book",
+      "authfs_stored": [
+        "F.N. Kemmer"
+      ],
+      "title_stored": [
+        "NALCO Water Handbook (2nd Edition)"
+      ],
+      "abstract_stored": [
+        "This handbook is an ideal source of information for specialists and nonspecialists alike. It provides completely practical data and techniques in the four major water conservation and use areas: (1) water chemistry, sources, and contaminants; (2) unit operations and treatment; (3) industrial and municipal use of water and its disposal; and (4) special technology in water treatment."
+      ],
+      "notes_stored": [
+        "This handbook is an ideal source of information for specialists and nonspecialists alike. It provides completely practical data and techniques in the four major water conservation and use areas: (1) water chemistry, sources, and contaminants; (2) unit operations and treatment; (3) industrial and municipal use of water and its disposal; and (4) special technology in water treatment."
+      ],
+      "stdno_stored": [
+        "9780070458727"
+      ],
+      "imprint_stored": [
+        "McGraw-Hill, 1988"
+      ],
+      "marc_exchange_stored": [
+        "MDAzMzJuYW0gYTIyMDAxMzMgICA0NTAwMDAxMDAxNDAwMDAwMDA4MDA0MTAwMDE0MDIwMDAxODAwMDU1MTAwMDAxODAwMDczMjQ1MDA0MDAwMDkxMjYwMDAxMDAwMTMxMjYwMDAxNzAwMTQxODU2MDAxMDAwMTU4ODg3MDAzMDAwMTY4OTc4MDA3MDQ1ODcyNzExMTIwNXMxOTg4ICAgIHh4XHx8fHx8fHx8fHx1fHx8IDB8ICAgfHwgIGE5NzgwMDcwNDU4NzI3MSBhS2VtbWVyLCBGLiBOLjEwYU5BTENPIFdhdGVyIEhhbmRib29rICgybmQgRWRpdGlvbikuICBjMTk4OC4gIGJNY0dyYXctSGlsbC4gIHVBMDI3OSAgYShLTk8pS25vdmVsIGUtYm9va2JDaXJxYQ=="
+      ],
+      "_version_": 1677123711895863300,
+      "medium_facet": [
+        "Knovel e-book"
+      ],
+      "yearx_facet": [
+        1988
+      ],
+      "author_facet": [
+        "Kemmer, F.N."
+      ]
+    },
+    {
+      "id": "N159",
+      "stdno": [
+        "N159"
+      ],
+      "spell": [
+        "N159",
+        "WS",
+        "1",
+        "Any site",
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard.",
+        "Water conservation",
+        "Water calculator"
+      ],
+      "gmd": [
+        "WS"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "N159"
+      ],
+      "medium": [
+        "Web site"
+      ],
+      "notesenq": [
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard."
+      ],
+      "subjects": [
+        "Water conservation"
+      ],
+      "title": [
+        "Water calculator"
+      ],
+      "solr_entry_date": [
+        "2006-10-14T00:00:00Z"
+      ],
+      "yearsort_sort": "9999",
+      "titlesort_sort": "water calculator",
+      "medium_sort": "web site",
+      "title_stored": [
+        "Water calculator"
+      ],
+      "notes_stored": [
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard."
+      ],
+      "stdno_stored": [
+        "N159"
+      ],
+      "marc_exchange_stored": [
+        "MDA0MzJuYW0gYTIyMDAxMzMgICA0NTAwMDAxMDAwNTAwMDAwMDA4MDA0MTAwMDA1MDI0MDAwOTAwMDQ2MjQ1MDAyMjAwMDU1MzQwMDAxNTAwMDc3NTAwMDE0ODAwMDkyNjUwMDAyNDAwMjQwODU2MDAxMDAwMjY0ODg3MDAyNDAwMjc0TjE1OTA2MTAxNG51dXV1dXV1dXh4XHx8fHx8fHx8fHx1fHx8IDB8ICAgfHw4IGFOMTU5MDBhV2F0ZXIgY2FsY3VsYXRvci4gIGFbd2Vic2l0ZV0uICBhVGhlIEJCQyBoYXMgZGV2aXNlZCB0aGlzIHdhdGVyIGNhbGN1bGF0b3IgdGhhdCBjYW4gYmUgdXNlZCB0byB3b3JrIG91dCBob3cgbXVjaCBhIGhvdXNlaG9sZCB1c2VzIGluIGEgZGF5LiBTdWl0YWJsZSBmb3IgaW50ZXJhY3RpdmUgd2hpdGVib2FyZC4gN2FXYXRlciBjb25zZXJ2YXRpb24uICB1QTAwMDIgIGEoV1MpV2ViIHNpdGViQ2lycWE="
+      ],
+      "_version_": 1677123591880048600,
+      "medium_facet": [
+        "Web site"
+      ],
+      "subjects_facet": [
+        "Water conservation"
+      ]
+    },
+    {
+      "id": "N274",
+      "stdno": [
+        "N274"
+      ],
+      "spell": [
+        "N274",
+        "WS",
+        "1",
+        "Any site",
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard.",
+        "Water conservation",
+        "Water calculator"
+      ],
+      "gmd": [
+        "WS"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "N274"
+      ],
+      "medium": [
+        "Web site"
+      ],
+      "notesenq": [
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard."
+      ],
+      "subjects": [
+        "Water conservation"
+      ],
+      "title": [
+        "Water calculator"
+      ],
+      "solr_entry_date": [
+        "2006-10-14T00:00:00Z"
+      ],
+      "yearsort_sort": "9999",
+      "titlesort_sort": "water calculator",
+      "medium_sort": "web site",
+      "title_stored": [
+        "Water calculator"
+      ],
+      "notes_stored": [
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard."
+      ],
+      "stdno_stored": [
+        "N274"
+      ],
+      "marc_exchange_stored": [
+        "MDA0MzJuYW0gYTIyMDAxMzMgICA0NTAwMDAxMDAwNTAwMDAwMDA4MDA0MTAwMDA1MDI0MDAwOTAwMDQ2MjQ1MDAyMjAwMDU1MzQwMDAxNTAwMDc3NTAwMDE0ODAwMDkyNjUwMDAyNDAwMjQwODU2MDAxMDAwMjY0ODg3MDAyNDAwMjc0TjI3NDA2MTAxNG51dXV1dXV1dXh4XHx8fHx8fHx8fHx1fHx8IDB8ICAgfHw4IGFOMjc0MDBhV2F0ZXIgY2FsY3VsYXRvci4gIGFbd2Vic2l0ZV0uICBhVGhlIEJCQyBoYXMgZGV2aXNlZCB0aGlzIHdhdGVyIGNhbGN1bGF0b3IgdGhhdCBjYW4gYmUgdXNlZCB0byB3b3JrIG91dCBob3cgbXVjaCBhIGhvdXNlaG9sZCB1c2VzIGluIGEgZGF5LiBTdWl0YWJsZSBmb3IgaW50ZXJhY3RpdmUgd2hpdGVib2FyZC4gN2FXYXRlciBjb25zZXJ2YXRpb24uICB1QTAwMDIgIGEoV1MpV2ViIHNpdGViQ2lycWE="
+      ],
+      "_version_": 1677123597778288600,
+      "medium_facet": [
+        "Web site"
+      ],
+      "subjects_facet": [
+        "Water conservation"
+      ]
+    },
+    {
+      "id": "N281",
+      "stdno": [
+        "N281"
+      ],
+      "spell": [
+        "N281",
+        "WS",
+        "1",
+        "Any site",
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard.",
+        "Water conservation",
+        "Water calculator"
+      ],
+      "gmd": [
+        "WS"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "N281"
+      ],
+      "medium": [
+        "Web site"
+      ],
+      "notesenq": [
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard."
+      ],
+      "subjects": [
+        "Water conservation"
+      ],
+      "title": [
+        "Water calculator"
+      ],
+      "solr_entry_date": [
+        "2006-10-14T00:00:00Z"
+      ],
+      "yearsort_sort": "9999",
+      "titlesort_sort": "water calculator",
+      "medium_sort": "web site",
+      "title_stored": [
+        "Water calculator"
+      ],
+      "notes_stored": [
+        "[website]",
+        "The BBC has devised this water calculator that can be used to work out how much a household uses in a day. Suitable for interactive whiteboard."
+      ],
+      "stdno_stored": [
+        "N281"
+      ],
+      "marc_exchange_stored": [
+        "MDA0MzJuYW0gYTIyMDAxMzMgICA0NTAwMDAxMDAwNTAwMDAwMDA4MDA0MTAwMDA1MDI0MDAwOTAwMDQ2MjQ1MDAyMjAwMDU1MzQwMDAxNTAwMDc3NTAwMDE0ODAwMDkyNjUwMDAyNDAwMjQwODU2MDAxMDAwMjY0ODg3MDAyNDAwMjc0TjI4MTA2MTAxNG51dXV1dXV1dXh4XHx8fHx8fHx8fHx1fHx8IDB8ICAgfHw4IGFOMjgxMDBhV2F0ZXIgY2FsY3VsYXRvci4gIGFbd2Vic2l0ZV0uICBhVGhlIEJCQyBoYXMgZGV2aXNlZCB0aGlzIHdhdGVyIGNhbGN1bGF0b3IgdGhhdCBjYW4gYmUgdXNlZCB0byB3b3JrIG91dCBob3cgbXVjaCBhIGhvdXNlaG9sZCB1c2VzIGluIGEgZGF5LiBTdWl0YWJsZSBmb3IgaW50ZXJhY3RpdmUgd2hpdGVib2FyZC4gN2FXYXRlciBjb25zZXJ2YXRpb24uICB1QTAwMDIgIGEoV1MpV2ViIHNpdGViQ2lycWE="
+      ],
+      "_version_": 1677123689515057200,
+      "medium_facet": [
+        "Web site"
+      ],
+      "subjects_facet": [
+        "Water conservation"
+      ]
+    },
+    {
+      "id": "EB11335",
+      "stdno": [
+        "EB11335"
+      ],
+      "spell": [
+        "EB11335",
+        "EB",
+        "1",
+        "Any site",
+        "xviii, 334 p. ; 28 cm. ",
+        "Irrigation-Economic aspects",
+        "Irrigation water-Economic aspects",
+        "Irrigation water-Management",
+        "Water-supply, Agricultural-Economic aspects-Developing countries",
+        "Water-supply, Agricultural-Developing countries-Management",
+        "Water in agriculture-Economic aspects-Developing countries",
+        "Agricultural industries-Foreign ownership",
+        "Electronic books. local",
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2005. Available via World Wide Web. Access may be limited to ebrary affiliated libraries.",
+        "World Bank, Agriculture and Rural Development",
+        "Shaping the future of water for agriculture; a sourcebook for investment in agricultural water management.",
+        "c2005"
+      ],
+      "gmd": [
+        "EB"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "0821361619"
+      ],
+      "collation": [
+        "xviii, 334 p. ; 28 cm. "
+      ],
+      "keywords": [
+        "Irrigation-Economic aspects",
+        "Irrigation water-Economic aspects",
+        "Irrigation water-Management",
+        "Water-supply, Agricultural-Economic aspects-Developing countries",
+        "Water-supply, Agricultural-Developing countries-Management",
+        "Water in agriculture-Economic aspects-Developing countries",
+        "Agricultural industries-Foreign ownership",
+        "Electronic books. local"
+      ],
+      "medium": [
+        "E-book"
+      ],
+      "notesenq": [
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2005. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "place": [
+        "Washington, DC "
+      ],
+      "publisher": [
+        "World Bank, Agriculture and Rural Development"
+      ],
+      "title": [
+        "Shaping the future of water for agriculture; a sourcebook for investment in agricultural water management."
+      ],
+      "year": [
+        "c2005"
+      ],
+      "yearx": [
+        2005
+      ],
+      "solr_entry_date": [
+        "2009-06-24T00:00:00Z"
+      ],
+      "yearsort_sort": "2005",
+      "titlesort_sort": "shaping the future of water for agriculture; a sourcebook for investment in agricultural water management",
+      "medium_sort": "e-book",
+      "title_stored": [
+        "Shaping the future of water for agriculture; a sourcebook for investment in agricultural water management."
+      ],
+      "keywords_stored": [
+        "Irrigation-Economic aspects",
+        "Irrigation water-Economic aspects",
+        "Irrigation water-Management",
+        "Water-supply, Agricultural-Economic aspects-Developing countries",
+        "Water-supply, Agricultural-Developing countries-Management",
+        "Water in agriculture-Economic aspects-Developing countries",
+        "Agricultural industries-Foreign ownership",
+        "Electronic books. local"
+      ],
+      "notes_stored": [
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2005. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "stdno_stored": [
+        "EB11335"
+      ],
+      "imprint_stored": [
+        "Washington, DC: World Bank, Agriculture and Rural Development, c2005"
+      ],
+      "marc_exchange_stored": [
+        "MDExMDNubW0gYTIyMDAyNjUgICA0NTAwMDAxMDAwODAwMDAwMDA3MDAwMzAwMDA4MDA4MDA0MTAwMDExMDI0MDAxMjAwMDUyMjQ1MDExMTAwMDY0MjYwMDA3ODAwMTc1MzAwMDAyOTAwMjUzMzQwMDAyNTAwMjgyNTA0MDA1MTAwMzA3NjUwMDAyODAwMzU4NjUwMDA0NjAwMzg2NjUwMDA2MzAwNDMyNjUwMDA2MzAwNDk1NjUwMDA2OTAwNTU4NjUwMDAzMjAwNjI3NjUwMDAzODAwNjU5NjUwMDAzMjAwNjk3ODU2MDA3NjAwNzI5ODU2MDAxMDAwODA1ODg3MDAyMjAwODE1RUIxMTMzNWNyMDkwNjI0czIwMDUgICAgeHhcfHx8fHx8fHx1fHV8fHx8fHwgICB8fDggYUVCMTEzMzUwMGFTaGFwaW5nIHRoZSBmdXR1cmUgb2Ygd2F0ZXIgZm9yIGFncmljdWx0dXJlOyBhIHNvdXJjZWJvb2sgZm9yIGludmVzdG1lbnQgaW4gYWdyaWN1bHR1cmFsIHdhdGVyIG1hbmFnZW1lbnQuICBhV2FzaGluZ3RvbiwgREMgIDpiV29ybGQgQmFuaywgQWdyaWN1bHR1cmUgYW5kIFJ1cmFsIERldmVsb3BtZW50LGNjMjAwNS4gIGF4dmlpaSwgMzM0IHAuIDsgMjggY20uIC4gIGFlbGVjdHJvbmljIHJlc291cmNlLiAgYUluY2x1ZGVzIGJpYmxpb2dyYXBoaWNhbCByZWZlcmVuY2VzIGFuZCBpbmRleC4gNGFFbGVjdHJvbmljIGJvb2tzLiBsb2NhbCA0YUFncmljdWx0dXJhbCBpbmR1c3RyaWVzLUZvcmVpZ24gb3duZXJzaGlwIDRhV2F0ZXIgaW4gYWdyaWN1bHR1cmUtRWNvbm9taWMgYXNwZWN0cy1EZXZlbG9waW5nIGNvdW50cmllcyA0YVdhdGVyLXN1cHBseSwgQWdyaWN1bHR1cmFsLURldmVsb3BpbmcgY291bnRyaWVzLU1hbmFnZW1lbnQgNGFXYXRlci1zdXBwbHksIEFncmljdWx0dXJhbC1FY29ub21pYyBhc3BlY3RzLURldmVsb3BpbmcgY291bnRyaWVzIDRhSXJyaWdhdGlvbiB3YXRlci1NYW5hZ2VtZW50IDRhSXJyaWdhdGlvbiB3YXRlci1FY29ub21pYyBhc3BlY3RzIDRhSXJyaWdhdGlvbi1FY29ub21pYyBhc3BlY3RzICB5QW4gZWxlY3Ryb25pYyBib29rIGFjY2Vzc2libGUgdGhyb3VnaCB0aGUgV29ybGQgV2lkZSBXZWItIGNsaWNrIHRvIHZpZXcgIHVBNjgyOCAgYShFQilFLWJvb2tiQ2lycWE="
+      ],
+      "keywords_facet": [
+        "Agricultural industries-Foreign ownership",
+        "Electronic books. local",
+        "Irrigation water-Economic aspects",
+        "Irrigation water-Management",
+        "Irrigation-Economic aspects",
+        "Water in agriculture-Economic aspects-Developing countries",
+        "Water-supply, Agricultural-Developing countries-Management",
+        "Water-supply, Agricultural-Economic aspects-Developing countries"
+      ],
+      "_version_": 1677123655287439400,
+      "medium_facet": [
+        "E-book"
+      ],
+      "yearx_facet": [
+        2005
+      ]
+    },
+    {
+      "id": "0207125007",
+      "stdno": [
+        "0207125007"
+      ],
+      "spell": [
+        "0207125007",
+        "T",
+        "1",
+        "Annex library",
+        "De Mestre Neville",
+        "De Mestre N",
+        "Neesham David",
+        "Neesham D",
+        "797.25",
+        "xiii,92p, ill, 19cm",
+        "Manuals",
+        "Water polo",
+        "Water-polo",
+        "Includes index",
+        "Neville de Mestre and David Neesham",
+        "Angus and Robertson",
+        "Sport",
+        "Water polo - techniques and tactics",
+        "1972"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Annex library"
+      ],
+      "imageisn_stored": [
+        "0207125007"
+      ],
+      "solr_author": [
+        "De Mestre Neville",
+        "De Mestre N",
+        "Neesham David",
+        "Neesham D"
+      ],
+      "class": [
+        "797.25"
+      ],
+      "collation": [
+        "xiii,92p, ill, 19cm"
+      ],
+      "keywords": [
+        "Manuals",
+        "Water polo",
+        "Water-polo"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "notesenq": [
+        "Includes index",
+        "Neville de Mestre and David Neesham"
+      ],
+      "place": [
+        "Sydney"
+      ],
+      "publisher": [
+        "Angus and Robertson"
+      ],
+      "subjects": [
+        "Sport"
+      ],
+      "title": [
+        "Water polo - techniques and tactics"
+      ],
+      "year": [
+        "1972"
+      ],
+      "yearx": [
+        1972
+      ],
+      "solr_entry_date": [
+        "1995-03-25T00:00:00Z"
+      ],
+      "solr_price": [
+        2.22
+      ],
+      "yearsort_sort": "1972",
+      "classsort1_sort": "797.25",
+      "titlesort_sort": "water polo - techniques and tactics",
+      "author1_sort": "de mestre, neville",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "Neville De Mestre",
+        "David Neesham"
+      ],
+      "title_stored": [
+        "Water polo - techniques and tactics"
+      ],
+      "class_stored": [
+        "797.25"
+      ],
+      "keywords_stored": [
+        "Manuals",
+        "Water polo",
+        "Water-polo"
+      ],
+      "notes_stored": [
+        "Includes index",
+        "Neville de Mestre and David Neesham"
+      ],
+      "stdno_stored": [
+        "0207125007"
+      ],
+      "imprint_stored": [
+        "Sydney: Angus and Robertson, 1972"
+      ],
+      "marc_exchange_stored": [
+        "MDA1NjhuYW0gYTIyMDAyMjkgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMDAwMDU1MDIwMDAxNTAwMDY1MDgyMDAxNDAwMDgwMTAwMDAyNDAwMDk0MjQ1MDA0MTAwMTE4MjYwMDA0MjAwMTU5MzAwMDAyNTAwMjAxNTA0MDAyMDAwMjI2NjUwMDAxMTAwMjQ2NjUwMDAxNTAwMjU3NjUwMDAxNTAwMjcyNjUwMDAxMjAwMjg3NzAwMDAyMDAwMjk5ODg3MDAxOTAwMzE5MDIwNzEyNTAwN3RhOTUwMzI1czE5NzIgICAgeHhcfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6MyLjIyICBhMDIwNzEyNTAwNzAgYkFhNzk3LjI1MSBhRGUgTWVzdHJlLCBOZXZpbGxlLjEwYVdhdGVyIHBvbG8gLSB0ZWNobmlxdWVzIGFuZCB0YWN0aWNzLiAgYVN5ZG5leSA6YkFuZ3VzIGFuZCBSb2JlcnRzb24sYzE5NzIuICBheGlpaSw5MnAsIGlsbCwgMTljbS4gIGFJbmNsdWRlcyBpbmRleC4gN2FTcG9ydC4gNGFXYXRlci1wb2xvIDRhV2F0ZXIgcG9sbyA0YU1hbnVhbHMxIGFOZWVzaGFtLCBEYXZpZC4gIGEoVClUZXh0YkNpcnFh"
+      ],
+      "keywords_facet": [
+        "Manuals",
+        "Water polo",
+        "Water-polo"
+      ],
+      "_version_": 1677123599662579700,
+      "class_facet": [
+        "797.25"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1972
+      ],
+      "author_facet": [
+        "De Mestre, Neville",
+        "Neesham, David"
+      ],
+      "subjects_facet": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "0852196008",
+      "stdno": [
+        "0852196008"
+      ],
+      "spell": [
+        "0852196008",
+        "T",
+        "1",
+        "Main site",
+        "Riley Peter D",
+        "Riley P D",
+        "333.7",
+        "Natural Resources",
+        "Oil",
+        "Pollution",
+        "Resources",
+        "Water",
+        "Water Cycle",
+        "Dryad Press",
+        "Chemical Engineering",
+        "Economics",
+        "Environmental Science",
+        "Geography",
+        "Home Economics",
+        "Natural Resourses and Energy (Environmental Science)",
+        "Economics of Land and Energy",
+        "Signposts To Science 2: Water And Oil",
+        "1985"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Main site"
+      ],
+      "imageisn_stored": [
+        "0852196008"
+      ],
+      "solr_author": [
+        "Riley Peter D",
+        "Riley P D"
+      ],
+      "class": [
+        "333.7"
+      ],
+      "keywords": [
+        "Natural Resources",
+        "Oil",
+        "Pollution",
+        "Resources",
+        "Water",
+        "Water Cycle"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "publisher": [
+        "Dryad Press"
+      ],
+      "subjects": [
+        "Chemical Engineering",
+        "Economics",
+        "Environmental Science",
+        "Geography",
+        "Home Economics",
+        "Natural Resourses and Energy (Environmental Science)",
+        "Economics of Land and Energy"
+      ],
+      "title": [
+        "Signposts To Science 2: Water And Oil"
+      ],
+      "year": [
+        "1985"
+      ],
+      "yearx": [
+        1985
+      ],
+      "solr_entry_date": [
+        "1995-06-10T00:00:00Z"
+      ],
+      "solr_price": [
+        5.07
+      ],
+      "yearsort_sort": "1985",
+      "classsort1_sort": "333.7",
+      "titlesort_sort": "signposts to science 2: water and oil",
+      "author1_sort": "riley, peter d",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "Peter D Riley"
+      ],
+      "title_stored": [
+        "Signposts To Science 2: Water And Oil"
+      ],
+      "class_stored": [
+        "333.7"
+      ],
+      "keywords_stored": [
+        "Natural Resources",
+        "Oil",
+        "Pollution",
+        "Resources",
+        "Water",
+        "Water Cycle"
+      ],
+      "stdno_stored": [
+        "0852196008"
+      ],
+      "imprint_stored": [
+        "Dryad Press, 1985"
+      ],
+      "marc_exchange_stored": [
+        "MDA3ODhuYW0gYTIyMDAzMTMgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMDAwMDU1MDIwMDAxNTAwMDY1MDgyMDAxMzAwMDgwMTAwMDAyMDAwMDkzMjQ1MDA0MzAwMTEzMjYwMDAxMDAwMTU2MjYwMDAxNzAwMTY2NjUwMDAzMzAwMTgzNjUwMDA1NzAwMjE2NjUwMDAxOTAwMjczNjUwMDAxNDAwMjkyNjUwMDAyNjAwMzA2NjUwMDAxNDAwMzMyNjUwMDAyNTAwMzQ2NjUwMDAxNjAwMzcxNjUwMDAxMDAwMzg3NjUwMDAxNDAwMzk3NjUwMDAxNDAwNDExNjUwMDAwODAwNDI1NjUwMDAyMjAwNDMzODg3MDAxOTAwNDU1MDg1MjE5NjAwOHRhOTUwNjEwczE5ODUgICAgeHhcfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6M1LjA3ICBhMDg1MjE5NjAwODAgYk1hMzMzLjcxIGFSaWxleSwgUGV0ZXIgRC4xMGFTaWducG9zdHMgVG8gU2NpZW5jZSAyOiBXYXRlciBBbmQgT2lsLiAgYzE5ODUuICBiRHJ5YWQgUHJlc3MuIDdhRWNvbm9taWNzIG9mIExhbmQgYW5kIEVuZXJneSA3YU5hdHVyYWwgUmVzb3Vyc2VzIGFuZCBFbmVyZ3kgKEVudmlyb25tZW50YWwgU2NpZW5jZSkgN2FIb21lIEVjb25vbWljcyA3YUdlb2dyYXBoeSA3YUVudmlyb25tZW50YWwgU2NpZW5jZSA3YUVjb25vbWljcyA3YUNoZW1pY2FsIEVuZ2luZWVyaW5nIDRhV2F0ZXIgQ3ljbGUgNGFXYXRlciA0YVJlc291cmNlcyA0YVBvbGx1dGlvbiA0YU9pbCA0YU5hdHVyYWwgUmVzb3VyY2VzICBhKFQpVGV4dGJDaXJxYQ=="
+      ],
+      "keywords_facet": [
+        "Natural Resources",
+        "Oil",
+        "Pollution",
+        "Resources",
+        "Water",
+        "Water Cycle"
+      ],
+      "_version_": 1677123615916556300,
+      "class_facet": [
+        "333.7"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1985
+      ],
+      "author_facet": [
+        "Riley, Peter D"
+      ],
+      "subjects_facet": [
+        "Chemical Engineering",
+        "Economics",
+        "Economics of Land and Energy",
+        "Environmental Science",
+        "Geography",
+        "Home Economics",
+        "Natural Resourses and Energy (Environmental Science)"
+      ]
+    },
+    {
+      "id": "N174",
+      "stdno": [
+        "N174"
+      ],
+      "spell": [
+        "N174",
+        "WS",
+        "1",
+        "Any site",
+        "[website]",
+        "The United Nations Development Programme, Human Development Report for 2006, focuses on the issue of water. Features of the report include the causes and consequences of the water crisis, strategies and a global plan of action.",
+        "Water",
+        "Human Development Report 2006"
+      ],
+      "gmd": [
+        "WS"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "N174"
+      ],
+      "medium": [
+        "Web site"
+      ],
+      "notesenq": [
+        "[website]",
+        "The United Nations Development Programme, Human Development Report for 2006, focuses on the issue of water. Features of the report include the causes and consequences of the water crisis, strategies and a global plan of action."
+      ],
+      "subjects": [
+        "Water"
+      ],
+      "title": [
+        "Human Development Report 2006"
+      ],
+      "solr_entry_date": [
+        "2006-10-14T00:00:00Z"
+      ],
+      "yearsort_sort": "9999",
+      "titlesort_sort": "human development report 2006",
+      "medium_sort": "web site",
+      "title_stored": [
+        "Human Development Report 2006"
+      ],
+      "notes_stored": [
+        "[website]",
+        "The United Nations Development Programme, Human Development Report for 2006, focuses on the issue of water. Features of the report include the causes and consequences of the water crisis, strategies and a global plan of action."
+      ],
+      "stdno_stored": [
+        "N174"
+      ],
+      "marc_exchange_stored": [
+        "MDA1OTdubW0gIDIyMDAxNjkgYSA0NTAwMDAxMDAwODAwMDAwMDA1MDAxNzAwMDA4MDA3MDAwNzAwMDI1MDA4MDA0MTAwMDMyMDQwMDAxNTAwMDczMjQ1MDA0NTAwMDg4NDQwMDAwNTAwMTMzNTAwMDIzMzAwMTM4NjUwMDAxMDAwMzcxODU2MDAzMzAwMzgxODgwMDAwNTAwNDE0OTk1MDAwODAwNDE5V0wxNjY2MDIwMDcwMjA2MDAwNzA0LjBjfHx8fHwwNzAyMDZiICAgICAgICB8fHwgICAgICAgIGogfCAgICAgIGVuZyBkICBhVm9sIDExIE4gMjEwYUh1bWFuIERldmVsb3BtZW50IFJlcG9ydCAyMDA2aFt3ZWJzaXRlXSAwYSAgYVRoZSBVbml0ZWQgTmF0aW9ucyBEZXZlbG9wbWVudCBQcm9ncmFtbWUsIEh1bWFuIERldmVsb3BtZW50IFJlcG9ydCBmb3IgMjAwNiwgZm9jdXNlcyBvbiB0aGUgaXNzdWUgb2Ygd2F0ZXIuICBGZWF0dXJlcyBvZiB0aGUgcmVwb3J0IGluY2x1ZGUgdGhlIGNhdXNlcyBhbmQgY29uc2VxdWVuY2VzIG9mIHRoZSB3YXRlciBjcmlzaXMsIHN0cmF0ZWdpZXMgYW5kIGEgZ2xvYmFsIHBsYW4gb2YgYWN0aW9uLiA0YVdhdGVyNCB1aHR0cDovL2hkci51bmRwLm9yZy9oZHIyMDA2LyAgYSAgYUxQTQ=="
+      ],
+      "_version_": 1677123572543258600,
+      "medium_facet": [
+        "Web site"
+      ],
+      "subjects_facet": [
+        "Water"
+      ]
+    },
+    {
+      "id": "0900976667",
+      "stdno": [
+        "0900976667"
+      ],
+      "spell": [
+        "0900976667",
+        "T",
+        "1",
+        "Main site",
+        "Institute of Marine Engineers",
+        "623.45",
+        "BOILER WATER TREATMENT",
+        "CORROSION",
+        "EVAPORATORS",
+        "FOULING",
+        "WATER TREATMENT",
+        "Marine Management Holdings",
+        "Marine engineering practice",
+        "Shipping",
+        "Military and Nautical Engineering",
+        "Water treatment",
+        "1976"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Main site"
+      ],
+      "imageisn_stored": [
+        "0900976667"
+      ],
+      "solr_author": [
+        "Institute of Marine Engineers"
+      ],
+      "class": [
+        "623.45"
+      ],
+      "keywords": [
+        "BOILER WATER TREATMENT",
+        "CORROSION",
+        "EVAPORATORS",
+        "FOULING",
+        "WATER TREATMENT"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "publisher": [
+        "Marine Management Holdings"
+      ],
+      "series": [
+        "Marine engineering practice"
+      ],
+      "subjects": [
+        "Shipping",
+        "Military and Nautical Engineering"
+      ],
+      "title": [
+        "Water treatment"
+      ],
+      "year": [
+        "1976"
+      ],
+      "yearx": [
+        1976
+      ],
+      "solr_entry_date": [
+        "1995-04-09T00:00:00Z"
+      ],
+      "yearsort_sort": "1976",
+      "classsort1_sort": "623.45",
+      "titlesort_sort": "water treatment",
+      "author1_sort": "institute of marine engineers",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "J D Skelly"
+      ],
+      "corpauthor_stored": [
+        "Institute of Marine Engineers"
+      ],
+      "title_stored": [
+        "Water treatment"
+      ],
+      "class_stored": [
+        "623.45"
+      ],
+      "keywords_stored": [
+        "BOILER WATER TREATMENT",
+        "CORROSION",
+        "EVAPORATORS",
+        "FOULING",
+        "WATER TREATMENT"
+      ],
+      "series_stored": [
+        "Marine engineering practice"
+      ],
+      "stdno_stored": [
+        "0900976667"
+      ],
+      "imprint_stored": [
+        "Marine Management Holdings, 1976"
+      ],
+      "marc_exchange_stored": [
+        "MDA2NzJuYW0gYTIyMDAyNjUgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxNTAwMDU1MDgyMDAxNDAwMDcwMTAwMDAxODAwMDg0MTEwMDAzNDAwMTAyMjQ1MDAyMTAwMTM2MjYwMDAxMDAwMTU3MjYwMDAzMjAwMTY3NDkwMDAxNjAwMTk5NDkwMDAzMjAwMjE1NjUwMDAzODAwMjQ3NjUwMDAxMzAwMjg1NjUwMDAyMDAwMjk4NjUwMDAxMjAwMzE4NjUwMDAxNjAwMzMwNjUwMDAxNDAwMzQ2NjUwMDAyNzAwMzYwODg3MDAxOTAwMzg3MDkwMDk3NjY2N3RhOTUwNDA5czE5NzYgICAgeHhcfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgYTA5MDA5NzY2NjcwIGJNYTYyMy40NTEgYVNrZWxseSwgSi4gRC4yIGFJbnN0aXR1dGUgb2YgTWFyaW5lIEVuZ2luZWVyczEwYVdhdGVyIHRyZWF0bWVudC4gIGMxOTc2LiAgYk1hcmluZSBNYW5hZ2VtZW50IEhvbGRpbmdzLiAgdlZvbC4yIFB0LjE0IDBhTWFyaW5lIGVuZ2luZWVyaW5nIHByYWN0aWNlIDdhTWlsaXRhcnkgYW5kIE5hdXRpY2FsIEVuZ2luZWVyaW5nIDdhU2hpcHBpbmcgNGFXQVRFUiBUUkVBVE1FTlQgNGFGT1VMSU5HIDRhRVZBUE9SQVRPUlMgNGFDT1JST1NJT04gNGFCT0lMRVIgV0FURVIgVFJFQVRNRU5UICBhKFQpVGV4dGJDaXJxYQ=="
+      ],
+      "keywords_facet": [
+        "BOILER WATER TREATMENT",
+        "CORROSION",
+        "EVAPORATORS",
+        "FOULING",
+        "WATER TREATMENT"
+      ],
+      "_version_": 1677123683436462000,
+      "class_facet": [
+        "623.45"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1976
+      ],
+      "author_facet": [
+        "Institute of Marine Engineers",
+        "Skelly, J D"
+      ],
+      "subjects_facet": [
+        "Military and Nautical Engineering",
+        "Shipping"
+      ]
+    },
+    {
+      "id": "9780070016590",
+      "stdno": [
+        "9780070016590"
+      ],
+      "spell": [
+        "9780070016590",
+        "KNO",
+        "1",
+        "Any site",
+        "This book has been revised and updated to reflect recent developments in the field, this reference addresses water quality issues for both municipal and industrial water supply, reports on the source of contaminants and other problems, and describes the treatment methods of choice. State-of-the-art handbook of community water supplies. The leading source of information on water quality, water treatment, and quality control for 60 years is now available in an up-to-the-minute new edition. This book covers the field, bringing you the expertise of 20 distinguished specialists who provide the latest information on everything from aeration and coagulation processes, to chemical oxidation and water plant waste management. At least 90% of the material in this new edition has been revised and updated. Among the areas of special concern covered are: Cutting-edge membrane processes; U.S. regulatory changes, including new rulings on disinfection by-products; Current concerns with preventing cryptosporidium and E. coli outbreaks; and Enhanced removal of total organic carbon.",
+        "This book has been revised and updated to reflect recent developments in the field, this reference addresses water quality issues for both municipal and industrial water supply, reports on the source of contaminants and other problems, and describes the treatment methods of choice. State-of-the-art handbook of community water supplies. The leading source of information on water quality, water treatment, and quality control for 60 years is now available in an up-to-the-minute new edition. This book covers the field, bringing you the expertise of 20 distinguished specialists who provide the latest information on everything from aeration and coagulation processes, to chemical oxidation and water plant waste management. At least 90% of the material in this new edition has been revised and updated. Among the areas of special concern covered are: Cutting-edge membrane processes; U.S. regulatory changes, including new rulings on disinfection by-products; Current concerns with preventing cryptosporidium and E. coli outbreaks; and Enhanced removal of total organic carbon.",
+        "McGraw-Hill",
+        "Water Quality and Treatment - A Handbook of Community Water Supplies (5th Edition)",
+        "1999"
+      ],
+      "gmd": [
+        "KNO"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "1591243777"
+      ],
+      "abstract": [
+        "This book has been revised and updated to reflect recent developments in the field, this reference addresses water quality issues for both municipal and industrial water supply, reports on the source of contaminants and other problems, and describes the treatment methods of choice. State-of-the-art handbook of community water supplies. The leading source of information on water quality, water treatment, and quality control for 60 years is now available in an up-to-the-minute new edition. This book covers the field, bringing you the expertise of 20 distinguished specialists who provide the latest information on everything from aeration and coagulation processes, to chemical oxidation and water plant waste management. At least 90% of the material in this new edition has been revised and updated. Among the areas of special concern covered are: Cutting-edge membrane processes; U.S. regulatory changes, including new rulings on disinfection by-products; Current concerns with preventing cryptosporidium and E. coli outbreaks; and Enhanced removal of total organic carbon."
+      ],
+      "medium": [
+        "Knovel e-book"
+      ],
+      "notesenq": [
+        "This book has been revised and updated to reflect recent developments in the field, this reference addresses water quality issues for both municipal and industrial water supply, reports on the source of contaminants and other problems, and describes the treatment methods of choice. State-of-the-art handbook of community water supplies. The leading source of information on water quality, water treatment, and quality control for 60 years is now available in an up-to-the-minute new edition. This book covers the field, bringing you the expertise of 20 distinguished specialists who provide the latest information on everything from aeration and coagulation processes, to chemical oxidation and water plant waste management. At least 90% of the material in this new edition has been revised and updated. Among the areas of special concern covered are: Cutting-edge membrane processes; U.S. regulatory changes, including new rulings on disinfection by-products; Current concerns with preventing cryptosporidium and E. coli outbreaks; and Enhanced removal of total organic carbon."
+      ],
+      "publisher": [
+        "McGraw-Hill"
+      ],
+      "title": [
+        "Water Quality and Treatment - A Handbook of Community Water Supplies (5th Edition)"
+      ],
+      "year": [
+        "1999"
+      ],
+      "yearx": [
+        1999
+      ],
+      "solr_entry_date": [
+        "2011-12-05T00:00:00Z"
+      ],
+      "yearsort_sort": "1999",
+      "titlesort_sort": "water quality and treatment - a handbook of community water supplies 5th edition",
+      "author1_sort": "letterman, r.d.",
+      "medium_sort": "knovel e-book",
+      "authfs_stored": [
+        "R.D. Letterman"
+      ],
+      "title_stored": [
+        "Water Quality and Treatment - A Handbook of Community Water Supplies (5th Edition)"
+      ],
+      "abstract_stored": [
+        "This book has been revised and updated to reflect recent developments in the field, this reference addresses water quality issues for both municipal and industrial water supply, reports on the source of contaminants and other problems, and describes the treatment methods of choice. State-of-the-art handbook of community water supplies. The leading source of information on water quality, water treatment, and quality control for 60 years is now available in an up-to-the-minute new edition. This book covers the field, bringing you the expertise of 20 distinguished specialists who provide the latest information on everything from aeration and coagulation processes, to chemical oxidation and water plant waste management. At least 90% of the material in this new edition has been revised and updated. Among the areas of special concern covered are: Cutting-edge membrane processes; U.S. regulatory changes, including new rulings on disinfection by-products; Current concerns with preventing cryptosporidium and E. coli outbreaks; and Enhanced removal of total organic carbon."
+      ],
+      "notes_stored": [
+        "This book has been revised and updated to reflect recent developments in the field, this reference addresses water quality issues for both municipal and industrial water supply, reports on the source of contaminants and other problems, and describes the treatment methods of choice. State-of-the-art handbook of community water supplies. The leading source of information on water quality, water treatment, and quality control for 60 years is now available in an up-to-the-minute new edition. This book covers the field, bringing you the expertise of 20 distinguished specialists who provide the latest information on everything from aeration and coagulation processes, to chemical oxidation and water plant waste management. At least 90% of the material in this new edition has been revised and updated. Among the areas of special concern covered are: Cutting-edge membrane processes; U.S. regulatory changes, including new rulings on disinfection by-products; Current concerns with preventing cryptosporidium and E. coli outbreaks; and Enhanced removal of total organic carbon."
+      ],
+      "stdno_stored": [
+        "9780070016590"
+      ],
+      "imprint_stored": [
+        "McGraw-Hill, 1999"
+      ],
+      "marc_exchange_stored": [
+        "MDAzODNuYW0gYTIyMDAxMzMgICA0NTAwMDAxMDAxNDAwMDAwMDA4MDA0MTAwMDE0MDIwMDAxODAwMDU1MTAwMDAyMTAwMDczMjQ1MDA4ODAwMDk0MjYwMDAxMDAwMTgyMjYwMDAxNzAwMTkyODU2MDAxMDAwMjA5ODg3MDAzMDAwMjE5OTc4MDA3MDAxNjU5MDExMTIwNXMxOTk5ICAgIHh4XHx8fHx8fHx8fHx1fHx8IDB8ICAgfHwgIGE5NzgwMDcwMDE2NTkwMSBhTGV0dGVybWFuLCBSLiBELjEwYVdhdGVyIFF1YWxpdHkgYW5kIFRyZWF0bWVudCAtIEEgSGFuZGJvb2sgb2YgQ29tbXVuaXR5IFdhdGVyIFN1cHBsaWVzICg1dGggRWRpdGlvbikuICBjMTk5OS4gIGJNY0dyYXctSGlsbC4gIHVBMDI1MSAgYShLTk8pS25vdmVsIGUtYm9va2JDaXJxYQ=="
+      ],
+      "_version_": 1677123643769880600,
+      "medium_facet": [
+        "Knovel e-book"
+      ],
+      "yearx_facet": [
+        1999
+      ],
+      "author_facet": [
+        "Letterman, R.D."
+      ]
+    },
+    {
+      "id": "101",
+      "stdno": [
+        "101"
+      ],
+      "spell": [
+        "101",
+        "EB",
+        "1",
+        "Any site",
+        "Griffin Ronald C",
+        "Griffin R C",
+        "xv, 402 p. : ill. ",
+        "Water resources development-Economic aspects",
+        "Water resources development-Government policy",
+        "Water-supply-Economic aspects",
+        "Water-supply-Government policy",
+        "Electronic books. local",
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2008. Available via World Wide Web. Access may be limited to ebrary affiliated libraries.",
+        "MIT Press",
+        "Water resource economics; the analysis of scarcity, policies, and projects ",
+        "c2006"
+      ],
+      "gmd": [
+        "EB"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "026207267X"
+      ],
+      "solr_author": [
+        "Griffin Ronald C",
+        "Griffin R C"
+      ],
+      "collation": [
+        "xv, 402 p. : ill. "
+      ],
+      "keywords": [
+        "Water resources development-Economic aspects",
+        "Water resources development-Government policy",
+        "Water-supply-Economic aspects",
+        "Water-supply-Government policy",
+        "Electronic books. local"
+      ],
+      "medium": [
+        "E-book"
+      ],
+      "notesenq": [
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2008. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "place": [
+        "Cambridge, MA; London "
+      ],
+      "publisher": [
+        "MIT Press"
+      ],
+      "title": [
+        "Water resource economics; the analysis of scarcity, policies, and projects "
+      ],
+      "year": [
+        "c2006"
+      ],
+      "yearx": [
+        2006
+      ],
+      "solr_entry_date": [
+        "2009-06-24T00:00:00Z"
+      ],
+      "yearsort_sort": "2006",
+      "titlesort_sort": "water resource economics; the analysis of scarcity, policies, and projects",
+      "author1_sort": "griffin, ronald c.",
+      "medium_sort": "e-book",
+      "authfs_stored": [
+        "Ronald C. Griffin"
+      ],
+      "title_stored": [
+        "Water resource economics; the analysis of scarcity, policies, and projects "
+      ],
+      "keywords_stored": [
+        "Water resources development-Economic aspects",
+        "Water resources development-Government policy",
+        "Water-supply-Economic aspects",
+        "Water-supply-Government policy",
+        "Electronic books. local"
+      ],
+      "notes_stored": [
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2008. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "stdno_stored": [
+        "101"
+      ],
+      "imprint_stored": [
+        "Cambridge, MA; London: MIT Press, c2006"
+      ],
+      "marc_exchange_stored": [
+        "MDA4NTVubW0gYTIyMDAyNDEgICA0NTAwMDAxMDAwNDAwMDAwMDA3MDAwMzAwMDA0MDA4MDA0MTAwMDA3MDI0MDAwODAwMDQ4MTAwMDAyMzAwMDU2MjQ1MDA4MTAwMDc5MjYwMDA0OTAwMTYwMzAwMDAyNDAwMjA5MzQwMDAyNTAwMjMzNTA0MDA1MTAwMjU4NjUwMDAyODAwMzA5NjUwMDAzNTAwMzM3NjUwMDAzNDAwMzcyNjUwMDA1MDAwNDA2NjUwMDA0OTAwNDU2ODU2MDA3NjAwNTA1ODU2MDAxMDAwNTgxODg3MDAyMjAwNTkxMTAxY3IwOTA2MjRzMjAwNiAgICB4eFx8fHx8fHx8fHV8dXx8fHx8fCAgIHx8OCBhMTAxMSBhR3JpZmZpbiwgUm9uYWxkIEMuMTBhV2F0ZXIgcmVzb3VyY2UgZWNvbm9taWNzOyB0aGUgYW5hbHlzaXMgb2Ygc2NhcmNpdHksIHBvbGljaWVzLCBhbmQgcHJvamVjdHMgLiAgYUNhbWJyaWRnZSwgTUE7IExvbmRvbiAgOmJNSVQgUHJlc3MsY2MyMDA2LiAgYXh2LCA0MDIgcC4gOiBpbGwuIC4gIGFlbGVjdHJvbmljIHJlc291cmNlLiAgYUluY2x1ZGVzIGJpYmxpb2dyYXBoaWNhbCByZWZlcmVuY2VzIGFuZCBpbmRleC4gNGFFbGVjdHJvbmljIGJvb2tzLiBsb2NhbCA0YVdhdGVyLXN1cHBseS1Hb3Zlcm5tZW50IHBvbGljeSA0YVdhdGVyLXN1cHBseS1FY29ub21pYyBhc3BlY3RzIDRhV2F0ZXIgcmVzb3VyY2VzIGRldmVsb3BtZW50LUdvdmVybm1lbnQgcG9saWN5IDRhV2F0ZXIgcmVzb3VyY2VzIGRldmVsb3BtZW50LUVjb25vbWljIGFzcGVjdHMgIHlBbiBlbGVjdHJvbmljIGJvb2sgYWNjZXNzaWJsZSB0aHJvdWdoIHRoZSBXb3JsZCBXaWRlIFdlYi0gY2xpY2sgdG8gdmlldyAgdUE1ODQ0ICBhKEVCKUUtYm9va2JDaXJxYQ=="
+      ],
+      "keywords_facet": [
+        "Electronic books. local",
+        "Water resources development-Economic aspects",
+        "Water resources development-Government policy",
+        "Water-supply-Economic aspects",
+        "Water-supply-Government policy"
+      ],
+      "_version_": 1677123653239570400,
+      "medium_facet": [
+        "E-book"
+      ],
+      "yearx_facet": [
+        2006
+      ],
+      "author_facet": [
+        "Griffin, Ronald C."
+      ]
+    },
+    {
+      "id": "EB12429",
+      "stdno": [
+        "EB12429"
+      ],
+      "spell": [
+        "EB12429",
+        "EB",
+        "1",
+        "Any site",
+        "Griffin Ronald C",
+        "Griffin R C",
+        "xv, 402 p. : ill. ",
+        "Water resources development-Economic aspects",
+        "Water resources development-Government policy",
+        "Water-supply-Economic aspects",
+        "Water-supply-Government policy",
+        "Electronic books. local",
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2008. Available via World Wide Web. Access may be limited to ebrary affiliated libraries.",
+        "MIT Press",
+        "Water resource economics; the analysis of scarcity, policies, and projects ",
+        "c2006"
+      ],
+      "gmd": [
+        "EB"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "026207267X"
+      ],
+      "solr_author": [
+        "Griffin Ronald C",
+        "Griffin R C"
+      ],
+      "collation": [
+        "xv, 402 p. : ill. "
+      ],
+      "keywords": [
+        "Water resources development-Economic aspects",
+        "Water resources development-Government policy",
+        "Water-supply-Economic aspects",
+        "Water-supply-Government policy",
+        "Electronic books. local"
+      ],
+      "medium": [
+        "E-book"
+      ],
+      "notesenq": [
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2008. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "place": [
+        "Cambridge, MA; London "
+      ],
+      "publisher": [
+        "MIT Press"
+      ],
+      "title": [
+        "Water resource economics; the analysis of scarcity, policies, and projects "
+      ],
+      "year": [
+        "c2006"
+      ],
+      "yearx": [
+        2006
+      ],
+      "solr_entry_date": [
+        "2009-06-24T00:00:00Z"
+      ],
+      "yearsort_sort": "2006",
+      "titlesort_sort": "water resource economics; the analysis of scarcity, policies, and projects",
+      "author1_sort": "griffin, ronald c.",
+      "medium_sort": "e-book",
+      "authfs_stored": [
+        "Ronald C. Griffin"
+      ],
+      "title_stored": [
+        "Water resource economics; the analysis of scarcity, policies, and projects "
+      ],
+      "keywords_stored": [
+        "Water resources development-Economic aspects",
+        "Water resources development-Government policy",
+        "Water-supply-Economic aspects",
+        "Water-supply-Government policy",
+        "Electronic books. local"
+      ],
+      "notes_stored": [
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2008. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "stdno_stored": [
+        "EB12429"
+      ],
+      "imprint_stored": [
+        "Cambridge, MA; London: MIT Press, c2006"
+      ],
+      "marc_exchange_stored": [
+        "MDA4NjNubW0gYTIyMDAyNDEgICA0NTAwMDAxMDAwODAwMDAwMDA3MDAwMzAwMDA4MDA4MDA0MTAwMDExMDI0MDAxMjAwMDUyMTAwMDAyMzAwMDY0MjQ1MDA4MTAwMDg3MjYwMDA0OTAwMTY4MzAwMDAyNDAwMjE3MzQwMDAyNTAwMjQxNTA0MDA1MTAwMjY2NjUwMDAyODAwMzE3NjUwMDAzNTAwMzQ1NjUwMDAzNDAwMzgwNjUwMDA1MDAwNDE0NjUwMDA0OTAwNDY0ODU2MDA3NjAwNTEzODU2MDAxMDAwNTg5ODg3MDAyMjAwNTk5RUIxMjQyOWNyMDkwNjI0czIwMDYgICAgeHhcfHx8fHx8fHx1fHV8fHx8fHwgICB8fDggYUVCMTI0MjkxIGFHcmlmZmluLCBSb25hbGQgQy4xMGFXYXRlciByZXNvdXJjZSBlY29ub21pY3M7IHRoZSBhbmFseXNpcyBvZiBzY2FyY2l0eSwgcG9saWNpZXMsIGFuZCBwcm9qZWN0cyAuICBhQ2FtYnJpZGdlLCBNQTsgTG9uZG9uICA6Yk1JVCBQcmVzcyxjYzIwMDYuICBheHYsIDQwMiBwLiA6IGlsbC4gLiAgYWVsZWN0cm9uaWMgcmVzb3VyY2UuICBhSW5jbHVkZXMgYmlibGlvZ3JhcGhpY2FsIHJlZmVyZW5jZXMgYW5kIGluZGV4LiA0YUVsZWN0cm9uaWMgYm9va3MuIGxvY2FsIDRhV2F0ZXItc3VwcGx5LUdvdmVybm1lbnQgcG9saWN5IDRhV2F0ZXItc3VwcGx5LUVjb25vbWljIGFzcGVjdHMgNGFXYXRlciByZXNvdXJjZXMgZGV2ZWxvcG1lbnQtR292ZXJubWVudCBwb2xpY3kgNGFXYXRlciByZXNvdXJjZXMgZGV2ZWxvcG1lbnQtRWNvbm9taWMgYXNwZWN0cyAgeUFuIGVsZWN0cm9uaWMgYm9vayBhY2Nlc3NpYmxlIHRocm91Z2ggdGhlIFdvcmxkIFdpZGUgV2ViLSBjbGljayB0byB2aWV3ICB1QTU4NDQgIGEoRUIpRS1ib29rYkNpcnFh"
+      ],
+      "keywords_facet": [
+        "Electronic books. local",
+        "Water resources development-Economic aspects",
+        "Water resources development-Government policy",
+        "Water-supply-Economic aspects",
+        "Water-supply-Government policy"
+      ],
+      "_version_": 1677123701114404900,
+      "medium_facet": [
+        "E-book"
+      ],
+      "yearx_facet": [
+        2006
+      ],
+      "author_facet": [
+        "Griffin, Ronald C."
+      ]
+    },
+    {
+      "id": "9780070381834",
+      "stdno": [
+        "9780070381834"
+      ],
+      "spell": [
+        "9780070381834",
+        "KNO",
+        "1",
+        "Any site",
+        "The only hands-on reference of its kind, this book provides calculation procedures for solid waste management; air resources management; water quality assessment and control; surface water; lake and reservoirs; groundwater; public water supply; waste water treatment; and risk assessment/pollution prevention. Each procedure is presented with fully illustrated steps. This book shows the integration of regulatory requirements into environmental design, so that the resulting designs are more acceptable to regulators.",
+        "Lee C C ; Dar Lin S",
+        "Lee C C ; D L S",
+        "The only hands-on reference of its kind, this book provides calculation procedures for solid waste management; air resources management; water quality assessment and control; surface water; lake and reservoirs; groundwater; public water supply; waste water treatment; and risk assessment/pollution prevention. Each procedure is presented with fully illustrated steps. This book shows the integration of regulatory requirements into environmental design, so that the resulting designs are more acceptable to regulators.",
+        "McGraw-Hill",
+        "Handbook of Environmental Engineering Calculations",
+        "2000"
+      ],
+      "gmd": [
+        "KNO"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "1591244013"
+      ],
+      "abstract": [
+        "The only hands-on reference of its kind, this book provides calculation procedures for solid waste management; air resources management; water quality assessment and control; surface water; lake and reservoirs; groundwater; public water supply; waste water treatment; and risk assessment/pollution prevention. Each procedure is presented with fully illustrated steps. This book shows the integration of regulatory requirements into environmental design, so that the resulting designs are more acceptable to regulators."
+      ],
+      "solr_author": [
+        "Lee C C ; Dar Lin S",
+        "Lee C C ; D L S"
+      ],
+      "medium": [
+        "Knovel e-book"
+      ],
+      "notesenq": [
+        "The only hands-on reference of its kind, this book provides calculation procedures for solid waste management; air resources management; water quality assessment and control; surface water; lake and reservoirs; groundwater; public water supply; waste water treatment; and risk assessment/pollution prevention. Each procedure is presented with fully illustrated steps. This book shows the integration of regulatory requirements into environmental design, so that the resulting designs are more acceptable to regulators."
+      ],
+      "publisher": [
+        "McGraw-Hill"
+      ],
+      "title": [
+        "Handbook of Environmental Engineering Calculations"
+      ],
+      "year": [
+        "2000"
+      ],
+      "yearx": [
+        2000
+      ],
+      "solr_entry_date": [
+        "2011-12-05T00:00:00Z"
+      ],
+      "yearsort_sort": "2000",
+      "titlesort_sort": "handbook of environmental engineering calculations",
+      "author1_sort": "lee, c.c.; dar lin s.",
+      "medium_sort": "knovel e-book",
+      "authfs_stored": [
+        "C.C.; Dar Lin S. Lee"
+      ],
+      "title_stored": [
+        "Handbook of Environmental Engineering Calculations"
+      ],
+      "abstract_stored": [
+        "The only hands-on reference of its kind, this book provides calculation procedures for solid waste management; air resources management; water quality assessment and control; surface water; lake and reservoirs; groundwater; public water supply; waste water treatment; and risk assessment/pollution prevention. Each procedure is presented with fully illustrated steps. This book shows the integration of regulatory requirements into environmental design, so that the resulting designs are more acceptable to regulators."
+      ],
+      "notes_stored": [
+        "The only hands-on reference of its kind, this book provides calculation procedures for solid waste management; air resources management; water quality assessment and control; surface water; lake and reservoirs; groundwater; public water supply; waste water treatment; and risk assessment/pollution prevention. Each procedure is presented with fully illustrated steps. This book shows the integration of regulatory requirements into environmental design, so that the resulting designs are more acceptable to regulators."
+      ],
+      "stdno_stored": [
+        "9780070381834"
+      ],
+      "imprint_stored": [
+        "McGraw-Hill, 2000"
+      ],
+      "marc_exchange_stored": [
+        "MDAzNThuYW0gYTIyMDAxMzMgICA0NTAwMDAxMDAxNDAwMDAwMDA4MDA0MTAwMDE0MDIwMDAxODAwMDU1MTAwMDAyODAwMDczMjQ1MDA1NjAwMTAxMjYwMDAxMDAwMTU3MjYwMDAxNzAwMTY3ODU2MDAxMDAwMTg0ODg3MDAzMDAwMTk0OTc4MDA3MDM4MTgzNDExMTIwNXMyMDAwICAgIHh4XHx8fHx8fHx8fHx1fHx8IDB8ICAgfHwgIGE5NzgwMDcwMzgxODM0MSBhTGVlLCBDLiBDLiA7IERhciBMaW4gUy4xMGFIYW5kYm9vayBvZiBFbnZpcm9ubWVudGFsIEVuZ2luZWVyaW5nIENhbGN1bGF0aW9ucy4gIGMyMDAwLiAgYk1jR3Jhdy1IaWxsLiAgdUEwMjcyICBhKEtOTylLbm92ZWwgZS1ib29rYkNpcnFh"
+      ],
+      "_version_": 1677123703097262000,
+      "medium_facet": [
+        "Knovel e-book"
+      ],
+      "yearx_facet": [
+        2000
+      ],
+      "author_facet": [
+        "Lee, C.C.; Dar Lin S."
+      ]
+    },
+    {
+      "id": "0873711998",
+      "stdno": [
+        "0873711998"
+      ],
+      "spell": [
+        "0873711998",
+        "T",
+        "1",
+        "Main site",
+        "Adams V Dean",
+        "Adams V D",
+        "628.16",
+        "SEWAGE",
+        "SEWERAGE",
+        "WASTEWATER",
+        "WATER TREATMENT",
+        "Lewis Publishers",
+        "Engineering",
+        "Sanitary and Municipal Engineering",
+        "Water and wastewater examination manual",
+        "1990"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Main site"
+      ],
+      "imageisn_stored": [
+        "0873711998"
+      ],
+      "solr_author": [
+        "Adams V Dean",
+        "Adams V D"
+      ],
+      "class": [
+        "628.16"
+      ],
+      "keywords": [
+        "SEWAGE",
+        "SEWERAGE",
+        "WASTEWATER",
+        "WATER TREATMENT"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "publisher": [
+        "Lewis Publishers"
+      ],
+      "subjects": [
+        "Engineering",
+        "Sanitary and Municipal Engineering"
+      ],
+      "title": [
+        "Water and wastewater examination manual"
+      ],
+      "year": [
+        "1990"
+      ],
+      "yearx": [
+        1990
+      ],
+      "solr_entry_date": [
+        "1995-04-14T00:00:00Z"
+      ],
+      "yearsort_sort": "1990",
+      "classsort1_sort": "628.16",
+      "titlesort_sort": "water and wastewater examination manual",
+      "author1_sort": "adams, v dean",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "V Dean Adams"
+      ],
+      "title_stored": [
+        "Water and wastewater examination manual"
+      ],
+      "class_stored": [
+        "628.16"
+      ],
+      "keywords_stored": [
+        "SEWAGE",
+        "SEWERAGE",
+        "WASTEWATER",
+        "WATER TREATMENT"
+      ],
+      "stdno_stored": [
+        "0873711998"
+      ],
+      "imprint_stored": [
+        "Lewis Publishers, 1990"
+      ],
+      "marc_exchange_stored": [
+        "MDA1MzFuYW0gYTIyMDAyMTcgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxNTAwMDU1MDgyMDAxNDAwMDcwMTAwMDAxOTAwMDg0MjQ1MDA0NTAwMTAzMjYwMDAxMDAwMTQ4MjYwMDAyMjAwMTU4NjUwMDAzOTAwMTgwNjUwMDAxNjAwMjE5NjUwMDAyMDAwMjM1NjUwMDAxNTAwMjU1NjUwMDAxMzAwMjcwNjUwMDAxMTAwMjgzODg3MDAxOTAwMjk0MDg3MzcxMTk5OHRhOTUwNDE0czE5OTAgICAgeHhcfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgYTA4NzM3MTE5OTgwIGJYYTYyOC4xNjEgYUFkYW1zLCBWIERlYW4uMTBhV2F0ZXIgYW5kIHdhc3Rld2F0ZXIgZXhhbWluYXRpb24gbWFudWFsLiAgYzE5OTAuICBiTGV3aXMgUHVibGlzaGVycy4gN2FTYW5pdGFyeSBhbmQgTXVuaWNpcGFsIEVuZ2luZWVyaW5nIDdhRW5naW5lZXJpbmcgNGFXQVRFUiBUUkVBVE1FTlQgNGFXQVNURVdBVEVSIDRhU0VXRVJBR0UgNGFTRVdBR0UgIGEoVClUZXh0YkNpcnFh"
+      ],
+      "keywords_facet": [
+        "SEWAGE",
+        "SEWERAGE",
+        "WASTEWATER",
+        "WATER TREATMENT"
+      ],
+      "_version_": 1677123641901318100,
+      "class_facet": [
+        "628.16"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1990
+      ],
+      "author_facet": [
+        "Adams, V Dean"
+      ],
+      "subjects_facet": [
+        "Engineering",
+        "Sanitary and Municipal Engineering"
+      ]
+    },
+    {
+      "id": "0716700794",
+      "stdno": [
+        "0716700794"
+      ],
+      "spell": [
+        "0716700794",
+        "T",
+        "1",
+        "Annex library",
+        "Dunne Thomas",
+        "Dunne T",
+        "Leopold Luna B",
+        "Leopold L B",
+        "551.48",
+        "Environment",
+        "Hydrology",
+        "Regional planning",
+        "Water",
+        "Freeman",
+        "Earth Sciences",
+        "Geography",
+        "Geology, Hydrology, Meteorology",
+        "Water in environmental planning",
+        "1978"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Annex library"
+      ],
+      "imageisn_stored": [
+        "0716700794"
+      ],
+      "solr_author": [
+        "Dunne Thomas",
+        "Dunne T",
+        "Leopold Luna B",
+        "Leopold L B"
+      ],
+      "class": [
+        "551.48"
+      ],
+      "keywords": [
+        "Environment",
+        "Hydrology",
+        "Regional planning",
+        "Water"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "place": [
+        "OXFORD"
+      ],
+      "publisher": [
+        "Freeman"
+      ],
+      "subjects": [
+        "Earth Sciences",
+        "Geography",
+        "Geology, Hydrology, Meteorology"
+      ],
+      "title": [
+        "Water in environmental planning"
+      ],
+      "year": [
+        "1978"
+      ],
+      "yearx": [
+        1978
+      ],
+      "solr_entry_date": [
+        "1995-03-02T00:00:00Z"
+      ],
+      "solr_price": [
+        68.5
+      ],
+      "yearsort_sort": "1978",
+      "classsort1_sort": "551.48",
+      "titlesort_sort": "water in environmental planning",
+      "author1_sort": "dunne, thomas",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "Thomas Dunne",
+        "Luna B Leopold"
+      ],
+      "title_stored": [
+        "Water in environmental planning"
+      ],
+      "class_stored": [
+        "551.48"
+      ],
+      "keywords_stored": [
+        "Environment",
+        "Hydrology",
+        "Regional planning",
+        "Water"
+      ],
+      "stdno_stored": [
+        "0716700794"
+      ],
+      "imprint_stored": [
+        "OXFORD: Freeman, 1978"
+      ],
+      "marc_exchange_stored": [
+        "MDA1OTRuYW0gYTIyMDAyNDEgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMTAwMDU1MDIwMDAxNTAwMDY2MDgyMDAxNDAwMDgxMTAwMDAxOTAwMDk1MjQ1MDAzNzAwMTE0MjYwMDAzMDAwMTUxNjUwMDAzNjAwMTgxNjUwMDAxNDAwMjE3NjUwMDAxOTAwMjMxNjUwMDAxMDAwMjUwNjUwMDAyMjAwMjYwNjUwMDAxNDAwMjgyNjUwMDAxNjAwMjk2NzAwMDAyMTAwMzEyODg3MDAxOTAwMzMzMDcxNjcwMDc5NHRhOTUwMzAyczE5NzggICAgZW5rfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6M2OC41MCAgYTA3MTY3MDA3OTQwIGJBYTU1MS40ODEgYUR1bm5lLCBUaG9tYXMuMTBhV2F0ZXIgaW4gZW52aXJvbm1lbnRhbCBwbGFubmluZy4gIGFPWEZPUkQgOmJGcmVlbWFuLGMxOTc4LiA3YUdlb2xvZ3ksIEh5ZHJvbG9neSwgTWV0ZW9yb2xvZ3kgN2FHZW9ncmFwaHkgN2FFYXJ0aCBTY2llbmNlcyA0YVdhdGVyIDRhUmVnaW9uYWwgcGxhbm5pbmcgNGFIeWRyb2xvZ3kgNGFFbnZpcm9ubWVudDEgYUxlb3BvbGQsIEx1bmEgQi4gIGEoVClUZXh0YkNpcnFh"
+      ],
+      "keywords_facet": [
+        "Environment",
+        "Hydrology",
+        "Regional planning",
+        "Water"
+      ],
+      "_version_": 1677123613998710800,
+      "class_facet": [
+        "551.48"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1978
+      ],
+      "author_facet": [
+        "Dunne, Thomas",
+        "Leopold, Luna B"
+      ],
+      "subjects_facet": [
+        "Earth Sciences",
+        "Geography",
+        "Geology, Hydrology, Meteorology"
+      ]
+    },
+    {
+      "id": "0114002843",
+      "stdno": [
+        "0114002843"
+      ],
+      "spell": [
+        "0114002843",
+        "T",
+        "1",
+        "Middle of Nowhere",
+        "Meteorological Office",
+        "551.5",
+        "xxi,324p,plate, ill, charts(chiefly col), 1col map, 28cm",
+        "CLIMATE",
+        "COASTAL WATERS",
+        "NORTH ATLANTIC OCEAN",
+        "WEATHER",
+        "H.M.S.O.",
+        "Meteorology",
+        "Earth Sciences",
+        "Geography",
+        "Geology, Hydrology, Meteorology",
+        "Weather in home waters; Vol.2 : The waters around the British Isles and the Baltic : (the north-eastern Atlantic from 48N to 60N and east of 25W, and the Baltic to 30E and 66N). Part 1",
+        "1975"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Middle of Nowhere"
+      ],
+      "imageisn_stored": [
+        "0114002843"
+      ],
+      "solr_author": [
+        "Meteorological Office"
+      ],
+      "class": [
+        "551.5"
+      ],
+      "collation": [
+        "xxi,324p,plate, ill, charts(chiefly col), 1col map, 28cm"
+      ],
+      "keywords": [
+        "CLIMATE",
+        "COASTAL WATERS",
+        "NORTH ATLANTIC OCEAN",
+        "WEATHER"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "publisher": [
+        "H.M.S.O."
+      ],
+      "subjects": [
+        "Meteorology",
+        "Earth Sciences",
+        "Geography",
+        "Geology, Hydrology, Meteorology"
+      ],
+      "title": [
+        "Weather in home waters; Vol.2 : The waters around the British Isles and the Baltic : (the north-eastern Atlantic from 48N to 60N and east of 25W, and the Baltic to 30E and 66N). Part 1"
+      ],
+      "year": [
+        "1975"
+      ],
+      "yearx": [
+        1975
+      ],
+      "solr_entry_date": [
+        "1995-04-13T00:00:00Z"
+      ],
+      "solr_price": [
+        22.86
+      ],
+      "yearsort_sort": "1975",
+      "classsort1_sort": "551.5",
+      "titlesort_sort": "weather in home waters; vol 2 : the waters around the british isles and the baltic : the north-eastern atlantic from 48n to 60n and east of 25w, and the baltic to 30e and 66n part 1",
+      "author1_sort": "meteorological office",
+      "medium_sort": "text",
+      "corpauthor_stored": [
+        "Meteorological Office"
+      ],
+      "title_stored": [
+        "Weather in home waters; Vol.2 : The waters around the British Isles and the Baltic : (the north-eastern Atlantic from 48N to 60N and east of 25W, and the Baltic to 30E and 66N). Part 1"
+      ],
+      "class_stored": [
+        "551.5"
+      ],
+      "keywords_stored": [
+        "CLIMATE",
+        "COASTAL WATERS",
+        "NORTH ATLANTIC OCEAN",
+        "WEATHER"
+      ],
+      "stdno_stored": [
+        "0114002843"
+      ],
+      "imprint_stored": [
+        "H.M.S.O., 1975"
+      ],
+      "marc_exchange_stored": [
+        "MDA4MzNuYW0gYTIyMDAyNjUgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMTAwMDU1MDIwMDAxNTAwMDY2MDgyMDAxMzAwMDgxMTEwMDAyNjAwMDk0MjQ1MDE5MDAwMTIwMjYwMDAxMDAwMzEwMjYwMDAxMzAwMzIwMzAwMDA2MjAwMzMzNjUwMDAzNjAwMzk1NjUwMDAxNDAwNDMxNjUwMDAxOTAwNDQ1NjUwMDAxNjAwNDY0NjUwMDAxMjAwNDgwNjUwMDAyNTAwNDkyNjUwMDAxOTAwNTE3NjUwMDAxMjAwNTM2ODg3MDAxOTAwNTQ4MDExNDAwMjg0M3RhOTUwNDEzczE5NzUgICAgeHhcfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6MyMi44NiAgYTAxMTQwMDI4NDMwIGJTYTU1MS41MiBhTWV0ZW9yb2xvZ2ljYWwgT2ZmaWNlMTBhV2VhdGhlciBpbiBob21lIHdhdGVyczsgVm9sLjIgOiBUaGUgd2F0ZXJzIGFyb3VuZCB0aGUgQnJpdGlzaCBJc2xlcyBhbmQgdGhlIEJhbHRpYyA6ICh0aGUgbm9ydGgtZWFzdGVybiBBdGxhbnRpYyBmcm9tIDQ4TiB0byA2ME4gYW5kIGVhc3Qgb2YgMjVXLCBhbmQgdGhlIEJhbHRpYyB0byAzMEUgYW5kIDY2TikuIFBhcnQgMS4gIGMxOTc1LiAgYkguTS5TLk8uICBheHhpLDMyNHAscGxhdGUsIGlsbCwgY2hhcnRzKGNoaWVmbHkgY29sKSwgMWNvbCBtYXAsIDI4Y20uIDdhR2VvbG9neSwgSHlkcm9sb2d5LCBNZXRlb3JvbG9neSA3YUdlb2dyYXBoeSA3YUVhcnRoIFNjaWVuY2VzIDdhTWV0ZW9yb2xvZ3kgNGFXRUFUSEVSIDRhTk9SVEggQVRMQU5USUMgT0NFQU4gNGFDT0FTVEFMIFdBVEVSUyA0YUNMSU1BVEUgIGEoVClUZXh0YkNpcnFh"
+      ],
+      "keywords_facet": [
+        "CLIMATE",
+        "COASTAL WATERS",
+        "NORTH ATLANTIC OCEAN",
+        "WEATHER"
+      ],
+      "_version_": 1677123653222793200,
+      "class_facet": [
+        "551.5"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1975
+      ],
+      "author_facet": [
+        "Meteorological Office"
+      ],
+      "subjects_facet": [
+        "Earth Sciences",
+        "Geography",
+        "Geology, Hydrology, Meteorology",
+        "Meteorology"
+      ]
+    },
+    {
+      "id": "EB10703",
+      "stdno": [
+        "EB10703"
+      ],
+      "spell": [
+        "EB10703",
+        "EB",
+        "1",
+        "Any site",
+        "628.1684",
+        "xii, 502 p. : ill. ",
+        "Agricultural pollution-Environmental aspects",
+        "Water-Pollution",
+        "Hydrology",
+        "Water quality",
+        "Electronic books. local",
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries.",
+        "CABI",
+        "Agriculture, hydrology, and water quality",
+        "c2002"
+      ],
+      "gmd": [
+        "EB"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "0851995454"
+      ],
+      "class": [
+        "628.1684"
+      ],
+      "collation": [
+        "xii, 502 p. : ill. "
+      ],
+      "keywords": [
+        "Agricultural pollution-Environmental aspects",
+        "Water-Pollution",
+        "Hydrology",
+        "Water quality",
+        "Electronic books. local"
+      ],
+      "medium": [
+        "E-book"
+      ],
+      "notesenq": [
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "place": [
+        "Wallingford,; New York "
+      ],
+      "publisher": [
+        "CABI"
+      ],
+      "title": [
+        "Agriculture, hydrology, and water quality"
+      ],
+      "year": [
+        "c2002"
+      ],
+      "yearx": [
+        2002
+      ],
+      "solr_entry_date": [
+        "2009-06-24T00:00:00Z"
+      ],
+      "yearsort_sort": "2002",
+      "classsort1_sort": "628.1684",
+      "titlesort_sort": "agriculture, hydrology, and water quality",
+      "author1_sort": "haygarth, p.m.",
+      "medium_sort": "e-book",
+      "authfs_stored": [
+        "P.M. Haygarth",
+        "S.C. Jarvis"
+      ],
+      "title_stored": [
+        "Agriculture, hydrology, and water quality"
+      ],
+      "class_stored": [
+        "628.1684"
+      ],
+      "keywords_stored": [
+        "Agricultural pollution-Environmental aspects",
+        "Water-Pollution",
+        "Hydrology",
+        "Water quality",
+        "Electronic books. local"
+      ],
+      "notes_stored": [
+        "electronic resource",
+        "Includes bibliographical references and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "stdno_stored": [
+        "EB10703"
+      ],
+      "imprint_stored": [
+        "Wallingford,; New York: CABI, c2002"
+      ],
+      "marc_exchange_stored": [
+        "MDA3ODZubW0gYTIyMDAyNTMgICA0NTAwMDAxMDAwODAwMDAwMDA3MDAwMzAwMDA4MDA4MDA0MTAwMDExMDI0MDAxMjAwMDUyMTAwMDAyMDAwMDY0MjQ1MDA0NzAwMDg0MjYwMDA0NTAwMTMxMzAwMDAyNTAwMTc2MzQwMDAyNTAwMjAxNTA0MDA1MTAwMjI2NjUwMDAyODAwMjc3NjUwMDAxODAwMzA1NjUwMDAxNDAwMzIzNjUwMDAyMDAwMzM3NjUwMDA0OTAwMzU3NzAwMDAxODAwNDA2ODU2MDA3NjAwNDI0ODU2MDAxMDAwNTAwODg3MDAyMjAwNTEwRUIxMDcwM2NyMDkwNjI0czIwMDIgICAgeHhcfHx8fHx8fHx1fHV8fHx8fHwgICB8fDggYUVCMTA3MDMxIGFIYXlnYXJ0aCwgUC4gTS4xMGFBZ3JpY3VsdHVyZSwgaHlkcm9sb2d5LCBhbmQgd2F0ZXIgcXVhbGl0eS4gIGFXYWxsaW5nZm9yZCw7IE5ldyBZb3JrICA6YkNBQkksY2MyMDAyLiAgYXhpaSwgNTAyIHAuIDogaWxsLiAuICBhZWxlY3Ryb25pYyByZXNvdXJjZS4gIGFJbmNsdWRlcyBiaWJsaW9ncmFwaGljYWwgcmVmZXJlbmNlcyBhbmQgaW5kZXguIDRhRWxlY3Ryb25pYyBib29rcy4gbG9jYWwgNGFXYXRlciBxdWFsaXR5IDRhSHlkcm9sb2d5IDRhV2F0ZXItUG9sbHV0aW9uIDRhQWdyaWN1bHR1cmFsIHBvbGx1dGlvbi1FbnZpcm9ubWVudGFsIGFzcGVjdHMxIGFKYXJ2aXMsIFMuIEMuICB5QW4gZWxlY3Ryb25pYyBib29rIGFjY2Vzc2libGUgdGhyb3VnaCB0aGUgV29ybGQgV2lkZSBXZWItIGNsaWNrIHRvIHZpZXcgIHVBNDc2NiAgYShFQilFLWJvb2tiQ2lycWE="
+      ],
+      "keywords_facet": [
+        "Agricultural pollution-Environmental aspects",
+        "Electronic books. local",
+        "Hydrology",
+        "Water quality",
+        "Water-Pollution"
+      ],
+      "_version_": 1677123619897999400,
+      "class_facet": [
+        "628.1684"
+      ],
+      "medium_facet": [
+        "E-book"
+      ],
+      "yearx_facet": [
+        2002
+      ],
+      "author_facet": [
+        "Haygarth, P.M.",
+        "Jarvis, S.C."
+      ]
+    },
+    {
+      "id": "0713132396",
+      "stdno": [
+        "0713132396"
+      ],
+      "spell": [
+        "0713132396",
+        "T",
+        "1",
+        "Main site",
+        "United Kingdom Committee on The Properties of Steam",
+        "Electrical Research Association",
+        "621.401083",
+        "xii,161p, ill(some col), 31cm",
+        "Physical properties",
+        "Steam",
+        "Tables",
+        "Tables, calculations, etc",
+        "Based on the 1967 steam tables published by the Electrical Research Association",
+        "Edward Arnold",
+        "Engineering",
+        "Applied Physics",
+        "UK steam tables in SI units, 1970 - thermodynamic properties of water and steam, viscosity of water and steam, thermal conductivity of water and steam, graphs for boiler feed pump calculations",
+        "1970"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Main site"
+      ],
+      "imageisn_stored": [
+        "0713132396"
+      ],
+      "solr_author": [
+        "United Kingdom Committee on The Properties of Steam",
+        "Electrical Research Association"
+      ],
+      "class": [
+        "621.401083"
+      ],
+      "collation": [
+        "xii,161p, ill(some col), 31cm"
+      ],
+      "keywords": [
+        "Physical properties",
+        "Steam",
+        "Tables",
+        "Tables, calculations, etc"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "notesenq": [
+        "Based on the 1967 steam tables published by the Electrical Research Association"
+      ],
+      "place": [
+        "London"
+      ],
+      "publisher": [
+        "Edward Arnold"
+      ],
+      "subjects": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "title": [
+        "UK steam tables in SI units, 1970 - thermodynamic properties of water and steam, viscosity of water and steam, thermal conductivity of water and steam, graphs for boiler feed pump calculations"
+      ],
+      "year": [
+        "1970"
+      ],
+      "yearx": [
+        1970
+      ],
+      "solr_entry_date": [
+        "1995-05-18T00:00:00Z"
+      ],
+      "solr_price": [
+        7.62
+      ],
+      "yearsort_sort": "1970",
+      "classsort1_sort": "621.401083",
+      "titlesort_sort": "uk steam tables in si units, 1970 - thermodynamic properties of water and steam, viscosity of water and steam, thermal conductivity of water and steam, graphs for boiler feed pump calculations",
+      "author1_sort": "united kingdom committee on the properties of steam",
+      "medium_sort": "text",
+      "corpauthor_stored": [
+        "United Kingdom Committee on The Properties of Steam",
+        "Electrical Research Association"
+      ],
+      "title_stored": [
+        "UK steam tables in SI units, 1970 - thermodynamic properties of water and steam, viscosity of water and steam, thermal conductivity of water and steam, graphs for boiler feed pump calculations"
+      ],
+      "class_stored": [
+        "621.401083"
+      ],
+      "keywords_stored": [
+        "Physical properties",
+        "Steam",
+        "Tables",
+        "Tables, calculations, etc"
+      ],
+      "notes_stored": [
+        "Based on the 1967 steam tables published by the Electrical Research Association"
+      ],
+      "stdno_stored": [
+        "0713132396"
+      ],
+      "imprint_stored": [
+        "London: Edward Arnold, 1970"
+      ],
+      "marc_exchange_stored": [
+        "MDA4MzFuYW0gYTIyMDAyNDEgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMDAwMDU1MDIwMDAxNTAwMDY1MDgyMDAxODAwMDgwMTEwMDA1NjAwMDk4MTEwMDAzNjAwMTU0MjQ1MDE5ODAwMTkwMjYwMDAzNjAwMzg4MzAwMDAzNTAwNDI0NjUwMDAyMDAwNDU5NjUwMDAxNjAwNDc5NjUwMDAzMDAwNDk1NjUwMDAxMTAwNTI1NjUwMDAxMDAwNTM2NjUwMDAyNDAwNTQ2ODg3MDAxOTAwNTcwMDcxMzEzMjM5NnRhOTUwNTE4czE5NzAgICAgZW5rfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6M3LjYyICBhMDcxMzEzMjM5NjAgYk1hNjIxLjQwMTA4MzIgYVVuaXRlZCBLaW5nZG9tIENvbW1pdHRlZSBvbiBUaGUgUHJvcGVydGllcyBvZiBTdGVhbTIgYUVsZWN0cmljYWwgUmVzZWFyY2ggQXNzb2NpYXRpb24xMGFVSyBzdGVhbSB0YWJsZXMgaW4gU0kgdW5pdHMsIDE5NzAgLSB0aGVybW9keW5hbWljIHByb3BlcnRpZXMgb2Ygd2F0ZXIgYW5kIHN0ZWFtLCB2aXNjb3NpdHkgb2Ygd2F0ZXIgYW5kIHN0ZWFtLCB0aGVybWFsIGNvbmR1Y3Rpdml0eSBvZiB3YXRlciBhbmQgc3RlYW0sIGdyYXBocyBmb3IgYm9pbGVyIGZlZWQgcHVtcCBjYWxjdWxhdGlvbnMuICBhTG9uZG9uIDpiRWR3YXJkIEFybm9sZCxjMTk3MC4gIGF4aWksMTYxcCwgaWxsKHNvbWUgY29sKSwgMzFjbS4gN2FBcHBsaWVkIFBoeXNpY3MgN2FFbmdpbmVlcmluZyA0YVRhYmxlcywgY2FsY3VsYXRpb25zLCBldGMgNGFUYWJsZXMgNGFTdGVhbSA0YVBoeXNpY2FsIHByb3BlcnRpZXMgIGEoVClUZXh0YkNpcnFh"
+      ],
+      "keywords_facet": [
+        "Physical properties",
+        "Steam",
+        "Tables",
+        "Tables, calculations, etc"
+      ],
+      "_version_": 1677123629777682400,
+      "class_facet": [
+        "621.401083"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1970
+      ],
+      "author_facet": [
+        "Electrical Research Association",
+        "United Kingdom Committee on The Properties of Steam"
+      ],
+      "subjects_facet": [
+        "Applied Physics",
+        "Engineering"
+      ]
+    },
+    {
+      "id": "0860208028",
+      "stdno": [
+        "0860208028"
+      ],
+      "spell": [
+        "0860208028",
+        "T",
+        "1",
+        "Annex library",
+        "Waters Gaby",
+        "Waters G",
+        "005.133",
+        "BASIC",
+        "BASIC Programming",
+        "Computer Programming",
+        "Computers",
+        "Computing",
+        "Programming",
+        "Usborne",
+        "Computer Studies",
+        "Specific Programming Languages",
+        "Computer Programming",
+        "Programming and Software Engineering",
+        "General Subjects",
+        "Programming Languages",
+        "First Computer Library: Simple BASIC",
+        "1984"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Annex library"
+      ],
+      "imageisn_stored": [
+        "0860208028"
+      ],
+      "solr_author": [
+        "Waters Gaby",
+        "Waters G"
+      ],
+      "class": [
+        "005.133"
+      ],
+      "keywords": [
+        "BASIC",
+        "BASIC Programming",
+        "Computer Programming",
+        "Computers",
+        "Computing",
+        "Programming"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "publisher": [
+        "Usborne"
+      ],
+      "subjects": [
+        "Computer Studies",
+        "Specific Programming Languages",
+        "Computer Programming",
+        "Programming and Software Engineering",
+        "General Subjects",
+        "Programming Languages"
+      ],
+      "title": [
+        "First Computer Library: Simple BASIC"
+      ],
+      "year": [
+        "1984"
+      ],
+      "yearx": [
+        1984
+      ],
+      "solr_entry_date": [
+        "1995-06-08T00:00:00Z"
+      ],
+      "solr_price": [
+        5.02
+      ],
+      "yearsort_sort": "1984",
+      "classsort1_sort": "005.133",
+      "titlesort_sort": "first computer library: simple basic",
+      "author1_sort": "waters, gaby",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "Gaby Waters"
+      ],
+      "title_stored": [
+        "First Computer Library: Simple BASIC"
+      ],
+      "class_stored": [
+        "005.133"
+      ],
+      "keywords_stored": [
+        "BASIC",
+        "BASIC Programming",
+        "Computer Programming",
+        "Computers",
+        "Computing",
+        "Programming"
+      ],
+      "stdno_stored": [
+        "0860208028"
+      ],
+      "imprint_stored": [
+        "Usborne, 1984"
+      ],
+      "marc_exchange_stored": [
+        "MDA3MzhuYW0gYTIyMDAyODkgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMDAwMDU1MDIwMDAxNTAwMDY1MDgyMDAxNTAwMDgwMTAwMDAxODAwMDk1MjQ1MDA0MjAwMTEzMjYwMDAxMDAwMTU1MjYwMDAxMzAwMTY1NjUwMDAyNjAwMTc4NjUwMDAyMTAwMjA0NjUwMDA0MTAwMjI1NjUwMDAyNTAwMjY2NjUwMDAzNTAwMjkxNjUwMDAyMTAwMzI2NjUwMDAxNjAwMzQ3NjUwMDAxNDAwMzYzNjUwMDAxNDAwMzc3NjUwMDAyNTAwMzkxNjUwMDAyMjAwNDE2NjUwMDAxMDAwNDM4MDg2MDIwODAyOHRhOTUwNjI4czE5ODQgICAgeHhcfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6M1LjAyICBhMDg2MDIwODAyODAgYkFhMDA1LjEzMzEgYVdhdGVycywgR2FieS4xMGFGaXJzdCBDb21wdXRlciBMaWJyYXJ5OiBTaW1wbGUgQkFTSUMuICBjMTk4NC4gIGJVc2Jvcm5lLiA3YVByb2dyYW1taW5nIExhbmd1YWdlcyA3YUdlbmVyYWwgU3ViamVjdHMgN2FQcm9ncmFtbWluZyBhbmQgU29mdHdhcmUgRW5naW5lZXJpbmcgN2FDb21wdXRlciBQcm9ncmFtbWluZyA3YVNwZWNpZmljIFByb2dyYW1taW5nIExhbmd1YWdlcyA3YUNvbXB1dGVyIFN0dWRpZXMgNGFQcm9ncmFtbWluZyA0YUNvbXB1dGluZyA0YUNvbXB1dGVycyA0YUNvbXB1dGVyIFByb2dyYW1taW5nIDRhQkFTSUMgUHJvZ3JhbW1pbmcgNGFCQVNJQw=="
+      ],
+      "keywords_facet": [
+        "BASIC",
+        "BASIC Programming",
+        "Computer Programming",
+        "Computers",
+        "Computing",
+        "Programming"
+      ],
+      "_version_": 1677123603972227000,
+      "class_facet": [
+        "005.133"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1984
+      ],
+      "author_facet": [
+        "Waters, Gaby"
+      ],
+      "subjects_facet": [
+        "Computer Programming",
+        "Computer Studies",
+        "General Subjects",
+        "Programming Languages",
+        "Programming and Software Engineering",
+        "Specific Programming Languages"
+      ]
+    },
+    {
+      "id": "040802335X",
+      "stdno": [
+        "040802335X"
+      ],
+      "spell": [
+        "040802335X",
+        "T",
+        "1",
+        "Annex library",
+        "Food and Agriculture Organization",
+        "Biswas Asit K",
+        "Biswas A K",
+        "Arar Abdullah",
+        "Arar A",
+        "628.3",
+        "v,186p, ill, maps, 24cm",
+        "Sewage",
+        "Sewerage",
+        "Waste water",
+        "Wastewater",
+        "Water treatment",
+        "Butterworth",
+        "Engineering",
+        "Sanitary and Municipal Engineering",
+        "Treatment and reuse of wastewater",
+        "1988"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Annex library"
+      ],
+      "imageisn_stored": [
+        "040802335X"
+      ],
+      "solr_author": [
+        "Food and Agriculture Organization",
+        "Biswas Asit K",
+        "Biswas A K",
+        "Arar Abdullah",
+        "Arar A"
+      ],
+      "class": [
+        "628.3"
+      ],
+      "collation": [
+        "v,186p, ill, maps, 24cm"
+      ],
+      "keywords": [
+        "Sewage",
+        "Sewerage",
+        "Waste water",
+        "Wastewater",
+        "Water treatment"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "place": [
+        "London"
+      ],
+      "publisher": [
+        "Butterworth"
+      ],
+      "subjects": [
+        "Engineering",
+        "Sanitary and Municipal Engineering"
+      ],
+      "title": [
+        "Treatment and reuse of wastewater"
+      ],
+      "year": [
+        "1988"
+      ],
+      "yearx": [
+        1988
+      ],
+      "solr_entry_date": [
+        "1995-04-14T00:00:00Z"
+      ],
+      "solr_price": [
+        38.09
+      ],
+      "yearsort_sort": "1988",
+      "classsort1_sort": "628.3",
+      "titlesort_sort": "treatment and reuse of wastewater",
+      "author1_sort": "food and agriculture organization",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "Asit K Biswas",
+        "Abdullah Arar"
+      ],
+      "corpauthor_stored": [
+        "Food and Agriculture Organization"
+      ],
+      "title_stored": [
+        "Treatment and reuse of wastewater"
+      ],
+      "class_stored": [
+        "628.3"
+      ],
+      "keywords_stored": [
+        "Sewage",
+        "Sewerage",
+        "Waste water",
+        "Wastewater",
+        "Water treatment"
+      ],
+      "stdno_stored": [
+        "040802335X"
+      ],
+      "imprint_stored": [
+        "London: Butterworth, 1988"
+      ],
+      "marc_exchange_stored": [
+        "MDA2ODluYW0gYTIyMDAyNjUgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMTAwMDU1MDIwMDAxNTAwMDY2MDgyMDAxMzAwMDgxMTEwMDAzODAwMDk0MjQ1MDAzOTAwMTMyMjYwMDAzNDAwMTcxMzAwMDAyOTAwMjA1NjUwMDAzOTAwMjM0NjUwMDAxNjAwMjczNjUwMDAyMDAwMjg5NjUwMDAxNTAwMzA5NjUwMDAxNjAwMzI0NjUwMDAxMzAwMzQwNjUwMDAxMTAwMzUzNzAwMDAyMDAwMzY0NzAwMDAyMDAwMzg0ODg3MDAxOTAwNDA0MDQwODAyMzM1WHRhOTUwNDE0czE5ODggICAgZW5rfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6MzOC4wOSAgYTA0MDgwMjMzNVgwIGJBYTYyOC4zMiBhRm9vZCBhbmQgQWdyaWN1bHR1cmUgT3JnYW5pemF0aW9uMTBhVHJlYXRtZW50IGFuZCByZXVzZSBvZiB3YXN0ZXdhdGVyLiAgYUxvbmRvbiA6YkJ1dHRlcndvcnRoLGMxOTg4LiAgYXYsMTg2cCwgaWxsLCBtYXBzLCAyNGNtLiA3YVNhbml0YXJ5IGFuZCBNdW5pY2lwYWwgRW5naW5lZXJpbmcgN2FFbmdpbmVlcmluZyA0YVdhdGVyIHRyZWF0bWVudCA0YVdhc3Rld2F0ZXIgNGFXYXN0ZSB3YXRlciA0YVNld2VyYWdlIDRhU2V3YWdlMSBhQXJhciwgQWJkdWxsYWguMSBhQmlzd2FzLCBBc2l0IEsuICBhKFQpVGV4dGJDaXJxYQ=="
+      ],
+      "keywords_facet": [
+        "Sewage",
+        "Sewerage",
+        "Waste water",
+        "Wastewater",
+        "Water treatment"
+      ],
+      "_version_": 1677123612049408000,
+      "class_facet": [
+        "628.3"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1988
+      ],
+      "author_facet": [
+        "Arar, Abdullah",
+        "Biswas, Asit K",
+        "Food and Agriculture Organization"
+      ],
+      "subjects_facet": [
+        "Engineering",
+        "Sanitary and Municipal Engineering"
+      ]
+    },
+    {
+      "id": "359",
+      "stdno": [
+        "359"
+      ],
+      "spell": [
+        "359",
+        "EB",
+        "1",
+        "Any site",
+        "Waters Clara Erskine Clement",
+        "Waters C E C",
+        "328 pages",
+        "Classic fiction (pre 1945)",
+        "Fiction",
+        "Remote",
+        "NA",
+        "No description available for the book",
+        "Gutenberg Project Freebooks; Classic titles",
+        "A History of Art for Beginners and Students - Painting, Sculpture, Architecture",
+        "14/01/2011"
+      ],
+      "gmd": [
+        "EB"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "359"
+      ],
+      "solr_author": [
+        "Waters Clara Erskine Clement",
+        "Waters C E C"
+      ],
+      "collation": [
+        "328 pages"
+      ],
+      "keywords": [
+        "Classic fiction (pre 1945)",
+        "Fiction"
+      ],
+      "medium": [
+        "E-book"
+      ],
+      "notesenq": [
+        "Remote",
+        "NA",
+        "No description available for the book"
+      ],
+      "publisher": [
+        "Gutenberg Project Freebooks; Classic titles"
+      ],
+      "title": [
+        "A History of Art for Beginners and Students - Painting, Sculpture, Architecture"
+      ],
+      "year": [
+        "14/01/2011"
+      ],
+      "yearx": [
+        2011
+      ],
+      "solr_entry_date": [
+        "2015-07-17T00:00:00Z"
+      ],
+      "yearsort_sort": "2011",
+      "titlesort_sort": "history of art for beginners and students - painting, sculpture, architecture",
+      "author1_sort": "waters, clara erskine clement",
+      "medium_sort": "e-book",
+      "authfs_stored": [
+        "Clara Erskine Clement Waters"
+      ],
+      "title_stored": [
+        "A History of Art for Beginners and Students - Painting, Sculpture, Architecture"
+      ],
+      "keywords_stored": [
+        "Classic fiction (pre 1945)",
+        "Fiction"
+      ],
+      "notes_stored": [
+        "Remote",
+        "NA",
+        "No description available for the book"
+      ],
+      "stdno_stored": [
+        "359"
+      ],
+      "imprint_stored": [
+        "Gutenberg Project Freebooks; Classic titles, 14/01/2011"
+      ],
+      "marc_exchange_stored": [
+        "MDA2ODZuYW0gIDIyMDAyMTczICA0NTAwMDAxMDAzNzAwMDAwMDAzMDAwNzAwMDM3MDA1MDAxNzAwMDQ0MDA3MDAxNTAwMDYxMDIwMDAwNzAwMDc2MTAwMDAzNDAwMDgzMjQ1MDA4NDAwMTE3MjYwMDAxNTAwMjAxMjYwMDAzMjAwMjE2MjYwMDAxOTAwMjQ4MzAwMDAxNTAwMjY3NTAwMDA0MjAwMjgyNjUzMDAzMTAwMzI0NjUzMDAxMjAwMzU1ODU2MDA4NzAwMzY3OTA1MDAxNDAwNDU0OTgyZTQxZjItZTNmMS00YTYyLWE5N2UtYTAwZjA0MGQyZDBkVWtBblJNMjAxNTA0MjYxMjE3MjQuN2NyIGNudS0tLXVudXV1ICBhTkExIGFXYXRlcnMsIENsYXJhIEVyc2tpbmUgQ2xlbWVudDEwYUEgSGlzdG9yeSBvZiBBcnQgZm9yIEJlZ2lubmVycyBhbmQgU3R1ZGVudHMgLSBQYWludGluZywgU2N1bHB0dXJlLCBBcmNoaXRlY3R1cmUgIGMxNC8wMS8yMDExICBiR3V0ZW5iZXJnIFByb2plY3QgRnJlZWJvb2tzICBiQ2xhc3NpYyB0aXRsZXMgIGEzMjhmcGFnZXMgIGFObyBkZXNjcmlwdGlvbiBhdmFpbGFibGUgZm9yIHRoZSBib29rMCBhQ2xhc3NpYyBmaWN0aW9uIChwcmUgMTk0NSkwIGFGaWN0aW9uNDB1aHR0cHM6Ly9icm93c2UuYm9va3Mucm0uY29tL0Jvb2tzaG9wL0RldGFpbHMvOTgyZTQxZjItZTNmMS00YTYyLWE5N2UtYTAwZjA0MGQyZDBkLyAgYVVubGltaXRlZA=="
+      ],
+      "keywords_facet": [
+        "Classic fiction (pre 1945)",
+        "Fiction"
+      ],
+      "_version_": 1677123555226026000,
+      "medium_facet": [
+        "E-book"
+      ],
+      "yearx_facet": [
+        2011
+      ],
+      "author_facet": [
+        "Waters, Clara Erskine Clement"
+      ]
+    },
+    {
+      "id": "0713133945",
+      "stdno": [
+        "0713133945"
+      ],
+      "spell": [
+        "0713133945",
+        "T",
+        "1",
+        "Main site",
+        "628.3",
+        "xii,318p, ill, 24cm",
+        "2nd ed",
+        "SEWAGE",
+        "SEWERAGE",
+        "WASTE WATER",
+        "WASTEWATER",
+        "WATER TREATMENT",
+        "Edward Arnold",
+        "Engineering",
+        "Sanitary and Municipal Engineering",
+        "Wastewater engineering Design of sewers and sewage treatment works",
+        "1978"
+      ],
+      "gmd": [
+        "T"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Main site"
+      ],
+      "imageisn_stored": [
+        "0713133945"
+      ],
+      "class": [
+        "628.3"
+      ],
+      "collation": [
+        "xii,318p, ill, 24cm"
+      ],
+      "edition": [
+        "2nd ed"
+      ],
+      "keywords": [
+        "SEWAGE",
+        "SEWERAGE",
+        "WASTE WATER",
+        "WASTEWATER",
+        "WATER TREATMENT"
+      ],
+      "medium": [
+        "Text"
+      ],
+      "place": [
+        "London"
+      ],
+      "publisher": [
+        "Edward Arnold"
+      ],
+      "subjects": [
+        "Engineering",
+        "Sanitary and Municipal Engineering"
+      ],
+      "title": [
+        "Wastewater engineering Design of sewers and sewage treatment works"
+      ],
+      "year": [
+        "1978"
+      ],
+      "yearx": [
+        1978
+      ],
+      "solr_entry_date": [
+        "1995-04-14T00:00:00Z"
+      ],
+      "solr_price": [
+        24.18
+      ],
+      "yearsort_sort": "1978",
+      "classsort1_sort": "628.3",
+      "titlesort_sort": "wastewater engineering design of sewers and sewage treatment works",
+      "author1_sort": "white, j b",
+      "medium_sort": "text",
+      "authfs_stored": [
+        "J B White"
+      ],
+      "title_stored": [
+        "Wastewater engineering Design of sewers and sewage treatment works"
+      ],
+      "class_stored": [
+        "628.3"
+      ],
+      "keywords_stored": [
+        "SEWAGE",
+        "SEWERAGE",
+        "WASTE WATER",
+        "WASTEWATER",
+        "WATER TREATMENT"
+      ],
+      "stdno_stored": [
+        "0713133945"
+      ],
+      "imprint_stored": [
+        "London: Edward Arnold, 1978"
+      ],
+      "marc_exchange_stored": [
+        "MDA2NTluYW0gYTIyMDAyNTMgICA0NTAwMDAxMDAxMTAwMDAwMDA3MDAwMzAwMDExMDA4MDA0MTAwMDE0MDIwMDAxMTAwMDU1MDIwMDAxNTAwMDY2MDgyMDAxMzAwMDgxMTAwMDAxNzAwMDk0MjQ1MDA3MjAwMTExMjUwMDAxMjAwMTgzMjYwMDAzNjAwMTk1MzAwMDAyNTAwMjMxNjUwMDAzOTAwMjU2NjUwMDAxNjAwMjk1NjUwMDAyMDAwMzExNjUwMDAxNTAwMzMxNjUwMDAxNjAwMzQ2NjUwMDAxMzAwMzYyNjUwMDAxMTAwMzc1ODg3MDAxOTAwMzg2MDcxMzEzMzk0NXRhOTUwNDE0czE5NzggICAgZW5rfHx8fHx8fHx8fHV8fHwgMHxlbmd8fCAgY6MyNC4xOCAgYTA3MTMxMzM5NDUwIGJNYTYyOC4zMSBhV2hpdGUsIEouIEIuMTBhV2FzdGV3YXRlciBlbmdpbmVlcmluZyBEZXNpZ24gb2Ygc2V3ZXJzIGFuZCBzZXdhZ2UgdHJlYXRtZW50IHdvcmtzLiAgYTJuZCBlZC4gIGFMb25kb24gOmJFZHdhcmQgQXJub2xkLGMxOTc4LiAgYXhpaSwzMThwLCBpbGwsIDI0Y20uIDdhU2FuaXRhcnkgYW5kIE11bmljaXBhbCBFbmdpbmVlcmluZyA3YUVuZ2luZWVyaW5nIDRhV0FURVIgVFJFQVRNRU5UIDRhV0FTVEVXQVRFUiA0YVdBU1RFIFdBVEVSIDRhU0VXRVJBR0UgNGFTRVdBR0UgIGEoVClUZXh0YkNpcnFh"
+      ],
+      "keywords_facet": [
+        "SEWAGE",
+        "SEWERAGE",
+        "WASTE WATER",
+        "WASTEWATER",
+        "WATER TREATMENT"
+      ],
+      "_version_": 1677123675587870700,
+      "class_facet": [
+        "628.3"
+      ],
+      "medium_facet": [
+        "Text"
+      ],
+      "yearx_facet": [
+        1978
+      ],
+      "author_facet": [
+        "White, J B"
+      ],
+      "subjects_facet": [
+        "Engineering",
+        "Sanitary and Municipal Engineering"
+      ]
+    },
+    {
+      "id": "9780070411524",
+      "stdno": [
+        "9780070411524"
+      ],
+      "spell": [
+        "9780070411524",
+        "KNO",
+        "1",
+        "Any site",
+        "Easy-to-follow guide to data includes all relevant regulations from the EPA, NOAA, Federal Highway Administration, and other public agencies. Covers hydraulic design for water supply, water excess management, and environmental considerations. Features the contributions of experts in specific hydraulic design areas.",
+        "Mays Larry W",
+        "Mays L W",
+        "Easy-to-follow guide to data includes all relevant regulations from the EPA, NOAA, Federal Highway Administration, and other public agencies. Covers hydraulic design for water supply, water excess management, and environmental considerations. Features the contributions of experts in specific hydraulic design areas.",
+        "McGraw-Hill",
+        "Hydraulic Design Handbook_x000D_û",
+        "1999"
+      ],
+      "gmd": [
+        "KNO"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "1591245192"
+      ],
+      "abstract": [
+        "Easy-to-follow guide to data includes all relevant regulations from the EPA, NOAA, Federal Highway Administration, and other public agencies. Covers hydraulic design for water supply, water excess management, and environmental considerations. Features the contributions of experts in specific hydraulic design areas."
+      ],
+      "solr_author": [
+        "Mays Larry W",
+        "Mays L W"
+      ],
+      "medium": [
+        "Knovel e-book"
+      ],
+      "notesenq": [
+        "Easy-to-follow guide to data includes all relevant regulations from the EPA, NOAA, Federal Highway Administration, and other public agencies. Covers hydraulic design for water supply, water excess management, and environmental considerations. Features the contributions of experts in specific hydraulic design areas."
+      ],
+      "publisher": [
+        "McGraw-Hill"
+      ],
+      "title": [
+        "Hydraulic Design Handbook_x000D_û"
+      ],
+      "year": [
+        "1999"
+      ],
+      "yearx": [
+        1999
+      ],
+      "solr_entry_date": [
+        "2011-12-05T00:00:00Z"
+      ],
+      "yearsort_sort": "1999",
+      "titlesort_sort": "hydraulic design handbook_x000d_",
+      "author1_sort": "mays, larry w.",
+      "medium_sort": "knovel e-book",
+      "authfs_stored": [
+        "Larry W. Mays"
+      ],
+      "title_stored": [
+        "Hydraulic Design Handbook_x000D_û"
+      ],
+      "abstract_stored": [
+        "Easy-to-follow guide to data includes all relevant regulations from the EPA, NOAA, Federal Highway Administration, and other public agencies. Covers hydraulic design for water supply, water excess management, and environmental considerations. Features the contributions of experts in specific hydraulic design areas."
+      ],
+      "notes_stored": [
+        "Easy-to-follow guide to data includes all relevant regulations from the EPA, NOAA, Federal Highway Administration, and other public agencies. Covers hydraulic design for water supply, water excess management, and environmental considerations. Features the contributions of experts in specific hydraulic design areas."
+      ],
+      "stdno_stored": [
+        "9780070411524"
+      ],
+      "imprint_stored": [
+        "McGraw-Hill, 1999"
+      ],
+      "marc_exchange_stored": [
+        "MDAzMzJuYW0gYTIyMDAxMzMgICA0NTAwMDAxMDAxNDAwMDAwMDA4MDA0MTAwMDE0MDIwMDAxODAwMDU1MTAwMDAxOTAwMDczMjQ1MDAzOTAwMDkyMjYwMDAxMDAwMTMxMjYwMDAxNzAwMTQxODU2MDAxMDAwMTU4ODg3MDAzMDAwMTY4OTc4MDA3MDQxMTUyNDExMTIwNXMxOTk5ICAgIHh4XHx8fHx8fHx8fHx1fHx8IDB8ICAgfHwgIGE5NzgwMDcwNDExNTI0MSBhTWF5cywgTGFycnkgVy4xMGFIeWRyYXVsaWMgRGVzaWduIEhhbmRib29rX3gwMDBEX/suICBjMTk5OS4gIGJNY0dyYXctSGlsbC4gIHVBMDI3NCAgYShLTk8pS25vdmVsIGUtYm9va2JDaXJxYQ=="
+      ],
+      "_version_": 1677123546705297400,
+      "medium_facet": [
+        "Knovel e-book"
+      ],
+      "yearx_facet": [
+        1999
+      ],
+      "author_facet": [
+        "Mays, Larry W."
+      ]
+    },
+    {
+      "id": "EB12418",
+      "stdno": [
+        "EB12418"
+      ],
+      "spell": [
+        "EB12418",
+        "EB",
+        "1",
+        "Any site",
+        "Troesken Werner",
+        "Troesken W",
+        "363.738",
+        "x, 318 p. : ill. ; 24 cm. ",
+        "Water-pipes-Materials-History",
+        "Lead-Environmental aspects-History",
+        "Lead-Toxicology-History",
+        "Drinking water-Lead content-History",
+        "Pipe, Lead-History",
+        "Lead poisoning-History",
+        "Electronic books. local",
+        "electronic resource",
+        "Includes bibliographical references (p. [285]-309) and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2007. Available via World Wide Web. Access may be limited to ebrary affiliated libraries.",
+        "MIT Press",
+        "The great lead water pipe disaster",
+        "c2006"
+      ],
+      "gmd": [
+        "EB"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "0262201674"
+      ],
+      "solr_author": [
+        "Troesken Werner",
+        "Troesken W"
+      ],
+      "class": [
+        "363.738"
+      ],
+      "collation": [
+        "x, 318 p. : ill. ; 24 cm. "
+      ],
+      "keywords": [
+        "Water-pipes-Materials-History",
+        "Lead-Environmental aspects-History",
+        "Lead-Toxicology-History",
+        "Drinking water-Lead content-History",
+        "Pipe, Lead-History",
+        "Lead poisoning-History",
+        "Electronic books. local"
+      ],
+      "medium": [
+        "E-book"
+      ],
+      "notesenq": [
+        "electronic resource",
+        "Includes bibliographical references (p. [285]-309) and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2007. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "place": [
+        "Cambridge, Mass. "
+      ],
+      "publisher": [
+        "MIT Press"
+      ],
+      "title": [
+        "The great lead water pipe disaster"
+      ],
+      "year": [
+        "c2006"
+      ],
+      "yearx": [
+        2006
+      ],
+      "solr_entry_date": [
+        "2009-06-24T00:00:00Z"
+      ],
+      "yearsort_sort": "2006",
+      "classsort1_sort": "363.738",
+      "titlesort_sort": "great lead water pipe disaster",
+      "author1_sort": "troesken, werner",
+      "medium_sort": "e-book",
+      "authfs_stored": [
+        "Werner Troesken"
+      ],
+      "title_stored": [
+        "The great lead water pipe disaster"
+      ],
+      "class_stored": [
+        "363.738"
+      ],
+      "keywords_stored": [
+        "Water-pipes-Materials-History",
+        "Lead-Environmental aspects-History",
+        "Lead-Toxicology-History",
+        "Drinking water-Lead content-History",
+        "Pipe, Lead-History",
+        "Lead poisoning-History",
+        "Electronic books. local"
+      ],
+      "notes_stored": [
+        "electronic resource",
+        "Includes bibliographical references (p. [285]-309) and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2007. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "stdno_stored": [
+        "EB12418"
+      ],
+      "imprint_stored": [
+        "Cambridge, Mass.: MIT Press, c2006"
+      ],
+      "marc_exchange_stored": [
+        "MDA4ODZubW0gYTIyMDAyNjUgICA0NTAwMDAxMDAwODAwMDAwMDA3MDAwMzAwMDA4MDA4MDA0MTAwMDExMDI0MDAxMjAwMDUyMTAwMDAyMjAwMDY0MjQ1MDA0MDAwMDg2MjYwMDA0NDAwMTI2MzAwMDAzMjAwMTcwMzQwMDAyNTAwMjAyNTA0MDA2NjAwMjI3NjUwMDAyODAwMjkzNjUwMDAyNzAwMzIxNjUwMDAyMzAwMzQ4NjUwMDA0MDAwMzcxNjUwMDAyODAwNDExNjUwMDAzOTAwNDM5NjUwMDAzNDAwNDc4ODU2MDA3NjAwNTEyODU2MDAxMDAwNTg4ODg3MDAyMjAwNTk4RUIxMjQxOGNyMDkwNjI0czIwMDYgICAgeHhcfHx8fHx8fHx1fHV8fHx8fHwgICB8fDggYUVCMTI0MTgxIGFUcm9lc2tlbiwgV2VybmVyLjE0YVRoZSBncmVhdCBsZWFkIHdhdGVyIHBpcGUgZGlzYXN0ZXIuICBhQ2FtYnJpZGdlLCBNYXNzLiAgOmJNSVQgUHJlc3MsY2MyMDA2LiAgYXgsIDMxOCBwLiA6IGlsbC4gOyAyNCBjbS4gLiAgYWVsZWN0cm9uaWMgcmVzb3VyY2UuICBhSW5jbHVkZXMgYmlibGlvZ3JhcGhpY2FsIHJlZmVyZW5jZXMgKHAuIFsyODVdLTMwOSkgYW5kIGluZGV4LiA0YUVsZWN0cm9uaWMgYm9va3MuIGxvY2FsIDRhTGVhZCBwb2lzb25pbmctSGlzdG9yeSA0YVBpcGUsIExlYWQtSGlzdG9yeSA0YURyaW5raW5nIHdhdGVyLUxlYWQgY29udGVudC1IaXN0b3J5IDRhTGVhZC1Ub3hpY29sb2d5LUhpc3RvcnkgNGFMZWFkLUVudmlyb25tZW50YWwgYXNwZWN0cy1IaXN0b3J5IDRhV2F0ZXItcGlwZXMtTWF0ZXJpYWxzLUhpc3RvcnkgIHlBbiBlbGVjdHJvbmljIGJvb2sgYWNjZXNzaWJsZSB0aHJvdWdoIHRoZSBXb3JsZCBXaWRlIFdlYi0gY2xpY2sgdG8gdmlldyAgdUE2NjE3ICBhKEVCKUUtYm9va2JDaXJxYQ=="
+      ],
+      "keywords_facet": [
+        "Drinking water-Lead content-History",
+        "Electronic books. local",
+        "Lead poisoning-History",
+        "Lead-Environmental aspects-History",
+        "Lead-Toxicology-History",
+        "Pipe, Lead-History",
+        "Water-pipes-Materials-History"
+      ],
+      "_version_": 1677123651322773500,
+      "class_facet": [
+        "363.738"
+      ],
+      "medium_facet": [
+        "E-book"
+      ],
+      "yearx_facet": [
+        2006
+      ],
+      "author_facet": [
+        "Troesken, Werner"
+      ]
+    },
+    {
+      "id": "EB11711",
+      "stdno": [
+        "EB11711"
+      ],
+      "spell": [
+        "EB11711",
+        "EB",
+        "1",
+        "Any site",
+        "World Health Organization.",
+        "World Plumbing Council.",
+        "x, 129 p. : ill. ",
+        "Plumbing-Health aspects",
+        "Water-supply",
+        "Drinking water",
+        "Water quality management",
+        "Electronic books. local",
+        "electronic resource",
+        "Includes bibliographical references (p. 123-124) and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries.",
+        "World Health Organization; World Plumbing Council",
+        "Health aspects of plumbing",
+        "c2006"
+      ],
+      "gmd": [
+        "EB"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "9241563184"
+      ],
+      "solr_author": [
+        "World Health Organization.",
+        "World Plumbing Council."
+      ],
+      "collation": [
+        "x, 129 p. : ill. "
+      ],
+      "keywords": [
+        "Plumbing-Health aspects",
+        "Water-supply",
+        "Drinking water",
+        "Water quality management",
+        "Electronic books. local"
+      ],
+      "medium": [
+        "E-book"
+      ],
+      "notesenq": [
+        "electronic resource",
+        "Includes bibliographical references (p. 123-124) and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "place": [
+        "Geneva; [S.l.] "
+      ],
+      "publisher": [
+        "World Health Organization; World Plumbing Council"
+      ],
+      "title": [
+        "Health aspects of plumbing"
+      ],
+      "year": [
+        "c2006"
+      ],
+      "yearx": [
+        2006
+      ],
+      "solr_entry_date": [
+        "2009-06-24T00:00:00Z"
+      ],
+      "yearsort_sort": "2006",
+      "titlesort_sort": "health aspects of plumbing",
+      "author1_sort": "world health organization.",
+      "medium_sort": "e-book",
+      "corpauthor_stored": [
+        "World Health Organization.",
+        "World Plumbing Council."
+      ],
+      "title_stored": [
+        "Health aspects of plumbing"
+      ],
+      "keywords_stored": [
+        "Plumbing-Health aspects",
+        "Water-supply",
+        "Drinking water",
+        "Water quality management",
+        "Electronic books. local"
+      ],
+      "notes_stored": [
+        "electronic resource",
+        "Includes bibliographical references (p. 123-124) and index.",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "stdno_stored": [
+        "EB11711"
+      ],
+      "imprint_stored": [
+        "Geneva; [S.l.]: World Health Organization; World Plumbing Council, c2006"
+      ],
+      "marc_exchange_stored": [
+        "MDA4MzJubW0gYTIyMDAyNTMgICA0NTAwMDAxMDAwODAwMDAwMDA3MDAwMzAwMDA4MDA4MDA0MTAwMDExMDI0MDAxMjAwMDUyMTEwMDAzMTAwMDY0MTEwMDAyODAwMDk1MjQ1MDAzMjAwMTIzMjYwMDA4MjAwMTU1MzAwMDAyMzAwMjM3MzQwMDAyNTAwMjYwNTA0MDA2NDAwMjg1NjUwMDAyODAwMzQ5NjUwMDAyOTAwMzc3NjUwMDAxOTAwNDA2NjUwMDAxNzAwNDI1NjUwMDAyODAwNDQyODU2MDA3NjAwNDcwODU2MDAxMDAwNTQ2ODg3MDAyMjAwNTU2RUIxMTcxMWNyMDkwNjI0czIwMDYgICAgeHhcfHx8fHx8fHx1fHV8fHx8fHwgICB8fDggYUVCMTE3MTEyIGFXb3JsZCBIZWFsdGggT3JnYW5pemF0aW9uLjIgYVdvcmxkIFBsdW1iaW5nIENvdW5jaWwuMTBhSGVhbHRoIGFzcGVjdHMgb2YgcGx1bWJpbmcuICBhR2VuZXZhOyBbUy5sLl0gIDpiV29ybGQgSGVhbHRoIE9yZ2FuaXphdGlvbjsgV29ybGQgUGx1bWJpbmcgQ291bmNpbCxjYzIwMDYuICBheCwgMTI5IHAuIDogaWxsLiAuICBhZWxlY3Ryb25pYyByZXNvdXJjZS4gIGFJbmNsdWRlcyBiaWJsaW9ncmFwaGljYWwgcmVmZXJlbmNlcyAocC4gMTIzLTEyNCkgYW5kIGluZGV4LiA0YUVsZWN0cm9uaWMgYm9va3MuIGxvY2FsIDRhV2F0ZXIgcXVhbGl0eSBtYW5hZ2VtZW50IDRhRHJpbmtpbmcgd2F0ZXIgNGFXYXRlci1zdXBwbHkgNGFQbHVtYmluZy1IZWFsdGggYXNwZWN0cyAgeUFuIGVsZWN0cm9uaWMgYm9vayBhY2Nlc3NpYmxlIHRocm91Z2ggdGhlIFdvcmxkIFdpZGUgV2ViLSBjbGljayB0byB2aWV3ICB1QTUzMjkgIGEoRUIpRS1ib29rYkNpcnFh"
+      ],
+      "keywords_facet": [
+        "Drinking water",
+        "Electronic books. local",
+        "Plumbing-Health aspects",
+        "Water quality management",
+        "Water-supply"
+      ],
+      "_version_": 1677123557306400800,
+      "medium_facet": [
+        "E-book"
+      ],
+      "yearx_facet": [
+        2006
+      ],
+      "author_facet": [
+        "World Health Organization.",
+        "World Plumbing Council."
+      ]
+    },
+    {
+      "id": "EB10449",
+      "stdno": [
+        "EB10449"
+      ],
+      "spell": [
+        "EB10449",
+        "EB",
+        "1",
+        "Any site",
+        "Bartram Jamie",
+        "Bartram J",
+        "xxiii, 222 p. : ill. (some col.), maps (some col.). ",
+        "Water-supply-Europe",
+        "Water-Microbiology-Europe",
+        "Electronic books. local",
+        "electronic resource",
+        "Includes bibliographical references (p. 205-222).",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries.",
+        "World Health Organization",
+        "WHO regional publications. European series",
+        "Water and health in Europe; a joint report from the European Environment Agency and the WHO Regional Office for Europe ",
+        "c2002"
+      ],
+      "gmd": [
+        "EB"
+      ],
+      "cattype": [
+        "1"
+      ],
+      "accsitedd": [
+        "Any site"
+      ],
+      "imageisn_stored": [
+        "9289013605"
+      ],
+      "solr_author": [
+        "Bartram Jamie",
+        "Bartram J"
+      ],
+      "collation": [
+        "xxiii, 222 p. : ill. (some col.), maps (some col.). "
+      ],
+      "keywords": [
+        "Water-supply-Europe",
+        "Water-Microbiology-Europe",
+        "Electronic books. local"
+      ],
+      "medium": [
+        "E-book"
+      ],
+      "notesenq": [
+        "electronic resource",
+        "Includes bibliographical references (p. 205-222).",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "place": [
+        "Copenhagen, Denmark "
+      ],
+      "publisher": [
+        "World Health Organization"
+      ],
+      "series": [
+        "WHO regional publications. European series"
+      ],
+      "title": [
+        "Water and health in Europe; a joint report from the European Environment Agency and the WHO Regional Office for Europe "
+      ],
+      "year": [
+        "c2002"
+      ],
+      "yearx": [
+        2002
+      ],
+      "solr_entry_date": [
+        "2009-06-24T00:00:00Z"
+      ],
+      "yearsort_sort": "2002",
+      "titlesort_sort": "water and health in europe; a joint report from the european environment agency and the who regional office for europe",
+      "author1_sort": "bartram, jamie",
+      "medium_sort": "e-book",
+      "authfs_stored": [
+        "Jamie Bartram"
+      ],
+      "title_stored": [
+        "Water and health in Europe; a joint report from the European Environment Agency and the WHO Regional Office for Europe "
+      ],
+      "keywords_stored": [
+        "Water-supply-Europe",
+        "Water-Microbiology-Europe",
+        "Electronic books. local"
+      ],
+      "notes_stored": [
+        "electronic resource",
+        "Includes bibliographical references (p. 205-222).",
+        "Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries."
+      ],
+      "series_stored": [
+        "WHO regional publications. European series"
+      ],
+      "stdno_stored": [
+        "EB10449"
+      ],
+      "imprint_stored": [
+        "Copenhagen, Denmark: World Health Organization, c2002"
+      ],
+      "marc_exchange_stored": [
+        "MDA4OTlubW0gYTIyMDAyNDEgICA0NTAwMDAxMDAwODAwMDAwMDA3MDAwMzAwMDA4MDA4MDA0MTAwMDExMDI0MDAxMjAwMDUyMTAwMDAyMDAwMDY0MjQ1MDEyNTAwMDg0MjYwMDA2MzAwMjA5MzAwMDA1ODAwMjcyMzQwMDAyNTAwMzMwNDkwMDAxMTAwMzU1NDkwMDA0NzAwMzY2NTA0MDA1NDAwNDEzNjUwMDAyODAwNDY3NjUwMDAzMDAwNDk1NjUwMDAyNDAwNTI1ODU2MDA3NjAwNTQ5ODU2MDAxMDAwNjI1ODg3MDAyMjAwNjM1RUIxMDQ0OWNyMDkwNjI0czIwMDIgICAgeHhcfHx8fHx8fHx1fHV8fHx8fHwgICB8fDggYUVCMTA0NDkxIGFCYXJ0cmFtLCBKYW1pZS4xMGFXYXRlciBhbmQgaGVhbHRoIGluIEV1cm9wZTsgYSBqb2ludCByZXBvcnQgZnJvbSB0aGUgRXVyb3BlYW4gRW52aXJvbm1lbnQgQWdlbmN5IGFuZCB0aGUgV0hPIFJlZ2lvbmFsIE9mZmljZSBmb3IgRXVyb3BlIC4gIGFDb3BlbmhhZ2VuLCBEZW5tYXJrICA6YldvcmxkIEhlYWx0aCBPcmdhbml6YXRpb24sY2MyMDAyLiAgYXh4aWlpLCAyMjIgcC4gOiBpbGwuIChzb21lIGNvbC4pLCBtYXBzIChzb21lIGNvbC4pLiAuICBhZWxlY3Ryb25pYyByZXNvdXJjZS4gIHZuby4gOTMgMGFXSE8gcmVnaW9uYWwgcHVibGljYXRpb25zLiBFdXJvcGVhbiBzZXJpZXMgIGFJbmNsdWRlcyBiaWJsaW9ncmFwaGljYWwgcmVmZXJlbmNlcyAocC4gMjA1LTIyMikuIDRhRWxlY3Ryb25pYyBib29rcy4gbG9jYWwgNGFXYXRlci1NaWNyb2Jpb2xvZ3ktRXVyb3BlIDRhV2F0ZXItc3VwcGx5LUV1cm9wZSAgeUFuIGVsZWN0cm9uaWMgYm9vayBhY2Nlc3NpYmxlIHRocm91Z2ggdGhlIFdvcmxkIFdpZGUgV2ViLSBjbGljayB0byB2aWV3ICB1QTUyMTggIGEoRUIpRS1ib29rYkNpcnFh"
+      ],
+      "keywords_facet": [
+        "Electronic books. local",
+        "Water-Microbiology-Europe",
+        "Water-supply-Europe"
+      ],
+      "_version_": 1677123687302561800,
+      "medium_facet": [
+        "E-book"
+      ],
+      "yearx_facet": [
+        2002
+      ],
+      "author_facet": [
+        "Bartram, Jamie"
+      ]
+    }
+  ],
+  "numberFound": 96,
+  "start": 1
+}

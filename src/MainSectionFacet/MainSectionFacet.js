@@ -3,7 +3,10 @@ import styled from 'styled-components';
 import SearchBox from '../components/SearchBox/SearchBox';
 import useSolrSearch from '../service/hooks/useSolrSearch';
 import SearchContainer from '../SearchContainer/SearchContainer';
+import RecordView from '../Views/RecordView';
 import { IonCheckbox } from '@ionic/react';
+import { Router } from '@reach/router';
+import * as ROUTES from '../constants/Routes';
 import Aside from '../Aside/Aside';
 
 const Main = styled.main`
@@ -27,6 +30,15 @@ const SearchBoxWrapper = styled.div`
     flex-direction: row;
     justify-content: flex-start;
   }
+`;
+
+const StyledResultsContainerRouter = styled(Router)`
+  max-width: 100%;
+  max-height: 90%;
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 `;
 
 const TogglesContainer = styled.div`
@@ -104,14 +116,7 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
             </ToggleWrapper>
           </TogglesContainer>
         </SearchBoxWrapper>
-        {/* <div>
-        <h3>Diagnostics</h3>
-        <p>mock: {mock ? 'true' : 'false'}</p>
-        <p>searchTerm: {searchTerm} </p>
-        <p>searchBox: {searchBoxString}</p>
-        <p>results: {results ? 'there is something' : 'nope, nothing yet'} </p>
-      </div> */}
-        {results ? (
+        <StyledResultsContainerRouter>
           <SearchContainer
             results={results}
             loading={loading}
@@ -119,10 +124,10 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
             loadMore={loadMore}
             errors={errors}
             view={view}
+            path={ROUTES.SEARCH_PAGE}
           />
-        ) : (
-          <h2>no data</h2>
-        )}
+          <RecordView path="/details/:bookId" results={results} />
+        </StyledResultsContainerRouter>
       </Main>
     </>
   );
