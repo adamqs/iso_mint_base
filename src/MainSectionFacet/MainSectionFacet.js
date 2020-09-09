@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import SearchBox from '../components/SearchBox/SearchBox';
 import useSolrSearch from '../service/hooks/useSolrSearch';
-import ResultsView from '../Views/ResultsView';
+import SearchContainer from '../SearchContainer/SearchContainer';
 import { IonCheckbox } from '@ionic/react';
 import Aside from '../Aside/Aside';
 
@@ -112,7 +112,7 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
         <p>results: {results ? 'there is something' : 'nope, nothing yet'} </p>
       </div> */}
         {results ? (
-          <ResultsView
+          <SearchContainer
             results={results}
             loading={loading}
             hasMore={hasMore}

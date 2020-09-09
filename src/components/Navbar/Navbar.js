@@ -24,7 +24,7 @@ const NavigationModule = styled.div`
   padding: 10px 15px 10px 50px;
 `;
 
-const Logo = styled.p`
+const Logo = styled(Link)`
   font-size: 24px;
   margin: 0px;
   font-weight: bold;
@@ -65,7 +65,7 @@ const HideInDesktopView = styled.div`
 const Navbar = ({ showSearchBar, setShowSearchBar }) => (
   <Header>
     <NavigationModule>
-      <Logo>Mint Search</Logo>
+      <Logo to="/">Mint Search</Logo>
       <NavLinks>
         <HideInDesktopView>
           <IonButton

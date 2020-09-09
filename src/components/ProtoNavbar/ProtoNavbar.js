@@ -1,13 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { IonButton } from '@ionic/react';
+import { Link } from '@reach/router';
+import * as ROUTES from '../../constants/Routes';
 
 const Header = styled.header`
   transition: color var(--iso-colorTransitionSpeed),
     background-color var(--iso-colorTransitionSpeed);
   grid-area: header;
   background-color: var(--iso-mainColour);
-  color: #fbf7ef;
+  color: var(--iso-navTextLight);
   border: none;
   padding: 0.5rem;
   display: flex;
@@ -15,10 +17,12 @@ const Header = styled.header`
   align-items: center;
 `;
 
-const Logo = styled.p`
+const Logo = styled(Link)`
   font-size: 24px;
   margin: 0px;
   font-weight: bold;
+  color: var(--iso-navTextLight);
+  text-decoration: none;
 `;
 
 const HideInDesktopView = styled.div`
@@ -31,7 +35,7 @@ const HideInDesktopView = styled.div`
 const ProtoNavbar = ({ showSearchBar, setShowSearchBar }) => (
   <Header>
     {/* <p>header</p> */}
-    <Logo>Mint Search</Logo>
+    <Logo to={ROUTES.SEARCH_PAGE}>Mint Search</Logo>
     <HideInDesktopView>
       <IonButton
         color="light"

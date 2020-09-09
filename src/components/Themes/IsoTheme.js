@@ -8,6 +8,7 @@ export const IsoTheme = createGlobalStyle`
     --iso-mainBg: #F1F6F8;
     --iso-mainText: #3d5a80;     /* #45446b */
     --iso-mainTextLight: #7c7bbf;
+    --iso-navTextLight: #fbf7ef;
     
     --iso-sidepanelBg: #ecf0f3;
     --iso-sidepanelText: #3d5a80;

@@ -1,7 +1,20 @@
 
 * test scroll debounce on work pc
 
+* 'go back to search' button'
+* more details to the detailed view
+
 * faceting
 
 * investigate the severity of: findDOMNode is deprecated in IonApp, IonButton, IonToggle and whether
   it means that it might be reasonable to drop the whole ionic altogether
+
+
+%%%
+
+important!
+* the reason why loading even the default book cover takes so long is because the check whether the
+  cover exists in the open library takes very long time 473ms in some cases.
+SOLUTION:
+  Make the default book cover default by loading it automatically and then either keeping it if the request 
+  to the Open Library returns 404 or replacing it with the correct cover
