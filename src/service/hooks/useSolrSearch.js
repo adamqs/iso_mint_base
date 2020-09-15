@@ -4,9 +4,10 @@ import axios from 'axios';
 import mockAPI from '../../API/q_water&facet_medium.json';
 
 const baseURL = 'http://kima19:56779/api/Search?q=';
-const filterURL = '&fq=';
 const startURL = '&start=1&count=';
 const datasetURL = '&dataset=livedata';
+const facetsURL = '&json.facet={ medium_types: { terms: { field: medium } } }';
+const jsonURL = '&wt=json';
 
 const useSolrSearch = (
   searchTerm = '',
@@ -23,23 +24,27 @@ const useSolrSearch = (
   useEffect(() => {
     if (mock) return setResults(mockAPI);
     if (searchTerm === '') return;
-
     setLoading(true);
+    const mediumFiltersURL = mediumFilters.reduce(
+      (accumulator, element) => accumulator + '&facetquery=' + element,
+      ''
+    );
     axios
       .get(
         baseURL +
           searchTerm +
-          filterURL +
-          mediumFilters +
+          mediumFiltersURL +
           startURL +
           count +
-          datasetURL,
+          datasetURL +
+          facetsURL +
+          jsonURL,
         {
           headers: { 'Access-Control-Allow-Origin': '*' },
         }
       )
       .then((response) => {
-        console.log(JSON.stringify(response.data));
+        // console.log(JSON.stringify(response.data));
         setLoading(false);
         setResults(response.data);
         setNumberFound(response.data.numberFound);
@@ -49,7 +54,7 @@ const useSolrSearch = (
         console.log(JSON.stringify(error));
         setErrors(true);
       });
-  }, [searchTerm, count, numberFound]);
+  }, [searchTerm, mediumFilters, count, numberFound]);
 
   return [results, numberFound, loading, errors, hasMore];
 };

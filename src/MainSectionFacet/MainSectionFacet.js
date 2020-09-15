@@ -52,7 +52,7 @@ const ToggleWrapper = styled.div`
 
 const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [mediumFilters, setMediumFilters] = useState('e-book');
+  const [mediumFilters, setMediumFilters] = useState([]);
   const [count, setCount] = useState(10);
   const [searchBoxString, setSearchBoxString] = useState('');
   const [mock, setMock] = useState(false);
@@ -89,6 +89,8 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
         toggleState={toggleState}
         setToggleState={setToggleState}
         facets={results?.facets}
+        mediumFilters={mediumFilters}
+        setMediumFilters={setMediumFilters}
       />
       <Main>
         <SearchBoxWrapper>

@@ -55,8 +55,19 @@ const Aside = ({
   toggleState,
   setToggleState,
   facets = { medium_types: { buckets: [] } },
+  mediumFilters = [],
+  setMediumFilters,
 }) => {
-  const [checked, setChecked] = useState(false);
+  const toggleFacetFilter = (e, facetVal) => {
+    if (!!mediumFilters.find((element) => element === facetVal)) {
+      setMediumFilters((prevState) =>
+        prevState.filter((element) => element !== facetVal)
+      );
+    } else {
+      setMediumFilters((prevState) => [facetVal, ...prevState]);
+    }
+  };
+
   return (
     <StyledAside show={showSearchBar}>
       <div>
@@ -73,12 +84,11 @@ const Aside = ({
         <FacetsList>
           {facets.medium_types.buckets.map((facet) => {
             return (
-              <li>
+              <li key={facet.val}>
                 <FacetItem>
                   <IonCheckboxFacets
                     mode="ios"
-                    checked={checked}
-                    onIonChange={(e) => setChecked(e.detail.checked)}
+                    onIonChange={(e) => toggleFacetFilter(e, facet.val)}
                   />
                   <IonLabel>
                     <span>{facet.val}: </span>

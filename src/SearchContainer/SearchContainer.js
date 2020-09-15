@@ -112,6 +112,7 @@ const RecordsWievWithCover = ({ record }) => (
 
 const RecordsViewSimple = ({ record }) => (
   <StyledRecord>
+    <p>{record.id}</p>
     <RecordDataWrapper>
       <p>
         Std No: <span>{record.id}</span>
