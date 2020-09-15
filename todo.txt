@@ -1,12 +1,13 @@
+* faceting
+add query parameter
+add logic for updating the query parameter when facet is clicked
+
 
 * test scroll debounce on work pc
 
 * 'go back to search' button'
 * more details to the detailed view
 
-* faceting
-%%%
-not getting facet data
 
 
 * investigate the severity of: findDOMNode is deprecated in IonApp, IonButton, IonToggle and whether

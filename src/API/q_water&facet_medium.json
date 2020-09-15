@@ -1,0 +1,139 @@
+{
+  "solr": {
+    "header": {
+      "status": 0,
+      "QTime": 2,
+      "params": {
+        "q": "water",
+        "json.facet": "{ medium_types: { terms: { field: medium } } }",
+        "fl": [
+          "title",
+          "medium"
+        ],
+        "start": "1",
+        "rows": "10",
+        "wt": "json"
+      }
+    },
+    "query": "http://kima19:8983/solr/livedata_current/select?q=water&start=1&rows=10&fl=title&fl=medium&json.facet=%7B%20medium_types%3A%20%7B%20terms%3A%20%7B%20field%3A%20medium%20%7D%20%7D%20%7D&wt=json"
+  },
+  "documents": [
+    {
+      "medium": [
+        "Text"
+      ],
+      "title": [
+        "Water supply"
+      ]
+    },
+    {
+      "medium": [
+        "Text"
+      ],
+      "title": [
+        "Water"
+      ]
+    },
+    {
+      "medium": [
+        "Journal"
+      ],
+      "title": [
+        "Water 21 : magazine of the International Water Association"
+      ]
+    },
+    {
+      "medium": [
+        "Text"
+      ],
+      "title": [
+        "Feed water systems and treatment"
+      ]
+    },
+    {
+      "medium": [
+        "Knovel e-book"
+      ],
+      "title": [
+        "NALCO Water Handbook (2nd Edition)"
+      ]
+    },
+    {
+      "medium": [
+        "Web site"
+      ],
+      "title": [
+        "Water calculator"
+      ]
+    },
+    {
+      "medium": [
+        "Web site"
+      ],
+      "title": [
+        "Water calculator"
+      ]
+    },
+    {
+      "medium": [
+        "Web site"
+      ],
+      "title": [
+        "Water calculator"
+      ]
+    },
+    {
+      "medium": [
+        "E-book"
+      ],
+      "title": [
+        "Shaping the future of water for agriculture; a sourcebook for investment in agricultural water management."
+      ]
+    },
+    {
+      "medium": [
+        "Text"
+      ],
+      "title": [
+        "Water treatment"
+      ]
+    }
+  ],
+  "numFound": 96,
+  "start": 1,
+  "facets": {
+    "count": 96,
+    "medium_types": {
+      "buckets": [
+        {
+          "val": "text",
+          "count": 50
+        },
+        {
+          "val": "e-book",
+          "count": 35
+        },
+        {
+          "val": "knovel",
+          "count": 15
+        },
+        {
+          "val": "site",
+          "count": 7
+        },
+        {
+          "val": "web",
+          "count": 7
+        },
+        {
+          "val": "book",
+          "count": 2
+        },
+        {
+          "val": "journal",
+          "count": 2
+        }
+      ]
+    }
+  }
+}

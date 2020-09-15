@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import { IonItem, IonToggle, IonLabel } from '@ionic/react';
+import { IonCheckbox, IonToggle, IonLabel } from '@ionic/react';
 
 const StyledAside = styled.aside`
   display: flex;
@@ -35,22 +35,30 @@ const StyledAside = styled.aside`
   }
 `;
 
-const FacetsWrapper = styled.div`
+const FacetsList = styled.ul`
+  padding-left: 0px;
   overflow-y: auto;
+  list-style: none;
 `;
-const isOdd = (number) => number % 2;
+
+const FacetItem = styled.div`
+  display: flex;
+  margin-bottom: 5px;
+`;
+
+const IonCheckboxFacets = styled(IonCheckbox)`
+  margin-right: 5px;
+`;
 
 const Aside = ({
   showSearchBar,
   toggleState,
   setToggleState,
-  facets = { fields: { medium: [] } },
+  facets = { medium_types: { buckets: [] } },
 }) => {
+  const [checked, setChecked] = useState(false);
   return (
     <StyledAside show={showSearchBar}>
-      <div>
-        <p>aside</p>
-      </div>
       <div>
         <IonToggle
           checked={toggleState}
@@ -61,21 +69,26 @@ const Aside = ({
         <IonLabel>Change theme</IonLabel>
       </div>
       <div>
-        <p>Facets</p>
-        <ul>
-          {facets.fields.medium.map((item) => {
-            const oddRecord = isOdd(facets.fields.medium.indexOf(item));
-            const element = oddRecord ? (
-              <>
-                <span>{item}</span>
-                <br />
-              </>
-            ) : (
-              <span>{item} : </span>
+        <p>Medium types</p>
+        <FacetsList>
+          {facets.medium_types.buckets.map((facet) => {
+            return (
+              <li>
+                <FacetItem>
+                  <IonCheckboxFacets
+                    mode="ios"
+                    checked={checked}
+                    onIonChange={(e) => setChecked(e.detail.checked)}
+                  />
+                  <IonLabel>
+                    <span>{facet.val}: </span>
+                    <span>{facet.count}</span>
+                  </IonLabel>
+                </FacetItem>
+              </li>
             );
-            return element;
           })}
-        </ul>
+        </FacetsList>
       </div>
     </StyledAside>
   );
