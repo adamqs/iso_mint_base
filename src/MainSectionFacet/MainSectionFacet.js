@@ -52,12 +52,14 @@ const ToggleWrapper = styled.div`
 
 const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [mediumFilters, setMediumFilters] = useState('e-book');
   const [count, setCount] = useState(10);
   const [searchBoxString, setSearchBoxString] = useState('');
   const [mock, setMock] = useState(false);
   const [view, setView] = useState(false);
   const [results, numberFound, loading, errors, hasMore] = useSolrSearch(
     searchTerm,
+    mediumFilters,
     count,
     mock
   );

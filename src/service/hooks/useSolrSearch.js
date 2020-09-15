@@ -1,16 +1,19 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-// import mockAPI from '../../API/solrApiResponse.json';
-// import mockAPI from '../../API/solr_water_facet_medium.json';
-// import mockAPI from '../../API/API_q_water.json';
 import mockAPI from '../../API/q_water&facet_medium.json';
 
-const begURL = 'http://kima19:56779/api/Search?q=';
-const midURL = '&start=1&count=';
-const endURL = '&dataset=livedata';
+const baseURL = 'http://kima19:56779/api/Search?q=';
+const filterURL = '&fq=';
+const startURL = '&start=1&count=';
+const datasetURL = '&dataset=livedata';
 
-const useSolrSearch = (searchTerm = '', count = 10, mock = false) => {
+const useSolrSearch = (
+  searchTerm = '',
+  mediumFilters = [],
+  count = 10,
+  mock = false
+) => {
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState(false);
   const [numberFound, setNumberFound] = useState('search');
@@ -23,9 +26,18 @@ const useSolrSearch = (searchTerm = '', count = 10, mock = false) => {
 
     setLoading(true);
     axios
-      .get(begURL + searchTerm + midURL + count + endURL, {
-        headers: { 'Access-Control-Allow-Origin': '*' },
-      })
+      .get(
+        baseURL +
+          searchTerm +
+          filterURL +
+          mediumFilters +
+          startURL +
+          count +
+          datasetURL,
+        {
+          headers: { 'Access-Control-Allow-Origin': '*' },
+        }
+      )
       .then((response) => {
         console.log(JSON.stringify(response.data));
         setLoading(false);
