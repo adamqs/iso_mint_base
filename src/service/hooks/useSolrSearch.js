@@ -25,11 +25,11 @@ const useSolrSearch = (
     if (mock) return setResults(mockAPI);
     if (searchTerm === '') return;
     setLoading(true);
+
     const mediumFiltersURL = mediumFilters.reduce(
       (accumulator, element) => accumulator + '&facetquery=medium: ' + element,
       ''
     );
-
     axios
       .get(
         baseURL +
@@ -48,16 +48,16 @@ const useSolrSearch = (
         // console.log(JSON.stringify(response.data));
         setLoading(false);
         setResults(response.data);
-        setNumberFound(response.data.numberFound);
+        setNumberFound(response.data.numFound);
         setHasmore(numberFound > count);
       })
       .catch((error) => {
         console.log(JSON.stringify(error));
         setErrors(true);
       });
-  }, [searchTerm, mediumFilters, count, numberFound]);
+  }, [mock, searchTerm, mediumFilters, count, numberFound]);
 
-  return [results, numberFound, loading, errors, hasMore];
+  return [results, loading, errors, hasMore];
 };
 
 export default useSolrSearch;

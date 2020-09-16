@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import debounce from 'lodash.debounce';
 import Spinner from '../components/Spinner/LdsSpinner';
@@ -112,7 +112,6 @@ const RecordsWievWithCover = ({ record }) => (
 
 const RecordsViewSimple = ({ record }) => (
   <StyledRecord>
-    <p>{record.id}</p>
     <RecordDataWrapper>
       <p>
         Std No: <span>{record.id}</span>
@@ -143,7 +142,7 @@ const RecordsViewSimple = ({ record }) => (
 );
 
 // 'http://covers.openlibrary.org/b/isbn/9780385472579-L.jpg'
-const OpenCoverAPI = 'http://covers.openlibrary.org/b/isbn/';
+// const OpenCoverAPI = 'http://covers.openlibrary.org/b/isbn/';
 
 const SearchContainer = ({
   results,

@@ -57,7 +57,7 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
   const [searchBoxString, setSearchBoxString] = useState('');
   const [mock, setMock] = useState(false);
   const [view, setView] = useState(false);
-  const [results, numberFound, loading, errors, hasMore] = useSolrSearch(
+  const [results, loading, errors, hasMore] = useSolrSearch(
     searchTerm,
     mediumFilters,
     count,
