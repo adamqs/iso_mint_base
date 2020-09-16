@@ -6,7 +6,7 @@ import mockAPI from '../../API/q_water&facet_medium.json';
 const baseURL = 'http://kima19:56779/api/Search?q=';
 const startURL = '&start=1&count=';
 const datasetURL = '&dataset=livedata';
-const facetsURL = '&json.facet={ medium_types: { terms: { field: medium } } }';
+const facetsURL = '&facet={ medium_types: { terms: { field: medium } } }';
 const jsonURL = '&wt=json';
 
 const useSolrSearch = (
@@ -26,9 +26,10 @@ const useSolrSearch = (
     if (searchTerm === '') return;
     setLoading(true);
     const mediumFiltersURL = mediumFilters.reduce(
-      (accumulator, element) => accumulator + '&facetquery=' + element,
+      (accumulator, element) => accumulator + '&facetquery=medium: ' + element,
       ''
     );
+
     axios
       .get(
         baseURL +
