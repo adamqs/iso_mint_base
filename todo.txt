@@ -1,11 +1,11 @@
-* faceting
-add query parameter
-add logic for updating the query parameter when facet is clicked
+* styling
+ - fix issue with navbar dissapearing on mobile view after going to details and back
 
+* faceting     
 
+* test the recent changes to the data fetching hook on the work PC
 * test scroll debounce on work pc
 
-* 'go back to search' button'
 * more details to the detailed view
 
 

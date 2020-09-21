@@ -18,7 +18,7 @@ const Main = styled.main`
   color: var(--iso-mainText);
   border: none;
   padding: 0.5rem;
-  max-height: 100%;
+  max-height: auto;
 `;
 
 const SearchBoxWrapper = styled.div`
