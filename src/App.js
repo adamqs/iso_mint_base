@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { IonApp } from '@ionic/react';
 import styled from 'styled-components';
 import { ThemesSelector } from './components/Themes/';
 

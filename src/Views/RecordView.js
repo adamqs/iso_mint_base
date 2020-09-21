@@ -9,8 +9,13 @@ const RecordViewWrapper = styled.div`
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
   display: flex;
+  flex-direction: column;
   align-content: center;
   background-color: var(--iso-recordViewBg);
+`;
+
+const CoverAndBasicData = styled.div`
+  display: flex;
 `;
 
 //duplicated in search container
@@ -31,8 +36,7 @@ const CoverImage = styled.img`
   }
 `;
 
-//duplicated in search container
-const RecordDataWrapper = styled.div`
+const BasicRecordData = styled.div`
   padding-left: 5px;
   max-width: 1200px;
   p {
@@ -50,6 +54,25 @@ const RecordDataWrapper = styled.div`
   }
 `;
 
+const DetailsRecordData = styled.div`
+  padding-left: 5px;
+  max-width: 1200px;
+  p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    color: var(--iso-mainTextLight);
+  }
+
+  p:last-child {
+    margin-bottom: 0px;
+  }
+
+  span {
+    color: var(--iso-mainText);
+  }
+`;
+
+// this is a viev component for the single record detailed view. Not to be used in the search results
 const RecordView = ({ results, bookId }) => {
   const [loading, setLoading] = useState(true);
   const [record, setRecord] = useState({ poop: 'kupka' });
@@ -71,35 +94,40 @@ const RecordView = ({ results, bookId }) => {
     <div>
       <Link to={ROUTES.SEARCH_PAGE}>back to search</Link>
       <RecordViewWrapper>
-        <CoverImageWrapper>
-          <CoverImage
-            src={
-              'http://covers.openlibrary.org/b/isbn/' +
-              record.id +
-              '-M.jpg?default=false'
-            }
-            alt="book cover"
-            onError={genericBookCover}
-          />
-        </CoverImageWrapper>
-        <RecordDataWrapper>
-          <p>
-            Std No: <span>{record.id}</span>
-          </p>
-          <p>
-            Title: <span>{record.title}</span>
-          </p>
-          <p>
-            Authors: <span>{record.solr_author}</span>
-          </p>
-          <p>
-            Medium: <span>{record.medium}</span>
-          </p>
-          <p>
-            Series: <span>{record.series}</span>
-          </p>
+        <CoverAndBasicData>
+          <CoverImageWrapper>
+            <CoverImage
+              src={
+                'http://covers.openlibrary.org/b/isbn/' +
+                record.id +
+                '-M.jpg?default=false'
+              }
+              alt="book cover"
+              onError={genericBookCover}
+            />
+          </CoverImageWrapper>
+          <BasicRecordData>
+            <p>
+              Std No: <span>{record.id}</span>
+            </p>
+            <p>
+              Title: <span>{record.title}</span>
+            </p>
+            <p>
+              Authors: <span>{record.solr_author}</span>
+            </p>
+            <p>
+              Medium: <span>{record.medium}</span>
+            </p>
+          </BasicRecordData>
+        </CoverAndBasicData>
+
+        <DetailsRecordData>
           <p>
             Year of publication: <span>{record.year}</span>
+          </p>
+          <p>
+            Place of publication: <span>{record.place}</span>
           </p>
           <p>
             Keywords:{' '}
@@ -109,7 +137,13 @@ const RecordView = ({ results, bookId }) => {
                 : 'no keywords'}
             </span>
           </p>
-        </RecordDataWrapper>
+          {/* create a component which will encapsulate the 'p' tag with null check */}
+          {record.series ? (
+            <p>
+              Series: <span>{record.series}</span>
+            </p>
+          ) : null}
+        </DetailsRecordData>
       </RecordViewWrapper>
     </div>
   );

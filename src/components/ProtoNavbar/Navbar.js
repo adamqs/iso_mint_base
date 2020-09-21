@@ -42,7 +42,6 @@ const HideInDesktopView = styled.div`
 
 const Navbar = ({ showSearchBar, setShowSearchBar }) => (
   <Header>
-    {/* <p>header</p> */}
     <Logo to={ROUTES.SEARCH_PAGE}>Mint Search</Logo>
     <HideInDesktopView>
       <IonButton

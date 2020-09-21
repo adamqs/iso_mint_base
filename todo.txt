@@ -1,7 +1,7 @@
-* styling
+* check if it makes sense to move MainSection component to App component
 
-
-* faceting     
+* create a component which will encapsulate the 'p' tag with null check 
+  [RecordView Component line 140]
 
 * test the recent changes to the data fetching hook on the work PC
 * test scroll debounce on work pc
