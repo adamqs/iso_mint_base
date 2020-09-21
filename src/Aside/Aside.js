@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import { IonCheckbox, IonToggle, IonLabel } from '@ionic/react';
 
 const StyledAside = styled.aside`
+  position: absolute;
+  z-index: 108;
+  top: 73px;
+
   display: flex;
   justify-content: space-between;
   grid-area: aside;

@@ -7,10 +7,7 @@ import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
 import MainSection from './MainSectionFacet/MainSectionFacet';
 
 const IonAppStyled = styled(IonApp)`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  max-height: 100vh;
+  display: block;
   @media (min-width: 768px) {
     display: grid;
     grid-template-areas:

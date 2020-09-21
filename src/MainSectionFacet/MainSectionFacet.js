@@ -12,13 +12,16 @@ import Aside from '../Aside/Aside';
 const Main = styled.main`
   transition: color var(--iso-colorTransitionSpeed),
     background-color var(--iso-colorTransitionSpeed);
-  flex: 1;
+  /* flex: 1 1 80%; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 91%;
   grid-area: main;
   background-color: var(--iso-mainBg);
   color: var(--iso-mainText);
   border: none;
-  padding: 0.5rem;
-  max-height: auto;
+  padding: 0.5rem 0.5rem 0.5rem 0.2rem;
 `;
 
 const SearchBoxWrapper = styled.div`
@@ -34,7 +37,7 @@ const SearchBoxWrapper = styled.div`
 
 const StyledResultsContainerRouter = styled(Router)`
   max-width: 100%;
-  max-height: 90%;
+  max-height: 89%;
   margin-top: 10px;
   display: flex;
   align-items: flex-start;

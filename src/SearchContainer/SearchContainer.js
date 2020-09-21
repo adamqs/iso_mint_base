@@ -10,6 +10,7 @@ const ResultsWrapper = styled.ul`
   height: 100%;
   overflow-y: auto;
   margin-top: 0;
+  margin-bottom: 0;
   padding-left: 5px;
 `;
 
