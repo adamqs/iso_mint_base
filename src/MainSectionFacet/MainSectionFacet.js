@@ -10,18 +10,21 @@ import * as ROUTES from '../constants/Routes';
 import Aside from '../Aside/Aside';
 
 const Main = styled.main`
+  position: absolute;
+  width: 100%;
+  top: 55px;
+  height: 100%;
+  grid-area: main;
+  border: none;
+  padding: 0.5rem;
+  color: var(--iso-mainText);
   transition: color var(--iso-colorTransitionSpeed),
     background-color var(--iso-colorTransitionSpeed);
-  /* flex: 1 1 80%; */
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 91%;
-  grid-area: main;
   background-color: var(--iso-mainBg);
-  color: var(--iso-mainText);
-  border: none;
-  padding: 0.5rem 0.5rem 0.5rem 0.2rem;
+  @media (min-width: 768px) {
+    height: auto;
+    position: static;
+  }
 `;
 
 const SearchBoxWrapper = styled.div`
@@ -37,7 +40,7 @@ const SearchBoxWrapper = styled.div`
 
 const StyledResultsContainerRouter = styled(Router)`
   max-width: 100%;
-  max-height: 89%;
+  max-height: 90%;
   margin-top: 10px;
   display: flex;
   align-items: flex-start;

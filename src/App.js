@@ -6,8 +6,8 @@ import { ThemesSelector } from './components/Themes/';
 import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
 import MainSection from './MainSectionFacet/MainSectionFacet';
 
-const IonAppStyled = styled(IonApp)`
-  display: block;
+const IonAppStyled = styled.div`
+  height: 100vh;
   @media (min-width: 768px) {
     display: grid;
     grid-template-areas:

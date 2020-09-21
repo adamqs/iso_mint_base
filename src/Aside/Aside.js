@@ -4,17 +4,13 @@ import { IonCheckbox, IonToggle, IonLabel } from '@ionic/react';
 
 const StyledAside = styled.aside`
   position: absolute;
+  top: 55px;
   z-index: 108;
-  top: 73px;
-
   display: flex;
   justify-content: space-between;
   grid-area: aside;
   background-color: var(--iso-sidepanelBg);
   color: var(--iso-sidepanelText);
-  /* The below is only necessary if we use IonItem instead of div */
-  /* --ion-background-color: transparent;
-  --ion-text-color: var(--iso-sidepanelText); */
   border: none;
   padding: 0.5rem;
 
@@ -30,10 +26,9 @@ const StyledAside = styled.aside`
     transition: opacity 0s, max-height 0s, color var(--iso-colorTransitionSpeed),
       background-color var(--iso-colorTransitionSpeed);
     visibility: visible;
-    position: relative;
+    position: static;
     max-height: 100%;
     opacity: 1;
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }

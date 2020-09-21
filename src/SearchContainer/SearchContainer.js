@@ -6,12 +6,19 @@ import { Link } from '@reach/router';
 import * as ROUTES from '../constants/Routes';
 import { genericBookCover } from '../components/genericBookCover/genericBookCover';
 
-const ResultsWrapper = styled.ul`
+const ResultsWrapper = styled.div`
   height: 100%;
   overflow-y: auto;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 5px;
+  /* display: block;
+  position: relative;
+  flex: 1 1 0%;
+  width: 100%;
+  contain: size; */
+  /* margin: 0px !important;
+  padding: 0px !important; */
 `;
 
 const StyledRecord = styled.div`
