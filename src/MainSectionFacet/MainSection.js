@@ -56,7 +56,7 @@ const ToggleWrapper = styled.div`
   padding-left: 10px;
 `;
 
-const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
+const MainSection = ({ showSearchBar, toggleState, setToggleState }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [mediumFilters, setMediumFilters] = useState([]);
   const [count, setCount] = useState(10);
@@ -143,4 +143,4 @@ const MainSectionFacet = ({ showSearchBar, toggleState, setToggleState }) => {
   );
 };
 
-export default MainSectionFacet;
+export default MainSection;

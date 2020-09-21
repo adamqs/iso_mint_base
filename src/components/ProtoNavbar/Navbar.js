@@ -40,7 +40,7 @@ const HideInDesktopView = styled.div`
   }
 `;
 
-const ProtoNavbar = ({ showSearchBar, setShowSearchBar }) => (
+const Navbar = ({ showSearchBar, setShowSearchBar }) => (
   <Header>
     {/* <p>header</p> */}
     <Logo to={ROUTES.SEARCH_PAGE}>Mint Search</Logo>
@@ -58,4 +58,4 @@ const ProtoNavbar = ({ showSearchBar, setShowSearchBar }) => (
   </Header>
 );
 
-export default ProtoNavbar;
+export default Navbar;

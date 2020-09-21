@@ -3,8 +3,8 @@ import { IonApp } from '@ionic/react';
 import styled from 'styled-components';
 import { ThemesSelector } from './components/Themes/';
 
-import ProtoNavbar from './components/ProtoNavbar/ProtoNavbar';
-import MainSection from './MainSectionFacet/MainSectionFacet';
+import ProtoNavbar from './components/ProtoNavbar/Navbar';
+import MainSection from './MainSectionFacet/MainSection';
 
 const IonAppStyled = styled.div`
   height: 100vh;
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <IonAppStyled>
-      <ThemesSelector theme={toggleState ? 'default' : 'iso'} />
+      <ThemesSelector theme={toggleState ? 'iso' : 'default'} />
       <ProtoNavbar
         showSearchBar={showSearchBar}
         setShowSearchBar={setShowSearchBar}

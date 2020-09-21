@@ -1,5 +1,5 @@
 * styling
- - fix issue with navbar dissapearing on mobile view after going to details and back
+
 
 * faceting     
 
