@@ -74,6 +74,9 @@ const MainSection = ({ showSearchBar, toggleState, setToggleState }) => {
     e.preventDefault();
     // reset the value controlling the number of records fetched
     setCount(10);
+    // reset medium filters. Without this reset the selected facets would persist
+    // between searches
+    setMediumFilters([]);
     // setting the search term triggers the data fetch since this variable is used
     // as a 'dependency' in useFetchSearchResults hook
     setSearchTerm(searchBoxString);

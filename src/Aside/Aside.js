@@ -34,7 +34,7 @@ const StyledAside = styled.aside`
   }
 `;
 
-const FacetsList = styled.ul`
+const StyledFacetsList = styled.ul`
   padding-left: 0px;
   overflow-y: auto;
   list-style: none;
@@ -53,7 +53,7 @@ const Aside = ({
   showSearchBar,
   toggleState,
   setToggleState,
-  facets = { medium_types: { buckets: [] } },
+  facets,
   mediumFilters = [],
   setMediumFilters,
 }) => {
@@ -67,6 +67,33 @@ const Aside = ({
     }
   };
 
+  // const FacetsList = ({ facets, toggleFacetFilter }) => {
+  //   if (typeof facets.medium_types === 'undefined') {
+  //     return null;
+  //   }
+  //   // console.log(JSON.stringify(facets.medium_types));
+  //   return (
+  //     <StyledFacetsList>
+  //       {facets.medium_types.buckets.map((facet) => {
+  //         return (
+  //           <li key={facet.val}>
+  //             <FacetItem>
+  //               <IonCheckboxFacets
+  //                 mode="ios"
+  //                 onIonChange={(e) => toggleFacetFilter(e, facet.val)}
+  //               />
+  //               <IonLabel>
+  //                 <span>{facet.val}: </span>
+  //                 <span>{facet.count}</span>
+  //               </IonLabel>
+  //             </FacetItem>
+  //           </li>
+  //         );
+  //       })}
+  //     </StyledFacetsList>
+  //   );
+  // };
+
   return (
     <StyledAside show={showSearchBar}>
       <div>
@@ -79,25 +106,30 @@ const Aside = ({
         <IonLabel>Change theme</IonLabel>
       </div>
       <div>
-        <p>Medium types</p>
-        <FacetsList>
-          {facets.medium_types.buckets.map((facet) => {
-            return (
-              <li key={facet.val}>
-                <FacetItem>
-                  <IonCheckboxFacets
-                    mode="ios"
-                    onIonChange={(e) => toggleFacetFilter(e, facet.val)}
-                  />
-                  <IonLabel>
-                    <span>{facet.val}: </span>
-                    <span>{facet.count}</span>
-                  </IonLabel>
-                </FacetItem>
-              </li>
-            );
-          })}
-        </FacetsList>
+        {facets?.medium_types?.buckets ? (
+          <>
+            <p>Medium types</p>
+            <StyledFacetsList>
+              {facets.medium_types.buckets.map((facet) => {
+                return (
+                  <li key={facet.val}>
+                    <FacetItem>
+                      <IonCheckboxFacets
+                        mode="ios"
+                        checked={mediumFilters.includes(facet.val)}
+                        onIonChange={(e) => toggleFacetFilter(e, facet.val)}
+                      />
+                      <IonLabel>
+                        <span>{facet.val}: </span>
+                        <span>{facet.count}</span>
+                      </IonLabel>
+                    </FacetItem>
+                  </li>
+                );
+              })}
+            </StyledFacetsList>
+          </>
+        ) : null}
       </div>
     </StyledAside>
   );
